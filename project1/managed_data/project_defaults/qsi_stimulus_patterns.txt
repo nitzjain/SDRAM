@@ -1,0 +1,13 @@
+Pattern_Reserved default_data user b0110010101 r=0 rb=1
+Pattern_Reserved default_data_victim user b0100101-0101-0101-11111-000000 r=0 rb=1
+Pattern_Reserved default_data_aggressor user b0000000-0101-1010-01100-001100 r=0 rb=1
+Pattern_Reserved default_clock user b0101010101010101 r=0 rb=1
+Pattern_Reserved default_clock_victim user b0101010101010101 r=0 rb=1
+Pattern_Reserved default_clock_aggressor user b0000000001001000 r=0 rb=1
+Pattern_Reserved default_strobe user b1000010101010100000 r=0 rb=1
+Pattern_Reserved default_strobe_victim user b0101010101010101010101010 r=0 rb=1
+Pattern_Reserved default_strobe_aggressor user b0000000001010101001010100 r=0 rb=1
+Pattern PRBS user b111110111011001110100010100100111110011001010110001100001001011110101010000010110\
+1011100100011100000001111000100001101001101101 r=0 rb=1
+Pattern NJ_stimulus_pattern user b01010101010101010101010101010101 r=0 rb=1
+Pattern NJ_2_stimulus user b00110011110000101010101010101010101010 r=0 rb=1

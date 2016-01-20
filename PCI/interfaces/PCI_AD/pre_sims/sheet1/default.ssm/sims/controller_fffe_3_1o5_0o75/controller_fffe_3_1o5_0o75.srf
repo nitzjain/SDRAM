@@ -1,0 +1,64 @@
+#PARAM tr0 controller_fffe_3_1o5_0o75\controller_fffe_3_1o5_0o75.csd
+#st_load stratix2 stratix2.ibs 2s_pcix33_cio slpad FFFE S NA NA 0101010101010101 15n sheet1
+#st_load stratix2 stratix2.ibs 2s_pcix33_cio slpin FFFE S NA NA 0101010101010101 15n sheet1
+#PARAM TRANSFER_NET sheet1
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER Controller
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT sheet1.tsc
+#PARAM CORNER FFFE
+#PARAM $T1:DELAY 3in
+#PARAM $T2:DELAY 1.5in
+#PARAM $T4:DELAY 0.75in
+#PARAM UI 15n
+#PARAM PATTERN default_clock
+Controller v_stimulus stimulus IBIS IBIS R 1 15.050 15.050 15.050 15.050 10.000 10.000 10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS F 2 30.050 30.050 30.050 30.050 -10.000 -10.000 -10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS R 3 45.050 45.050 45.050 45.050 10.000 10.000 10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS F 4 60.050 60.050 60.050 60.050 -10.000 -10.000 -10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS R 5 75.050 75.050 75.050 75.050 10.000 10.000 10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS F 6 90.050 90.050 90.050 90.050 -10.000 -10.000 -10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS R 7 105.050 105.050 105.050 105.050 10.000 10.000 10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS F 8 120.050 120.050 120.050 120.050 -10.000 -10.000 -10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS R 9 135.050 135.050 135.050 135.050 10.000 10.000 10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS F 10 150.050 150.050 150.050 150.050 -10.000 -10.000 -10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS R 11 165.050 165.050 165.050 165.050 10.000 10.000 10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS F 12 180.050 180.050 180.050 180.050 -10.000 -10.000 -10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS R 13 195.050 195.050 195.050 195.050 10.000 10.000 10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS F 14 210.050 210.050 210.050 210.050 -10.000 -10.000 -10.000 1.000 0.000
+Controller v_stimulus stimulus IBIS IBIS R 15 225.050 225.050 225.050 225.050 10.000 10.000 10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio F 2 31.317 31.317 31.290 31.350 -10.158 -11.011 -10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio R 3 46.360 46.360 46.329 46.390 10.919 10.759 10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio F 4 61.318 61.318 61.290 61.350 -11.933 -11.102 -10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio R 5 76.359 76.359 76.329 76.389 11.225 10.990 10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio F 6 91.315 91.315 91.287 91.346 -11.673 -11.324 -10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio R 7 106.359 106.359 106.328 106.390 10.911 10.757 10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio F 8 121.319 121.319 121.291 121.350 -10.379 -11.111 -10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio R 9 136.360 136.360 136.329 136.391 10.796 10.704 10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio F 10 151.317 151.317 151.289 151.348 -10.664 -11.108 -10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio R 11 166.361 166.361 166.330 166.392 10.844 10.726 10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio F 12 181.317 181.317 181.290 181.348 -11.070 -11.394 -10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio R 13 196.359 196.359 196.329 196.390 10.858 10.763 10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio F 14 211.319 211.319 211.291 211.350 -11.374 -11.156 -10.000 1.000 0.000
+Controller IO0_pad receiver stratix2.ibs 2s_pcix33_cio R 15 226.361 226.361 226.330 226.391 10.777 10.773 10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio F 2 31.362 31.362 31.334 31.395 -11.574 -10.813 -10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio R 3 46.401 46.401 46.367 46.434 9.941 9.871 10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio F 4 61.364 61.364 61.335 61.397 -11.182 -10.504 -10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio R 5 76.400 76.400 76.367 76.433 10.092 9.951 10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio F 6 91.360 91.360 91.332 91.393 -10.762 -10.714 -10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio R 7 106.401 106.401 106.368 106.435 9.905 9.835 10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio F 8 121.365 121.365 121.337 121.399 -9.692 -10.594 -10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio R 9 136.400 136.400 136.367 136.433 9.987 9.986 10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio F 10 151.363 151.363 151.333 151.397 -10.322 -10.392 -10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio R 11 166.402 166.402 166.370 166.436 10.114 10.001 10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio F 12 181.363 181.363 181.334 181.395 -10.320 -10.776 -10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio R 13 196.402 196.402 196.369 196.435 10.140 10.005 10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio F 14 211.365 211.365 211.335 211.397 -10.582 -10.776 -10.000 1.000 0.000
+Controller IO1_pad receiver stratix2.ibs 2s_pcix33_cio R 15 226.402 226.402 226.369 226.436 9.993 9.907 10.000 1.000 0.000

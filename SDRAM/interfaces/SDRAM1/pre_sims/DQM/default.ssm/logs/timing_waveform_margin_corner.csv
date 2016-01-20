@@ -1,0 +1,6 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Waveform Fatal Count,Waveform Quality Count,Waveform Overshoot Count,VinMeas Margin,Min Slew Time (ns),Max Slew Time (ns),VinH Margin (V),VinL Margin (V),Overshoot Low Margin (V),Overshoot High Margin (V),AC Overshoot Low Area Margin (V*ns),AC Overshoot High Area Margin (V*ns),Non Monotonic Time (ns),Eye Width (ns),Virtual Eye Width (ns),VinMeas Jitter (ns),Eye Inner Height (V),Eye Outer Height (V),Transfer Net,Column,Ac Noise,Ac Noise Source,$T1:DELAY,PATTERN
+3.665,1.267,-0.181,0.635,DQM,0,0,0,0.841,0.220,0.804,1.349,1.109,,,,,,9.197,9.197,0.010,3.100,5.247,DQM,,0.00V,tnet,2in,default_data
+3.524,1.426,0.004,0.776,DQM,0,0,0,0.844,0.221,0.727,1.447,1.159,,,,,,9.272,9.272,0.003,3.041,5.583,DQM,,0.00V,tnet,3in,default_data
+3.339,1.589,0.189,0.961,DQM,0,0,0,0.845,0.222,0.716,1.557,1.231,,,,,,9.283,9.283,0.019,2.895,5.717,DQM,,0.00V,tnet,4in,default_data
+3.096,1.729,0.329,1.204,DQM,0,0,0,0.845,0.221,0.732,1.650,1.293,,,,,,9.267,9.267,0.042,2.735,5.798,DQM,,0.00V,tnet,5in,default_data
+2.901,1.907,0.507,1.399,DQM,0,0,0,0.844,0.218,0.777,1.721,1.336,,,,,,9.223,9.223,0.036,2.438,5.831,DQM,,0.00V,tnet,6in,default_data

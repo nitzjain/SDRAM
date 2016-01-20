@@ -1,0 +1,12 @@
+designator1_ssse_2/designator1_ssse_2.ckt
+designator1_ssse_3/designator1_ssse_3.ckt
+designator1_ssse_4/designator1_ssse_4.ckt
+designator1_ssse_5/designator1_ssse_5.ckt
+designator1_ssse_6/designator1_ssse_6.ckt
+designator1_fffe_2/designator1_fffe_2.ckt
+designator1_fffe_3/designator1_fffe_3.ckt
+designator1_fffe_4/designator1_fffe_4.ckt
+designator1_fffe_5/designator1_fffe_5.ckt
+designator1_fffe_6/designator1_fffe_6.ckt
+stload%_stratix_1s_cmos33_io_d8ps_sste.ckt
+stload%_stratix_1s_cmos33_io_d8ps_ffte.ckt

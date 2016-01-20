@@ -1,0 +1,30 @@
+*****************************************
+**    Transfer Net  sheet1  **
+*****************************************
+TRANSFER_NET sheet1
+* Transfer Net Data:
+CLOCK_DOMAIN 3ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR designator1
+	SUBCIRCUIT_PORT port1
+	PART 55202_3
+	PIN_NAMES Q2
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR designator2
+	SUBCIRCUIT_PORT port2
+	PART Y15w
+	PIN_NAMES CLK
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER designator1
+	RECEIVER designator2
+

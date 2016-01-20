@@ -1,0 +1,13 @@
+Transfer Net,UI (ns),Node,Designator,Corner,Eye Width (ns),Virtual Eye Width (ns),VinMeas Jitter (ns),VinMeas Rising Jitter (ns),VinMeas Falling Jitter (ns),Duty Cycle,Inner Height (V),Outer Height (V),Composite Eye Width (ns),Composite VinMeas Jitter (ns),Composite Inner Height (V),Composite Outer Height (V)
+sheet1,15.000,All,All,All,13.858,13.858,0.162,0.011,0.013,,1.732,5.278,12.714,1.648,1.716,5.278
+sheet1,15.000,Controller_pad,Controller,All,14.763,14.763,0.162,0.011,0.013,,1.732,5.278,13.307,1.603,1.716,5.278
+sheet1,15.000,IO0_pad,IO0,All,13.858,13.858,0.139,0.009,0.009,,2.441,5.130,12.714,1.411,2.179,5.132
+sheet1,15.000,IO1_pad,IO1,All,14.775,14.775,0.141,0.010,0.013,,2.367,5.230,13.458,1.482,2.130,5.232
+sheet1,15.000,All,All,FF,14.874,14.874,0.061,0.006,0.007,,2.308,5.278,14.089,0.851,2.262,5.278
+sheet1,15.000,Controller_pad,Controller,FF,14.874,14.874,0.061,0.006,0.007,,2.308,5.278,14.118,0.822,2.262,5.278
+sheet1,15.000,IO0_pad,IO0,FF,14.885,14.885,0.053,0.005,0.005,,2.441,5.130,14.276,0.664,2.418,5.132
+sheet1,15.000,IO1_pad,IO1,FF,14.885,14.885,0.054,0.005,0.007,,2.367,5.230,14.260,0.680,2.346,5.232
+sheet1,15.000,All,All,SS,13.858,13.858,0.162,0.011,0.013,,1.732,4.608,13.260,1.103,1.716,4.608
+sheet1,15.000,Controller_pad,Controller,SS,14.763,14.763,0.162,0.011,0.013,,1.732,4.580,13.833,1.078,1.716,4.589
+sheet1,15.000,IO0_pad,IO0,SS,13.858,13.858,0.139,0.009,0.009,,2.459,4.460,13.260,0.865,2.393,4.475
+sheet1,15.000,IO1_pad,IO1,SS,14.775,14.775,0.141,0.010,0.013,,2.396,4.608,14.035,0.896,2.338,4.608

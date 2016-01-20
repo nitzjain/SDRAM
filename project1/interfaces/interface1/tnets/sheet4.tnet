@@ -1,0 +1,33 @@
+*****************************************
+**    Transfer Net  sheet4  **
+*****************************************
+TRANSFER_NET sheet4
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Differential
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR designator1
+	SUBCIRCUIT_PORT port1
+	PART generic_3_3v
+	PIN_NAMES 3_3V_Ip
+	PIN_NAMES_L 3_3V_In
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR designator2
+	SUBCIRCUIT_PORT port2
+	PART generic_3_3v
+	PIN_NAMES 3_3V_O_fast_40ohmp
+	PIN_NAMES_L 3_3V_O_fast_40ohmn
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER designator2
+	RECEIVER designator1
+	TIMED_FROM designator2
+

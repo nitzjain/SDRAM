@@ -1,0 +1,27 @@
+Transfer Net,Driver,Receiver,R / F,Min Etch Delay (ns),Max Etch Delay (ns),AC-DC Slew Rate (V/ns),Corner,Edge #,Time (ns),Pulse Width (ns),Delay Variation (ns),Driver Probe Point,Receiver Node,Min Raw Etch Delay (ns),Max Raw Etch Delay (ns),Min Derate (ns),Max Derate (ns),Standard Load Delay (ns),Simulation,Ac Noise,Ac Noise Source,PATTERN
+sheet1,mydriver,myreceiver,F,1.309,1.309,5.954,TTTE,2,14.085,6.000,0.000,SL_PAD/,myreceiver_pad,1.710,1.710,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.309,1.309,5.866,TTTE,3,20.085,6.000,0.000,SL_PAD/,myreceiver_pad,1.710,1.710,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.310,1.310,6.084,TTTE,4,32.086,12.000,0.000,SL_PAD/,myreceiver_pad,1.711,1.711,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.310,1.310,5.997,TTTE,5,44.086,12.000,0.000,SL_PAD/,myreceiver_pad,1.711,1.711,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.280,1.280,5.698,TTTE,6,47.056,3.000,0.000,SL_PAD/,myreceiver_pad,1.681,1.681,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.281,1.281,5.904,TTTE,7,50.057,3.000,0.000,SL_PAD/,myreceiver_pad,1.682,1.682,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.801,TTTE,8,53.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.840,TTTE,9,56.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.789,TTTE,10,59.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.281,1.281,5.830,TTTE,11,62.057,3.000,0.000,SL_PAD/,myreceiver_pad,1.682,1.682,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.283,1.283,5.806,TTTE,12,65.059,3.000,0.000,SL_PAD/,myreceiver_pad,1.684,1.684,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.833,TTTE,13,68.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.784,TTTE,14,71.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.848,TTTE,15,74.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.786,TTTE,16,77.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.853,TTTE,17,80.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.777,TTTE,18,83.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.857,TTTE,19,86.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.773,TTTE,20,89.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.835,TTTE,21,92.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.778,TTTE,22,95.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.851,TTTE,23,98.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.773,TTTE,24,101.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.853,TTTE,25,104.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,F,1.282,1.282,5.766,TTTE,26,107.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus
+sheet1,mydriver,myreceiver,R,1.282,1.282,5.873,TTTE,27,110.058,3.000,0.000,SL_PAD/,myreceiver_pad,1.683,1.683,0.000,0.000,0.401,mydriver_ttte\mydriver_ttte.csd,0.00V,tnet,NJ_2_stimulus

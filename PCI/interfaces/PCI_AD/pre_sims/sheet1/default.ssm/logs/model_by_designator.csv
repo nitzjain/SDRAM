@@ -1,0 +1,10 @@
+Transfer Net,Transfer,Designator,Part,IBIS File,IBIS Model,Timing File,Timing Model
+sheet1,Controller -> IO0 IO1,Controller,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,Controller -> IO0 IO1,IO0,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,Controller -> IO0 IO1,IO1,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,IO0 -> Controller,Controller,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,IO0 -> Controller,IO0,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,IO0 -> Controller,IO1,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,IO1 -> Controller,Controller,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,IO1 -> Controller,IO0,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2
+sheet1,IO1 -> Controller,IO1,stratix2,stratix2.ibs,2s_pcix33_cio,stratix2.tmg,stratix2

@@ -1,0 +1,14 @@
+Transfer Net,Designator,Part,IBIS File,IBIS Model,IBIS Model Type,Model Type,Timing File,Timing Pindef,Timing Pin Type,Timing Data
+ADR,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,I/O,IBIS,stratix.tmg,ADDCmd,OUTPUT,Yes
+ADR,designator2,y95c,y95c.ibs,input,Input,IBIS,y95c.tmg,A,INPUT,Yes
+ADR,designator3,y95c,y95c.ibs,input,Input,IBIS,y95c.tmg,A,INPUT,Yes
+CS,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,I/O,IBIS,stratix.tmg,ADDCmd,OUTPUT,Yes
+CS,designator2,y95c,y95c.ibs,input2,Input,IBIS,y95c.tmg,CS,INPUT,Yes
+CS,designator3,y95c,y95c.ibs,input2,Input,IBIS,y95c.tmg,CS,INPUT,Yes
+DQ,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,I/O,IBIS,stratix.tmg,DQ,BIDIR,Yes
+DQ,designator2,y95c,y95c.ibs,dq,I/O,IBIS,y95c.tmg,DQ,BIDIR,Yes
+DQM,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,I/O,IBIS,stratix.tmg,DQM,OUTPUT,Yes
+DQM,designator2,y95c,y95c.ibs,input2,Input,IBIS,y95c.tmg,DQM,INPUT,Yes
+WE,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,I/O,IBIS,stratix.tmg,ADDCmd,OUTPUT,Yes
+WE,designator2,y95c,y95c.ibs,input_we,Input,IBIS,y95c.tmg,WE,INPUT,Yes
+WE,designator3,y95c,y95c.ibs,input_we,Input,IBIS,y95c.tmg,WE,INPUT,Yes

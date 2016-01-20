@@ -1,0 +1,7 @@
+*Control file for Schematic Set set1
+*	Transfer Nets and states in the set:
+included_tnet ADR default
+included_tnet CS default
+included_tnet DQ default
+included_tnet DQM default
+included_tnet WE default

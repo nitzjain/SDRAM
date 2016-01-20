@@ -1,0 +1,2 @@
+designator1_ttte/designator1_ttte.ckt
+stload%_55202_3_3v6xx_ttte.ckt

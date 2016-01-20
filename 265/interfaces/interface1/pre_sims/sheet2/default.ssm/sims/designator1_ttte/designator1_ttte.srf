@@ -1,0 +1,31 @@
+#PARAM tr0 designator1_ttte\designator1_ttte.csd
+#st_load ad2147x_196_ibs ad2147x_196_ibs.ibs PDT12DGZ slpad TTTE S NA NA 0110010101 3n sheet2
+#st_load ad2147x_196_ibs ad2147x_196_ibs.ibs PDT12DGZ slpin TTTE S NA NA 0110010101 3n sheet2
+#PARAM TRANSFER_NET sheet2
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator1
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT sheet2.tsc
+#PARAM CORNER TTTE
+#PARAM UI 3n
+#PARAM PATTERN default_data
+designator1 v_stimulus stimulus IBIS IBIS R 1 3.050 3.050 3.050 3.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 2 9.050 9.050 9.050 9.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 3 15.050 15.050 15.050 15.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 4 18.050 18.050 18.050 18.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 5 21.050 21.050 21.050 21.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 6 24.050 24.050 24.050 24.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 7 27.050 27.050 27.050 27.050 10.000 10.000 10.000 1.000 0.000
+designator1 designator2_pad receiver y14w.ibs inbuff F 2 10.958 10.958 10.892 11.019 -9.520 -9.425 -10.000 1.000 0.000
+designator1 designator2_pad receiver y14w.ibs inbuff R 3 17.198 17.198 17.131 17.255 9.665 9.707 10.000 1.000 0.000
+designator1 designator2_pad receiver y14w.ibs inbuff F 4 20.060 20.060 20.006 20.114 -11.231 -11.110 -10.000 1.000 0.000
+designator1 designator2_pad receiver y14w.ibs inbuff R 5 23.239 23.239 23.178 23.293 10.299 10.430 10.000 1.000 0.000
+designator1 designator2_pad receiver y14w.ibs inbuff F 6 26.059 26.059 26.006 26.112 -11.542 -11.407 -10.000 1.000 0.000
+designator1 designator2_pad receiver y14w.ibs inbuff R 7 29.240 29.240 29.179 29.293 10.428 10.446 10.000 1.000 0.000

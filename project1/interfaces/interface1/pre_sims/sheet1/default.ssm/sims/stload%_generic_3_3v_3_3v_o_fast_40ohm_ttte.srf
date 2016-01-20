@@ -1,0 +1,17 @@
+#PARAM tr0 stload%_generic_3_3v_3_3v_o_fast_40ohm_ttte.csd
+#PARAM STLOAD slpad
+#PARAM PART generic_3_3v
+#PARAM IBIS_FILE generic_3_3v.ibs
+#PARAM IBIS_MODEL 3_3V_O_fast_40ohm
+#PARAM CORNER TTTE
+#PARAM TRANSFER_NET sheet1
+#PARAM UI 6n
+#PARAM SIMULATOR IsSpice4
+#PARAM STIMULUS 0011001111
+3_3V_O_fast_40ohm v_stimulus stimulus IBIS IBIS R 1 6.375 6.375 6.375 6.375 1.333 1.333 1.333 1.000 0.000
+3_3V_O_fast_40ohm v_stimulus stimulus IBIS IBIS F 2 12.375 12.375 12.375 12.375 -1.333 -1.333 -1.333 1.000 0.000
+3_3V_O_fast_40ohm v_stimulus stimulus IBIS IBIS R 3 18.375 18.375 18.375 18.375 1.333 1.333 1.333 1.000 0.000
+3_3V_O_fast_40ohm stload_sl_wopkg_!load slpad generic_3_3v.ibs 3_3V_O_fast_40ohm F 2 12.776 12.776 12.776 12.776 -3.218 -3.218 -1.333 1.000 0.000
+3_3V_O_fast_40ohm stload_sl_wopkg_!load slpad generic_3_3v.ibs 3_3V_O_fast_40ohm R 3 18.776 18.776 18.776 18.776 3.218 3.218 1.333 1.000 0.000
+3_3V_O_fast_40ohm stload_sl_wpkg_!load slpin generic_3_3v.ibs 3_3V_O_fast_40ohm F 2 12.842 12.842 12.842 12.842 -3.268 -3.268 -1.333 1.000 0.000
+3_3V_O_fast_40ohm stload_sl_wpkg_!load slpin generic_3_3v.ibs 3_3V_O_fast_40ohm R 3 18.842 18.842 18.842 18.842 3.256 3.256 1.333 1.000 0.000

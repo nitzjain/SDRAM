@@ -1,0 +1,11 @@
+Simulation,Transfer Net,Driver,Corner,Aggressors,Subcircuit,UI,$T1:DELAY
+designator1_ssse_2/designator1_ssse_2.ckt,CS,designator1,SSSE,0,CS.tsc,10n,2in
+designator1_ssse_3/designator1_ssse_3.ckt,CS,designator1,SSSE,0,CS.tsc,10n,3in
+designator1_ssse_4/designator1_ssse_4.ckt,CS,designator1,SSSE,0,CS.tsc,10n,4in
+designator1_ssse_5/designator1_ssse_5.ckt,CS,designator1,SSSE,0,CS.tsc,10n,5in
+designator1_ssse_6/designator1_ssse_6.ckt,CS,designator1,SSSE,0,CS.tsc,10n,6in
+designator1_fffe_2/designator1_fffe_2.ckt,CS,designator1,FFFE,0,CS.tsc,10n,2in
+designator1_fffe_3/designator1_fffe_3.ckt,CS,designator1,FFFE,0,CS.tsc,10n,3in
+designator1_fffe_4/designator1_fffe_4.ckt,CS,designator1,FFFE,0,CS.tsc,10n,4in
+designator1_fffe_5/designator1_fffe_5.ckt,CS,designator1,FFFE,0,CS.tsc,10n,5in
+designator1_fffe_6/designator1_fffe_6.ckt,CS,designator1,FFFE,0,CS.tsc,10n,6in

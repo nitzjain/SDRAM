@@ -1,0 +1,3 @@
+Error,Part,IBIS File,IBIS Component,Timing File,Timing Model,Pin Number,Pin Name,Model Name,Model Type,Additional Data
+(W) Vmeas not specified for model 2s_ht25_ro in IBIS file stratix2.ibs in Part stratix2,stratix2,stratix2.ibs,StratixII,stratix2.tmg,stratix2,,,,,
+(W) Vmeas not specified for model 2s_lvds25_ro in IBIS file stratix2.ibs in Part stratix2,stratix2,stratix2.ibs,StratixII,stratix2.tmg,stratix2,,,,,

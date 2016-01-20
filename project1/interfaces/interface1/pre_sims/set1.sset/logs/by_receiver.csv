@@ -1,0 +1,6 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Receiver,Column
+-1.310,1.780,1.280,1.310,sheet1,myreceiver,
+4.363,3.105,2.605,2.637,sheet3,target1,
+4.787,2.681,2.181,2.213,sheet3,target2,
+5.276,2.199,1.699,1.724,sheet3,target3,
+5.364,1.823,1.323,1.636,sheet4,designator1,

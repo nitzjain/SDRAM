@@ -1,0 +1,5 @@
+Setup Margin (ns),Hold Margin (ns),Data R/F,Transfer Net,Driver,Receiver,UI (ns),Min Data Etch Delay (ns),Max Data Etch Delay (ns),Min Tco (ns),Max Tco (ns),Setup (ns),Hold (ns),Setup Skew (ns),Hold Skew (ns),Source Clock Net,Target Clock Net,Simulation,Corner
+No AC specs,No AC specs,R,skew1,designator1,designator2,3.000,0.659,0.821,[0.],[0.],[0.],[0.],0.000,0.000,NA,NA,designator1_ttte_4\designator1_ttte_4.csd,TTTE
+No AC specs,No AC specs,F,skew1,designator1,designator2,3.000,0.746,0.876,[0.],[0.],[0.],[0.],0.000,0.000,NA,NA,designator1_ttte_4\designator1_ttte_4.csd,TTTE
+No AC specs,No AC specs,R,skew1,designator1,designator2,3.000,1.028,1.188,[0.],[0.],[0.],[0.],0.000,0.000,NA,NA,designator1_ttte_6\designator1_ttte_6.csd,TTTE
+No AC specs,No AC specs,F,skew1,designator1,designator2,3.000,1.113,1.229,[0.],[0.],[0.],[0.],0.000,0.000,NA,NA,designator1_ttte_6\designator1_ttte_6.csd,TTTE

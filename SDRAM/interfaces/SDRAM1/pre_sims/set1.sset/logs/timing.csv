@@ -1,0 +1,6 @@
+Setup Margin (ns),Hold Margin (ns),Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Column
+2.410,1.597,0.197,1.675,0.199,1.890,ADR,
+2.405,1.587,0.187,1.677,0.195,1.895,CS,
+2.797,1.357,-0.072,1.310,-0.043,1.503,DQ,
+2.901,1.267,-0.181,1.182,-0.168,1.399,DQM,
+1.897,1.638,0.238,2.050,0.264,2.403,WE,

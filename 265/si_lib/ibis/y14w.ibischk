@@ -1,0 +1,22 @@
+IBISCHK6 V6.0.1
+
+
+
+Checking C:\Myproject\Models\y14w.ibs for IBIS 4.2 Compatibility...
+
+
+
+NOTE (line  384) - Pulldown Minimum data is non-monotonic
+
+NOTE (line  584) - Pullup Typical data is non-monotonic
+
+NOTE (line  631) - Pullup Minimum data is non-monotonic
+
+NOTE (line  648) - Pullup Maximum data is non-monotonic
+
+Errors  : 0
+
+
+
+File Passed
+

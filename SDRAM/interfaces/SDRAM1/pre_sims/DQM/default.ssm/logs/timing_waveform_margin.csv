@@ -1,0 +1,11 @@
+Setup Margin (ns),Hold Margin (ns),Transfer Net,Simulation,Waveform Fatal Count,Waveform Quality Count,Waveform Overshoot Count,Min Slew Time (ns),Max Slew Time (ns),VinH Margin (V),VinL Margin (V),Overshoot Low Margin (V),Overshoot High Margin (V),AC Overshoot Low Area Margin (V*ns),AC Overshoot High Area Margin (V*ns),Non Monotonic Time (ns),Eye Width (ns),VinMeas Jitter (ns),Eye Inner Height (V),Eye Outer Height (V),SIMULATOR,DRIVER,AC_NOISE,AC_NOISE_SOURCE,AGGRESSORS,CORNER,$T1:DELAY,UI,PATTERN
+3.665,3.219,DQM,designator1_ssse_2\designator1_ssse_2.csd,0,0,0,0.576,0.804,1.349,1.109,,,,,,9.197,0.004,3.100,3.660,IsSpice4,designator1,0.000,tnet,0,SSSE,2in,10n,default_data
+3.524,3.404,DQM,designator1_ssse_3\designator1_ssse_3.csd,0,0,0,0.584,0.727,1.447,1.159,,,,,,9.272,0.003,3.145,3.807,IsSpice4,designator1,0.000,tnet,0,SSSE,3in,10n,default_data
+3.339,3.612,DQM,designator1_ssse_4\designator1_ssse_4.csd,0,0,0,0.558,0.716,1.557,1.231,,,,,,9.283,0.013,2.895,3.991,IsSpice4,designator1,0.000,tnet,0,SSSE,4in,10n,default_data
+3.096,3.809,DQM,designator1_ssse_5\designator1_ssse_5.csd,0,0,0,0.571,0.732,1.650,1.293,,,,,,9.267,0.042,2.735,4.157,IsSpice4,designator1,0.000,tnet,0,SSSE,5in,10n,default_data
+2.901,3.961,DQM,designator1_ssse_6\designator1_ssse_6.csd,0,0,0,0.574,0.777,1.721,1.336,,,,,,9.223,0.036,2.684,4.276,IsSpice4,designator1,0.000,tnet,0,SSSE,6in,10n,default_data
+6.141,1.267,DQM,designator1_fffe_2\designator1_fffe_2.csd,0,0,0,0.220,0.242,2.435,1.602,,,,,,9.754,0.010,3.377,5.247,IsSpice4,designator1,0.000,tnet,0,FFFE,2in,10n,default_data
+5.978,1.426,DQM,designator1_fffe_3\designator1_fffe_3.csd,0,0,0,0.221,0.247,2.628,1.745,,,,,,9.752,0.003,3.041,5.583,IsSpice4,designator1,0.000,tnet,0,FFFE,3in,10n,default_data
+5.804,1.589,DQM,designator1_fffe_4\designator1_fffe_4.csd,0,0,0,0.222,0.244,2.691,1.818,,,,,,9.759,0.019,3.269,5.717,IsSpice4,designator1,0.000,tnet,0,FFFE,4in,10n,default_data
+5.654,1.729,DQM,designator1_fffe_5\designator1_fffe_5.csd,0,0,0,0.221,0.247,2.729,1.847,,,,,,9.733,0.030,3.627,5.798,IsSpice4,designator1,0.000,tnet,0,FFFE,5in,10n,default_data
+5.491,1.907,DQM,designator1_fffe_6\designator1_fffe_6.csd,0,0,0,0.218,0.246,2.749,1.864,,,,,,9.752,0.009,2.438,5.831,IsSpice4,designator1,0.000,tnet,0,FFFE,6in,10n,default_data

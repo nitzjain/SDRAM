@@ -1,0 +1,4 @@
+Error,Part,IBIS File,IBIS Component,Timing File,Timing Model,Pin Number,Pin Name,Model Name,Model Type,Additional Data
+"(W) IBIS parameter AC_Overshoot_Time time value > .001, assuming value 20p in IBIS file stratix.ibs in Part stratix IBIS line: |SiSoft AC_Overshoot_Time       0.020   0.020   0.020",stratix,stratix.ibs,Stratix,stratix.tmg,stratix,,,,,
+(W) Vmeas not specified for model 1s_pci33_io in IBIS file stratix.ibs in Part stratix,stratix,stratix.ibs,Stratix,stratix.tmg,stratix,,,,,
+(W) Vmeas not specified for model 1s_pci33_io_s in IBIS file stratix.ibs in Part stratix,stratix,stratix.ibs,Stratix,stratix.tmg,stratix,,,,,

@@ -1,0 +1,5 @@
+Part,Timing File,Timing Model,Timing Rule,Source,Source Pin,Target,Target Pin,Edge,Type,Rmin Delay,Rmax Delay,Fmin Delay,Fmax Delay,SetupR,SetupF,HoldR,HoldF
+generic_3_3v,generic_3_3v.tmg,generic_3_3v,SETHLD,CLOCK,CLK,DATA_IN,3_3V_I,R,*TO,,,,,1.,1.,.5,.5
+generic_3_3v,generic_3_3v.tmg,generic_3_3v,SETHLD,CLOCK,CLK,DATA_IO,3_3V_IO_fast_10ohm,R,*TO,,,,,1.,1.,.5,.5
+generic_3_3v,generic_3_3v.tmg,generic_3_3v,DELAY,CLOCK,CLK,DATA_OUT,3_3V_O_fast_10ohm,R,*TO,1.,2.,1.,2.,,,,
+generic_3_3v,generic_3_3v.tmg,generic_3_3v,DELAY,CLOCK,CLK,DATA_IO,3_3V_IO_fast_10ohm,R,*TO,1.,2.,1.,2.,,,,

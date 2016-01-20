@@ -1,0 +1,55 @@
+#PARAM tr0 designator1_ttte_6\designator1_ttte_6.csd
+#st_load 55202_3 55202_3.ibs 3V6XX slpad TTTE S NA NA 0101010101010101 3n skew1
+#st_load 55202_3 55202_3.ibs 3V6XX slpin TTTE S NA NA 0101010101010101 3n skew1
+#PARAM TRANSFER_NET skew1
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE +/-0%
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator1
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT skew1.tsc
+#PARAM CORNER TTTE
+#PARAM $T1:DELAY 6in
+#PARAM UI 3n
+#PARAM PATTERN NJ
+designator1 v_stimulus stimulus IBIS IBIS F 6 18.050 18.050 18.050 18.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 7 21.050 21.050 21.050 21.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 8 24.050 24.050 24.050 24.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 9 27.050 27.050 27.050 27.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 10 30.050 30.050 30.050 30.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 11 33.050 33.050 33.050 33.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 12 36.050 36.050 36.050 36.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 13 39.050 39.050 39.050 39.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 14 42.050 42.050 42.050 42.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 15 45.050 45.050 45.050 45.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 16 48.050 48.050 48.050 48.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 17 51.050 51.050 51.050 51.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 18 54.050 54.050 54.050 54.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 19 57.050 57.050 57.050 57.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 20 60.050 60.050 60.050 60.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 21 63.050 63.050 63.050 63.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 22 66.050 66.050 66.050 66.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 23 69.050 69.050 69.050 69.050 10.000 10.000 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 6 19.472 19.472 19.416 19.531 -10.610 -10.450 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 7 22.467 22.467 22.384 22.542 7.931 7.595 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 8 25.473 25.473 25.417 25.531 -10.685 -10.505 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 9 28.468 28.468 28.385 28.543 7.981 7.583 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 10 31.472 31.472 31.416 31.531 -10.758 -10.500 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 11 34.468 34.468 34.384 34.544 7.738 7.541 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 12 37.472 37.472 37.416 37.531 -10.694 -10.474 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 13 40.468 40.468 40.385 40.543 7.929 7.576 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 14 43.474 43.474 43.417 43.532 -10.661 -10.413 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 15 46.468 46.468 46.384 46.543 7.915 7.535 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 16 49.473 49.473 49.416 49.531 -10.698 -10.480 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 17 52.468 52.468 52.385 52.543 7.938 7.573 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 18 55.472 55.472 55.416 55.531 -10.652 -10.419 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 19 58.468 58.468 58.385 58.543 7.937 7.598 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 20 61.472 61.472 61.416 61.530 -10.595 -10.492 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 21 64.468 64.468 64.385 64.543 7.954 7.604 10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff F 22 67.473 67.473 67.417 67.531 -10.683 -10.557 -10.000 1.000 0.000
+designator1 designator2_pad receiver Y15w.ibs clkbuff R 23 70.468 70.468 70.385 70.544 7.821 7.577 10.000 1.000 0.000

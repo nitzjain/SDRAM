@@ -1,0 +1,5 @@
+Transfer Net,Transfer,Designator,Part,IBIS File,IBIS Model,Timing File,Timing Model
+sheet3,source -> target1 target2 target3,source,generic_3_3V,generic_3_3v.ibs,3_3V_O_fast_40ohm,generic_3_3v.tmg,generic_3_3v
+sheet3,source -> target1 target2 target3,target1,generic_3_3V,generic_3_3v.ibs,3_3V_I,generic_3_3v.tmg,generic_3_3v
+sheet3,source -> target1 target2 target3,target2,generic_3_3V,generic_3_3v.ibs,3_3V_I,generic_3_3v.tmg,generic_3_3v
+sheet3,source -> target1 target2 target3,target3,generic_3_3V,generic_3_3v.ibs,3_3V_I,generic_3_3v.tmg,generic_3_3v

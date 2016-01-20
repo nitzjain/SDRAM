@@ -1,0 +1,3 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Column,Ac Noise,Ac Noise Source,$T1:DELAY,PATTERN
+No AC specs,No AC specs,0.659,0.876,skew1,,0.00V,tnet,4in,NJ
+No AC specs,No AC specs,1.028,1.229,skew1,,0.00V,tnet,6in,NJ

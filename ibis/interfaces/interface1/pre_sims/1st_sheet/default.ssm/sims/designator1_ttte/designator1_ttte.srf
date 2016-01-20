@@ -1,0 +1,71 @@
+#PARAM tr0 designator1_ttte\designator1_ttte.csd
+#st_load stratix stratix.ibs 1s_sstl33c2_io slpad TTTE S NA NA 0011001111000010 3n 1st_sheet
+#st_load stratix stratix.ibs 1s_sstl33c2_io slpin TTTE S NA NA 0011001111000010 3n 1st_sheet
+#PARAM TRANSFER_NET 1st_sheet
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator1
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT 1st_sheet.tsc
+#PARAM CORNER TTTE
+#PARAM UI 3n
+#PARAM PATTERN NJ
+designator1 v_stimulus stimulus IBIS IBIS R 1 6.050 6.050 6.050 6.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 2 12.050 12.050 12.050 12.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 3 18.050 18.050 18.050 18.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 4 30.050 30.050 30.050 30.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 5 42.050 42.050 42.050 42.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 6 45.050 45.050 45.050 45.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 7 48.050 48.050 48.050 48.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 8 51.050 51.050 51.050 51.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 9 54.050 54.050 54.050 54.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 10 57.050 57.050 57.050 57.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 11 60.050 60.050 60.050 60.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 12 63.050 63.050 63.050 63.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 13 66.050 66.050 66.050 66.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 14 69.050 69.050 69.050 69.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 15 72.050 72.050 72.050 72.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 16 75.050 75.050 75.050 75.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 17 78.050 78.050 78.050 78.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 18 81.050 81.050 81.050 81.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 19 84.050 84.050 84.050 84.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 20 87.050 87.050 87.050 87.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 21 90.050 90.050 90.050 90.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 22 93.050 93.050 93.050 93.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 23 96.050 96.050 96.050 96.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 24 99.050 99.050 99.050 99.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 25 102.050 102.050 102.050 102.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 26 105.050 105.050 105.050 105.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 27 108.050 108.050 108.050 108.050 10.000 10.000 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 2 13.976 13.976 13.939 14.013 -5.504 -5.433 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 3 19.991 19.991 19.954 20.029 5.261 5.330 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 4 31.976 31.976 31.942 32.011 -5.681 -5.793 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 5 43.994 43.994 43.958 44.031 5.505 5.505 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 6 46.986 46.986 46.955 47.019 -6.313 -6.263 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 7 49.933 49.933 49.905 49.964 6.866 6.726 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 8 52.963 52.963 52.933 52.994 -6.513 -6.590 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 9 55.934 55.934 55.904 55.966 6.173 6.472 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 10 58.967 58.967 58.938 58.996 -7.002 -6.894 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 11 61.928 61.928 61.899 61.959 6.827 6.602 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 12 64.959 64.959 64.932 64.987 -7.135 -7.314 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 13 67.934 67.934 67.905 67.965 6.798 6.756 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 14 70.959 70.959 70.932 70.988 -7.329 -7.147 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 15 73.936 73.936 73.907 73.966 6.628 6.772 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 16 76.960 76.960 76.933 76.989 -7.094 -7.255 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 17 79.934 79.934 79.906 79.964 7.088 6.789 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 18 82.959 82.959 82.931 82.988 -7.101 -7.004 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 19 85.934 85.934 85.905 85.965 6.434 6.719 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 20 88.961 88.961 88.934 88.991 -7.138 -7.002 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 21 91.933 91.933 91.904 91.963 6.840 6.736 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 22 94.959 94.959 94.931 94.988 -7.278 -7.055 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 23 97.934 97.934 97.905 97.965 6.471 6.668 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 24 100.960 100.960 100.932 100.988 -7.100 -7.114 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 25 103.929 103.929 103.900 103.960 6.757 6.672 10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io F 26 106.959 106.959 106.931 106.989 -6.775 -6.959 -10.000 1.000 0.000
+designator1 designator2_pad receiver stratix.ibs 1s_sstl33c2_io R 27 109.936 109.936 109.906 109.967 6.399 6.604 10.000 1.000 0.000

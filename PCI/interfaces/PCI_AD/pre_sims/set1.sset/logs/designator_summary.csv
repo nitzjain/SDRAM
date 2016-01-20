@@ -1,0 +1,4 @@
+Transfer Net,Designator,Part,IBIS File,IBIS Model,IBIS Model Type,Model Type,Timing File,Timing Pindef,Timing Pin Type,Timing Data
+sheet1,Controller,stratix2,stratix2.ibs,2s_pcix33_cio,I/O,IBIS,stratix2.tmg,AD,BIDIR,Yes
+sheet1,IO0,stratix2,stratix2.ibs,2s_pcix33_cio,I/O,IBIS,stratix2.tmg,AD,BIDIR,Yes
+sheet1,IO1,stratix2,stratix2.ibs,2s_pcix33_cio,I/O,IBIS,stratix2.tmg,AD,BIDIR,Yes

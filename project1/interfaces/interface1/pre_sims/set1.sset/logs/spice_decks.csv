@@ -1,0 +1,4 @@
+Simulation,Transfer Net,Driver,Corner,Aggressors,Subcircuit,UI,$RSERIESTERM,$W1:LENGTH,$W2:LENGTH,$W3:LENGTH
+mydriver_ttte/mydriver_ttte.ckt,sheet1,mydriver,TTTE,0,sheet1.tsc,3n,,,,
+source_ttte_50oh_2_2_2/source_ttte_50oh_2_2_2.ckt,sheet3,source,TTTE,0,sheet3.tsc,10n,50ohm,2in,2in,2in
+designator2_ttte/designator2_ttte.ckt,sheet4,designator2,TTTE,0,sheet4.tsc,10n,,,,

@@ -1,0 +1,6 @@
+part y95c
+ibis_file y95c.ibs
+ibis_component MT48LC32M4A2
+timing_file y95c.tmg
+timing_model y95c
+cad_part y95c MT48LC32M4A2

@@ -1,0 +1,2 @@
+sheet1/default.ssm/sims/designator1_ttte/designator1_ttte.ckt
+sheet1/default.ssm/sims/stload%_55202_3_3v6xx_ttte.ckt

@@ -1,0 +1,2898 @@
+IBISCHK6 V6.0.1
+
+
+
+Checking C:\Myproject\Models\stratix_n.ibs for IBIS 3.2 Compatibility...
+
+
+
+ERROR (line    9) -
+
+    File name opened 'stratix_n.ibs' not the same as File_name 'stratix.ibs'.
+
+ERROR (line  239) -
+
+    Pin string 'ADRCMD' is too long, truncating to 5 characters.
+
+NOTE (line  558) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line  559) - GND Clamp Typical data is non-monotonic
+
+NOTE (line  580) - Pulldown Maximum data is non-monotonic
+
+NOTE (line  582) - Pulldown Typical data is non-monotonic
+
+NOTE (line  585) - Pulldown Minimum data is non-monotonic
+
+NOTE (line  694) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line  695) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line  695) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 1013) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 1015) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 1021) - Pulldown Typical data is non-monotonic
+
+NOTE (line 1021) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 1023) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 1151) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 1152) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 1153) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 1471) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 1472) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 1485) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 1486) - Pulldown Typical data is non-monotonic
+
+NOTE (line 1491) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 1608) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 1609) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 1609) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 1927) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 1929) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 1935) - Pulldown Typical data is non-monotonic
+
+NOTE (line 1937) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 1943) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 2065) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 2066) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 2067) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 2385) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 2386) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 2407) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 2409) - Pulldown Typical data is non-monotonic
+
+NOTE (line 2412) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 2521) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 2522) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 2522) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 2840) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 2842) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 2848) - Pulldown Typical data is non-monotonic
+
+NOTE (line 2848) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 2850) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 2978) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 2979) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 2980) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 3298) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 3299) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 3311) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 3312) - Pulldown Typical data is non-monotonic
+
+NOTE (line 3317) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 3434) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 3435) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 3435) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 3753) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 3755) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 3760) - Pulldown Typical data is non-monotonic
+
+NOTE (line 3762) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 3768) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 3890) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 3891) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 3892) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 4206) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 4207) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 4244) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 4245) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 4245) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 4341) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 4343) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 4381) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 4382) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 4383) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 4479) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 4480) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 4517) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 4518) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 4518) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 4614) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 4616) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 4654) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 4655) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 4656) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 4754) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 4756) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 4762) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 4763) - Pulldown Typical data is non-monotonic
+
+NOTE (line 4765) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 4892) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 4893) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 4894) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 4983) - Pullup Typical data is non-monotonic
+
+NOTE (line 4984) - Pullup Minimum data is non-monotonic
+
+NOTE (line 5522) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 5524) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 5530) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 5531) - Pulldown Typical data is non-monotonic
+
+NOTE (line 5533) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 5660) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 5661) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 5662) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 5751) - Pullup Typical data is non-monotonic
+
+NOTE (line 5752) - Pullup Minimum data is non-monotonic
+
+NOTE (line 6286) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 6288) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 6326) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 6327) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 6328) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 6442) - Pulldown Typical data is non-monotonic
+
+NOTE (line 6443) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 6450) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 6663) - Pullup Typical data is non-monotonic
+
+NOTE (line 6666) - Pullup Maximum data is non-monotonic
+
+NOTE (line 6670) - Pullup Minimum data is non-monotonic
+
+WARNING -
+
+    Model '1s_pci33_io': Vmeas timing test load parameter should be specified
+
+NOTE (line 7186) - Pulldown Typical data is non-monotonic
+
+NOTE (line 7187) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 7194) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 7407) - Pullup Typical data is non-monotonic
+
+NOTE (line 7410) - Pullup Maximum data is non-monotonic
+
+NOTE (line 7414) - Pullup Minimum data is non-monotonic
+
+WARNING -
+
+    Model '1s_pci33_io_s': Vmeas timing test load parameter should be specified
+
+NOTE (line 8046) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 8048) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 8057) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 8058) - Pulldown Typical data is non-monotonic
+
+NOTE (line 8058) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 8178) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 8180) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 8180) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 8274) - Pullup Minimum data is non-monotonic
+
+NOTE (line 8276) - Pullup Typical data is non-monotonic
+
+NOTE (line 8278) - Pullup Maximum data is non-monotonic
+
+NOTE (line 9233) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 9235) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 9250) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 9252) - Pulldown Typical data is non-monotonic
+
+NOTE (line 9256) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 9365) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 9367) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 9367) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 9461) - Pullup Minimum data is non-monotonic
+
+NOTE (line 9462) - Pullup Typical data is non-monotonic
+
+NOTE (line 9464) - Pullup Maximum data is non-monotonic
+
+NOTE (line 10420) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 10422) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 10430) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 10431) - Pulldown Typical data is non-monotonic
+
+NOTE (line 10431) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 10551) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 10553) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 10553) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 10647) - Pullup Minimum data is non-monotonic
+
+NOTE (line 10649) - Pullup Typical data is non-monotonic
+
+NOTE (line 10651) - Pullup Maximum data is non-monotonic
+
+NOTE (line 11606) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 11608) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 11623) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 11625) - Pulldown Typical data is non-monotonic
+
+NOTE (line 11629) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 11738) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 11740) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 11741) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 11834) - Pullup Minimum data is non-monotonic
+
+NOTE (line 11835) - Pullup Typical data is non-monotonic
+
+NOTE (line 11837) - Pullup Maximum data is non-monotonic
+
+NOTE (line 12789) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 12791) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 12825) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 12827) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 12827) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 12929) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 12931) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 12940) - Pulldown Typical data is non-monotonic
+
+NOTE (line 12940) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 12949) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 13066) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 13067) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 13067) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 13160) - Pullup Minimum data is non-monotonic
+
+NOTE (line 13162) - Pullup Typical data is non-monotonic
+
+NOTE (line 13168) - Pullup Maximum data is non-monotonic
+
+NOTE (line 13698) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 13700) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 13711) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 13712) - Pulldown Typical data is non-monotonic
+
+NOTE (line 13714) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 13835) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 13836) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 13836) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 13930) - Pullup Typical data is non-monotonic
+
+NOTE (line 13938) - Pullup Minimum data is non-monotonic
+
+NOTE (line 14467) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 14469) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 14479) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 14480) - Pulldown Typical data is non-monotonic
+
+NOTE (line 14483) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 14604) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 14605) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 14605) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 14698) - Pullup Minimum data is non-monotonic
+
+NOTE (line 14699) - Pullup Typical data is non-monotonic
+
+NOTE (line 15236) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 15238) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 15248) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 15249) - Pulldown Typical data is non-monotonic
+
+NOTE (line 15252) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 15373) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 15374) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 15374) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 15467) - Pullup Minimum data is non-monotonic
+
+NOTE (line 15468) - Pullup Typical data is non-monotonic
+
+NOTE (line 16005) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 16007) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 16008) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 16033) - Pulldown Typical data is non-monotonic
+
+NOTE (line 16033) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 16042) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 16159) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 16160) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 16160) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 16253) - Pullup Minimum data is non-monotonic
+
+NOTE (line 16255) - Pullup Typical data is non-monotonic
+
+NOTE (line 16261) - Pullup Maximum data is non-monotonic
+
+NOTE (line 16791) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 16793) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 16804) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 16805) - Pulldown Typical data is non-monotonic
+
+NOTE (line 16807) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 16928) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 16929) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 16929) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 17023) - Pullup Typical data is non-monotonic
+
+NOTE (line 17031) - Pullup Minimum data is non-monotonic
+
+NOTE (line 17556) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 17558) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 17595) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 17596) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 17596) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 17696) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 17698) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 17704) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 17705) - Pulldown Typical data is non-monotonic
+
+NOTE (line 17707) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 17834) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 17835) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 17836) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 17925) - Pullup Typical data is non-monotonic
+
+NOTE (line 17925) - Pullup Minimum data is non-monotonic
+
+NOTE (line 17930) - Pullup Maximum data is non-monotonic
+
+NOTE (line 18892) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 18894) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 18901) - Pulldown Typical data is non-monotonic
+
+NOTE (line 18901) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 18903) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 19031) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 19032) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 19033) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 19122) - Pullup Typical data is non-monotonic
+
+NOTE (line 19125) - Pullup Maximum data is non-monotonic
+
+NOTE (line 19129) - Pullup Minimum data is non-monotonic
+
+NOTE (line 20089) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 20091) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 20097) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 20098) - Pulldown Typical data is non-monotonic
+
+NOTE (line 20100) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 20227) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 20228) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 20229) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 20318) - Pullup Typical data is non-monotonic
+
+NOTE (line 20318) - Pullup Minimum data is non-monotonic
+
+NOTE (line 20323) - Pullup Maximum data is non-monotonic
+
+NOTE (line 21285) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 21287) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 21294) - Pulldown Typical data is non-monotonic
+
+NOTE (line 21294) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 21296) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 21424) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 21425) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 21426) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 21515) - Pullup Typical data is non-monotonic
+
+NOTE (line 21518) - Pullup Maximum data is non-monotonic
+
+NOTE (line 21522) - Pullup Minimum data is non-monotonic
+
+NOTE (line 22478) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 22480) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 22518) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 22519) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 22520) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 22616) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 22618) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 22619) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 22627) - Pulldown Typical data is non-monotonic
+
+NOTE (line 22631) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 22632) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 22748) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 22750) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 22750) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 22849) - Pullup Minimum data is non-monotonic
+
+NOTE (line 22850) - Pullup Typical data is non-monotonic
+
+NOTE (line 22851) - Pullup Maximum data is non-monotonic
+
+NOTE (line 23378) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 23380) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 23381) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 23389) - Pulldown Typical data is non-monotonic
+
+NOTE (line 23393) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 23394) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 23510) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 23512) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 23512) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 23611) - Pullup Minimum data is non-monotonic
+
+NOTE (line 23612) - Pullup Typical data is non-monotonic
+
+NOTE (line 23613) - Pullup Maximum data is non-monotonic
+
+NOTE (line 24140) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 24142) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 24143) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 24168) - Pulldown Typical data is non-monotonic
+
+NOTE (line 24172) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 24173) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 24288) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 24291) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 24291) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 24390) - Pullup Minimum data is non-monotonic
+
+NOTE (line 24391) - Pullup Typical data is non-monotonic
+
+NOTE (line 24392) - Pullup Maximum data is non-monotonic
+
+NOTE (line 24919) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 24921) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 24922) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 24947) - Pulldown Typical data is non-monotonic
+
+NOTE (line 24951) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 24952) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 25067) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 25070) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 25070) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 25169) - Pullup Minimum data is non-monotonic
+
+NOTE (line 25170) - Pullup Typical data is non-monotonic
+
+NOTE (line 25171) - Pullup Maximum data is non-monotonic
+
+NOTE (line 25694) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 25696) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 25697) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 25730) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 25732) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 25732) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 25831) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 25833) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 25841) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 25843) - Pulldown Typical data is non-monotonic
+
+NOTE (line 25847) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 25962) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 25964) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 25964) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 26058) - Pullup Minimum data is non-monotonic
+
+NOTE (line 26059) - Pullup Typical data is non-monotonic
+
+NOTE (line 26060) - Pullup Maximum data is non-monotonic
+
+NOTE (line 26589) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 26591) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 26599) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 26601) - Pulldown Typical data is non-monotonic
+
+NOTE (line 26605) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 26720) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 26722) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 26722) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 26816) - Pullup Minimum data is non-monotonic
+
+NOTE (line 26817) - Pullup Typical data is non-monotonic
+
+NOTE (line 26818) - Pullup Maximum data is non-monotonic
+
+NOTE (line 27347) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 27349) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 27357) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 27359) - Pulldown Typical data is non-monotonic
+
+NOTE (line 27363) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 27478) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 27480) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 27480) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 27574) - Pullup Minimum data is non-monotonic
+
+NOTE (line 27575) - Pullup Typical data is non-monotonic
+
+NOTE (line 27576) - Pullup Maximum data is non-monotonic
+
+NOTE (line 28105) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 28107) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 28115) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 28117) - Pulldown Typical data is non-monotonic
+
+NOTE (line 28121) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 28236) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 28238) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 28238) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 28332) - Pullup Minimum data is non-monotonic
+
+NOTE (line 28333) - Pullup Typical data is non-monotonic
+
+NOTE (line 28334) - Pullup Maximum data is non-monotonic
+
+NOTE (line 28859) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 28861) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 28895) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 28897) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 28897) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 28998) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 29000) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 29006) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 29007) - Pulldown Typical data is non-monotonic
+
+NOTE (line 29008) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 29136) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 29137) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 29138) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 29227) - Pullup Typical data is non-monotonic
+
+NOTE (line 29228) - Pullup Minimum data is non-monotonic
+
+NOTE (line 29234) - Pullup Maximum data is non-monotonic
+
+NOTE (line 29766) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 29768) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 29774) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 29775) - Pulldown Typical data is non-monotonic
+
+NOTE (line 29777) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 29904) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 29905) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 29906) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 29995) - Pullup Typical data is non-monotonic
+
+NOTE (line 29995) - Pullup Minimum data is non-monotonic
+
+NOTE (line 29998) - Pullup Maximum data is non-monotonic
+
+NOTE (line 30534) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 30536) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 30542) - Pulldown Typical data is non-monotonic
+
+NOTE (line 30542) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 30545) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 30672) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 30673) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 30674) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 30763) - Pullup Typical data is non-monotonic
+
+NOTE (line 30766) - Pullup Maximum data is non-monotonic
+
+NOTE (line 30770) - Pullup Minimum data is non-monotonic
+
+NOTE (line 31302) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 31304) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 31310) - Pulldown Typical data is non-monotonic
+
+NOTE (line 31312) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 31313) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 31440) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 31441) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 31442) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 31531) - Pullup Typical data is non-monotonic
+
+NOTE (line 31532) - Pullup Minimum data is non-monotonic
+
+NOTE (line 32070) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 32072) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 32079) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 32081) - Pulldown Typical data is non-monotonic
+
+NOTE (line 32081) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 32208) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 32209) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 32210) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 32297) - Pullup Minimum data is non-monotonic
+
+NOTE (line 32838) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 32840) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 32846) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 32847) - Pulldown Typical data is non-monotonic
+
+NOTE (line 32848) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 32976) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 32977) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 32978) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 33067) - Pullup Typical data is non-monotonic
+
+NOTE (line 33068) - Pullup Minimum data is non-monotonic
+
+NOTE (line 33074) - Pullup Maximum data is non-monotonic
+
+NOTE (line 33606) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 33608) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 33614) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 33615) - Pulldown Typical data is non-monotonic
+
+NOTE (line 33617) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 33744) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 33745) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 33746) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 33835) - Pullup Typical data is non-monotonic
+
+NOTE (line 33835) - Pullup Minimum data is non-monotonic
+
+NOTE (line 33838) - Pullup Maximum data is non-monotonic
+
+NOTE (line 34374) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 34376) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 34382) - Pulldown Typical data is non-monotonic
+
+NOTE (line 34382) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 34385) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 34512) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 34513) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 34514) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 34603) - Pullup Typical data is non-monotonic
+
+NOTE (line 34606) - Pullup Maximum data is non-monotonic
+
+NOTE (line 34610) - Pullup Minimum data is non-monotonic
+
+NOTE (line 35142) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 35144) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 35150) - Pulldown Typical data is non-monotonic
+
+NOTE (line 35152) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 35153) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 35280) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 35281) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 35282) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 35371) - Pullup Typical data is non-monotonic
+
+NOTE (line 35372) - Pullup Minimum data is non-monotonic
+
+NOTE (line 35910) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 35912) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 35919) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 35921) - Pulldown Typical data is non-monotonic
+
+NOTE (line 35921) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 36048) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 36049) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 36050) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 36137) - Pullup Minimum data is non-monotonic
+
+NOTE (line 36686) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 36687) - Pulldown Typical data is non-monotonic
+
+NOTE (line 36688) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 36907) - Pullup Typical data is non-monotonic
+
+NOTE (line 36908) - Pullup Minimum data is non-monotonic
+
+NOTE (line 36914) - Pullup Maximum data is non-monotonic
+
+NOTE (line 37454) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 37455) - Pulldown Typical data is non-monotonic
+
+NOTE (line 37457) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 37675) - Pullup Typical data is non-monotonic
+
+NOTE (line 37675) - Pullup Minimum data is non-monotonic
+
+NOTE (line 37678) - Pullup Maximum data is non-monotonic
+
+NOTE (line 38222) - Pulldown Typical data is non-monotonic
+
+NOTE (line 38222) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 38225) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 38443) - Pullup Typical data is non-monotonic
+
+NOTE (line 38446) - Pullup Maximum data is non-monotonic
+
+NOTE (line 38450) - Pullup Minimum data is non-monotonic
+
+NOTE (line 38990) - Pulldown Typical data is non-monotonic
+
+NOTE (line 38992) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 38993) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 39211) - Pullup Typical data is non-monotonic
+
+NOTE (line 39212) - Pullup Minimum data is non-monotonic
+
+NOTE (line 39759) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 39761) - Pulldown Typical data is non-monotonic
+
+NOTE (line 39761) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 39977) - Pullup Minimum data is non-monotonic
+
+NOTE (line 40526) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 40527) - Pulldown Typical data is non-monotonic
+
+NOTE (line 40528) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 40747) - Pullup Typical data is non-monotonic
+
+NOTE (line 40748) - Pullup Minimum data is non-monotonic
+
+NOTE (line 40754) - Pullup Maximum data is non-monotonic
+
+NOTE (line 41294) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 41295) - Pulldown Typical data is non-monotonic
+
+NOTE (line 41297) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 41515) - Pullup Typical data is non-monotonic
+
+NOTE (line 41515) - Pullup Minimum data is non-monotonic
+
+NOTE (line 41518) - Pullup Maximum data is non-monotonic
+
+NOTE (line 42072) - Pulldown Typical data is non-monotonic
+
+NOTE (line 42072) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 42075) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 42293) - Pullup Typical data is non-monotonic
+
+NOTE (line 42296) - Pullup Maximum data is non-monotonic
+
+NOTE (line 42300) - Pullup Minimum data is non-monotonic
+
+NOTE (line 42840) - Pulldown Typical data is non-monotonic
+
+NOTE (line 42842) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 42843) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 43061) - Pullup Typical data is non-monotonic
+
+NOTE (line 43062) - Pullup Minimum data is non-monotonic
+
+NOTE (line 43610) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 43612) - Pulldown Typical data is non-monotonic
+
+NOTE (line 43612) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 43828) - Pullup Minimum data is non-monotonic
+
+NOTE (line 44369) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 44371) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 44377) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 44378) - Pulldown Typical data is non-monotonic
+
+NOTE (line 44379) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 44507) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 44508) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 44509) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 44598) - Pullup Typical data is non-monotonic
+
+NOTE (line 44599) - Pullup Minimum data is non-monotonic
+
+NOTE (line 44605) - Pullup Maximum data is non-monotonic
+
+NOTE (line 45137) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 45139) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 45140) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 45146) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 45147) - Pulldown Typical data is non-monotonic
+
+NOTE (line 45149) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 45276) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 45277) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 45278) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 45367) - Pullup Typical data is non-monotonic
+
+NOTE (line 45367) - Pullup Minimum data is non-monotonic
+
+NOTE (line 45372) - Pullup Maximum data is non-monotonic
+
+NOTE (line 45906) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 45908) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 45914) - Pulldown Typical data is non-monotonic
+
+NOTE (line 45914) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 45918) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 46044) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 46045) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 46046) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 46135) - Pullup Typical data is non-monotonic
+
+NOTE (line 46135) - Pullup Minimum data is non-monotonic
+
+NOTE (line 46138) - Pullup Maximum data is non-monotonic
+
+NOTE (line 46674) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 46676) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 46682) - Pulldown Typical data is non-monotonic
+
+NOTE (line 46682) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 46685) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 46812) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 46813) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 46814) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 46903) - Pullup Typical data is non-monotonic
+
+NOTE (line 46904) - Pullup Minimum data is non-monotonic
+
+NOTE (line 46909) - Pullup Maximum data is non-monotonic
+
+NOTE (line 47442) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 47444) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 47452) - Pulldown Typical data is non-monotonic
+
+NOTE (line 47452) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 47458) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 47580) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 47581) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 47582) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 47671) - Pullup Typical data is non-monotonic
+
+NOTE (line 47672) - Pullup Minimum data is non-monotonic
+
+NOTE (line 48210) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 48212) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 48220) - Pulldown Typical data is non-monotonic
+
+NOTE (line 48220) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 48226) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 48348) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 48349) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 48350) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 48666) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 48668) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 48674) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 48675) - Pulldown Typical data is non-monotonic
+
+NOTE (line 48676) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 48804) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 48805) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 48806) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 48895) - Pullup Typical data is non-monotonic
+
+NOTE (line 48896) - Pullup Minimum data is non-monotonic
+
+NOTE (line 48902) - Pullup Maximum data is non-monotonic
+
+NOTE (line 49434) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 49436) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 49442) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 49443) - Pulldown Typical data is non-monotonic
+
+NOTE (line 49445) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 49572) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 49573) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 49574) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 49663) - Pullup Typical data is non-monotonic
+
+NOTE (line 49663) - Pullup Minimum data is non-monotonic
+
+NOTE (line 49668) - Pullup Maximum data is non-monotonic
+
+NOTE (line 50202) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 50204) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 50210) - Pulldown Typical data is non-monotonic
+
+NOTE (line 50210) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 50214) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 50340) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 50341) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 50342) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 50431) - Pullup Typical data is non-monotonic
+
+NOTE (line 50431) - Pullup Minimum data is non-monotonic
+
+NOTE (line 50434) - Pullup Maximum data is non-monotonic
+
+NOTE (line 50970) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 50972) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 50978) - Pulldown Typical data is non-monotonic
+
+NOTE (line 50978) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 50981) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 51108) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 51109) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 51110) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 51199) - Pullup Typical data is non-monotonic
+
+NOTE (line 51200) - Pullup Minimum data is non-monotonic
+
+NOTE (line 51205) - Pullup Maximum data is non-monotonic
+
+NOTE (line 51738) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 51740) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 51748) - Pulldown Typical data is non-monotonic
+
+NOTE (line 51748) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 51754) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 51876) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 51877) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 51878) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 51967) - Pullup Typical data is non-monotonic
+
+NOTE (line 51968) - Pullup Minimum data is non-monotonic
+
+NOTE (line 52515) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 52516) - Pulldown Typical data is non-monotonic
+
+NOTE (line 52517) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 52736) - Pullup Typical data is non-monotonic
+
+NOTE (line 52737) - Pullup Minimum data is non-monotonic
+
+NOTE (line 52743) - Pullup Maximum data is non-monotonic
+
+NOTE (line 53284) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 53285) - Pulldown Typical data is non-monotonic
+
+NOTE (line 53287) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 53505) - Pullup Typical data is non-monotonic
+
+NOTE (line 53505) - Pullup Minimum data is non-monotonic
+
+NOTE (line 53510) - Pullup Maximum data is non-monotonic
+
+NOTE (line 54052) - Pulldown Typical data is non-monotonic
+
+NOTE (line 54052) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 54056) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 54273) - Pullup Typical data is non-monotonic
+
+NOTE (line 54273) - Pullup Minimum data is non-monotonic
+
+NOTE (line 54276) - Pullup Maximum data is non-monotonic
+
+NOTE (line 54820) - Pulldown Typical data is non-monotonic
+
+NOTE (line 54820) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 54823) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 55041) - Pullup Typical data is non-monotonic
+
+NOTE (line 55042) - Pullup Minimum data is non-monotonic
+
+NOTE (line 55047) - Pullup Maximum data is non-monotonic
+
+NOTE (line 55591) - Pulldown Typical data is non-monotonic
+
+NOTE (line 55591) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 55597) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 55810) - Pullup Typical data is non-monotonic
+
+NOTE (line 55811) - Pullup Minimum data is non-monotonic
+
+NOTE (line 56357) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 56358) - Pulldown Typical data is non-monotonic
+
+NOTE (line 56359) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 56595) - Pullup Typical data is non-monotonic
+
+NOTE (line 56596) - Pullup Minimum data is non-monotonic
+
+NOTE (line 56602) - Pullup Maximum data is non-monotonic
+
+NOTE (line 57143) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 57144) - Pulldown Typical data is non-monotonic
+
+NOTE (line 57146) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 57381) - Pullup Typical data is non-monotonic
+
+NOTE (line 57381) - Pullup Minimum data is non-monotonic
+
+NOTE (line 57386) - Pullup Maximum data is non-monotonic
+
+NOTE (line 57929) - Pulldown Typical data is non-monotonic
+
+NOTE (line 57929) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 57933) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 58167) - Pullup Typical data is non-monotonic
+
+NOTE (line 58167) - Pullup Minimum data is non-monotonic
+
+NOTE (line 58170) - Pullup Maximum data is non-monotonic
+
+NOTE (line 58715) - Pulldown Typical data is non-monotonic
+
+NOTE (line 58715) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 58718) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 58953) - Pullup Typical data is non-monotonic
+
+NOTE (line 58954) - Pullup Minimum data is non-monotonic
+
+NOTE (line 58959) - Pullup Maximum data is non-monotonic
+
+NOTE (line 59503) - Pulldown Typical data is non-monotonic
+
+NOTE (line 59503) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 59509) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 59723) - Pullup Minimum data is non-monotonic
+
+NOTE (line 59727) - Pullup Typical data is non-monotonic
+
+NOTE (line 60257) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 60259) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 60297) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 60298) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 60299) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 60393) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 60395) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 60433) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 60434) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 60435) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 60808) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 60809) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 60815) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 60820) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 60821) - Pulldown Typical data is non-monotonic
+
+NOTE (line 60944) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 60945) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 60945) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 61034) - Pullup Minimum data is non-monotonic
+
+NOTE (line 61036) - Pullup Typical data is non-monotonic
+
+NOTE (line 61040) - Pullup Maximum data is non-monotonic
+
+NOTE (line 61577) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 61578) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 61585) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 61587) - Pulldown Typical data is non-monotonic
+
+NOTE (line 61587) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 61713) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 61714) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 61714) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 61809) - Pullup Typical data is non-monotonic
+
+NOTE (line 61809) - Pullup Minimum data is non-monotonic
+
+NOTE (line 61809) - Pullup Maximum data is non-monotonic
+
+NOTE (line 62347) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 62348) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 62369) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 62371) - Pulldown Typical data is non-monotonic
+
+NOTE (line 62374) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 62483) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 62484) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 62484) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 62578) - Pullup Minimum data is non-monotonic
+
+NOTE (line 62579) - Pullup Typical data is non-monotonic
+
+NOTE (line 62579) - Pullup Maximum data is non-monotonic
+
+NOTE (line 63116) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 63117) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 63128) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 63129) - Pulldown Typical data is non-monotonic
+
+NOTE (line 63129) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 63252) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 63253) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 63253) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 63347) - Pullup Typical data is non-monotonic
+
+NOTE (line 63348) - Pullup Maximum data is non-monotonic
+
+NOTE (line 63353) - Pullup Minimum data is non-monotonic
+
+NOTE (line 63886) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 63887) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 63898) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 63899) - Pulldown Typical data is non-monotonic
+
+NOTE (line 63899) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 64022) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 64023) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 64023) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 64343) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 64344) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 64350) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 64355) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 64356) - Pulldown Typical data is non-monotonic
+
+NOTE (line 64479) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 64480) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 64480) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 64569) - Pullup Minimum data is non-monotonic
+
+NOTE (line 64571) - Pullup Typical data is non-monotonic
+
+NOTE (line 64575) - Pullup Maximum data is non-monotonic
+
+NOTE (line 65112) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 65113) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 65120) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 65122) - Pulldown Typical data is non-monotonic
+
+NOTE (line 65122) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 65248) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 65249) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 65249) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 65344) - Pullup Typical data is non-monotonic
+
+NOTE (line 65344) - Pullup Minimum data is non-monotonic
+
+NOTE (line 65344) - Pullup Maximum data is non-monotonic
+
+NOTE (line 65882) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 65883) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 65904) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 65906) - Pulldown Typical data is non-monotonic
+
+NOTE (line 65909) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 66018) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 66019) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 66019) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 66113) - Pullup Minimum data is non-monotonic
+
+NOTE (line 66114) - Pullup Typical data is non-monotonic
+
+NOTE (line 66114) - Pullup Maximum data is non-monotonic
+
+NOTE (line 66651) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 66652) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 66663) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 66664) - Pulldown Typical data is non-monotonic
+
+NOTE (line 66664) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 66787) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 66788) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 66788) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 66882) - Pullup Typical data is non-monotonic
+
+NOTE (line 66883) - Pullup Maximum data is non-monotonic
+
+NOTE (line 66888) - Pullup Minimum data is non-monotonic
+
+NOTE (line 67428) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 67433) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 67434) - Pulldown Typical data is non-monotonic
+
+NOTE (line 67671) - Pullup Minimum data is non-monotonic
+
+NOTE (line 67673) - Pullup Typical data is non-monotonic
+
+NOTE (line 67677) - Pullup Maximum data is non-monotonic
+
+NOTE (line 68223) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 68225) - Pulldown Typical data is non-monotonic
+
+NOTE (line 68225) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 68471) - Pullup Typical data is non-monotonic
+
+NOTE (line 68471) - Pullup Minimum data is non-monotonic
+
+NOTE (line 68471) - Pullup Maximum data is non-monotonic
+
+NOTE (line 69031) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 69033) - Pulldown Typical data is non-monotonic
+
+NOTE (line 69036) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 69264) - Pullup Minimum data is non-monotonic
+
+NOTE (line 69265) - Pullup Typical data is non-monotonic
+
+NOTE (line 69265) - Pullup Maximum data is non-monotonic
+
+NOTE (line 69815) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 69816) - Pulldown Typical data is non-monotonic
+
+NOTE (line 69816) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 70058) - Pullup Typical data is non-monotonic
+
+NOTE (line 70059) - Pullup Maximum data is non-monotonic
+
+NOTE (line 70064) - Pullup Minimum data is non-monotonic
+
+NOTE (line 70604) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 70609) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 70610) - Pulldown Typical data is non-monotonic
+
+NOTE (line 70847) - Pullup Minimum data is non-monotonic
+
+NOTE (line 70849) - Pullup Typical data is non-monotonic
+
+NOTE (line 70853) - Pullup Maximum data is non-monotonic
+
+NOTE (line 71399) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 71401) - Pulldown Typical data is non-monotonic
+
+NOTE (line 71401) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 71647) - Pullup Typical data is non-monotonic
+
+NOTE (line 71647) - Pullup Minimum data is non-monotonic
+
+NOTE (line 71647) - Pullup Maximum data is non-monotonic
+
+NOTE (line 72206) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 72208) - Pulldown Typical data is non-monotonic
+
+NOTE (line 72211) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 72439) - Pullup Minimum data is non-monotonic
+
+NOTE (line 72440) - Pullup Typical data is non-monotonic
+
+NOTE (line 72440) - Pullup Maximum data is non-monotonic
+
+NOTE (line 72990) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 72991) - Pulldown Typical data is non-monotonic
+
+NOTE (line 72991) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 73233) - Pullup Typical data is non-monotonic
+
+NOTE (line 73234) - Pullup Maximum data is non-monotonic
+
+NOTE (line 73239) - Pullup Minimum data is non-monotonic
+
+NOTE (line 73767) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 73768) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 73805) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 73806) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 73806) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 73903) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 73905) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 73912) - Pulldown Typical data is non-monotonic
+
+NOTE (line 73913) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 73913) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 74034) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 74036) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 74036) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 74124) - Pullup Minimum data is non-monotonic
+
+NOTE (line 74128) - Pullup Maximum data is non-monotonic
+
+NOTE (line 74133) - Pullup Typical data is non-monotonic
+
+NOTE (line 74661) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 74663) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 74671) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 74677) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 74679) - Pulldown Typical data is non-monotonic
+
+NOTE (line 74792) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 74794) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 74794) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 74889) - Pullup Minimum data is non-monotonic
+
+NOTE (line 74892) - Pullup Maximum data is non-monotonic
+
+NOTE (line 75419) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 75421) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 75434) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 75435) - Pulldown Typical data is non-monotonic
+
+NOTE (line 75440) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 75550) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 75552) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 75552) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 75646) - Pullup Minimum data is non-monotonic
+
+NOTE (line 75648) - Pullup Typical data is non-monotonic
+
+NOTE (line 75650) - Pullup Maximum data is non-monotonic
+
+NOTE (line 76177) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 76179) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 76192) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 76193) - Pulldown Typical data is non-monotonic
+
+NOTE (line 76198) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 76308) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 76310) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 76310) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 76622) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 76624) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 76658) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 76660) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 76660) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 76758) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 76760) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 76767) - Pulldown Typical data is non-monotonic
+
+NOTE (line 76768) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 76768) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 76889) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 76891) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 76891) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 76979) - Pullup Minimum data is non-monotonic
+
+NOTE (line 76983) - Pullup Maximum data is non-monotonic
+
+NOTE (line 76988) - Pullup Typical data is non-monotonic
+
+NOTE (line 77516) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 77518) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 77526) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 77532) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 77534) - Pulldown Typical data is non-monotonic
+
+NOTE (line 77647) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 77649) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 77649) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 77744) - Pullup Minimum data is non-monotonic
+
+NOTE (line 77747) - Pullup Maximum data is non-monotonic
+
+NOTE (line 78274) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 78276) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 78289) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 78290) - Pulldown Typical data is non-monotonic
+
+NOTE (line 78295) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 78405) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 78407) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 78407) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 78501) - Pullup Minimum data is non-monotonic
+
+NOTE (line 78503) - Pullup Typical data is non-monotonic
+
+NOTE (line 78505) - Pullup Maximum data is non-monotonic
+
+NOTE (line 79033) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 79035) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 79036) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 79045) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 79045) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 79047) - Pulldown Typical data is non-monotonic
+
+NOTE (line 79165) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 79168) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 79168) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 79263) - Pullup Minimum data is non-monotonic
+
+NOTE (line 79264) - Pullup Maximum data is non-monotonic
+
+NOTE (line 79266) - Pullup Typical data is non-monotonic
+
+NOTE (line 79796) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 79798) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 79799) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 79806) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 79807) - Pulldown Typical data is non-monotonic
+
+NOTE (line 79808) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 79928) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 79931) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 79931) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 80023) - Pullup Minimum data is non-monotonic
+
+NOTE (line 80030) - Pullup Maximum data is non-monotonic
+
+NOTE (line 80031) - Pullup Typical data is non-monotonic
+
+NOTE (line 80559) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 80561) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 80562) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 80570) - Pulldown Typical data is non-monotonic
+
+NOTE (line 80570) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 80570) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 80691) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 80694) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 80694) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 80786) - Pullup Minimum data is non-monotonic
+
+NOTE (line 80794) - Pullup Typical data is non-monotonic
+
+NOTE (line 80795) - Pullup Maximum data is non-monotonic
+
+NOTE (line 81322) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 81324) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 81325) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 81332) - Pulldown Typical data is non-monotonic
+
+NOTE (line 81332) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 81332) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 81453) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 81456) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 81456) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 81774) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 81776) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 81777) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 81785) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 81785) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 81787) - Pulldown Typical data is non-monotonic
+
+NOTE (line 81905) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 81908) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 81908) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 82003) - Pullup Minimum data is non-monotonic
+
+NOTE (line 82004) - Pullup Maximum data is non-monotonic
+
+NOTE (line 82006) - Pullup Typical data is non-monotonic
+
+NOTE (line 82536) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 82538) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 82539) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 82545) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 82546) - Pulldown Typical data is non-monotonic
+
+NOTE (line 82547) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 82668) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 82670) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 82670) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 82762) - Pullup Minimum data is non-monotonic
+
+NOTE (line 82769) - Pullup Maximum data is non-monotonic
+
+NOTE (line 82770) - Pullup Typical data is non-monotonic
+
+NOTE (line 83298) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 83300) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 83301) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 83308) - Pulldown Typical data is non-monotonic
+
+NOTE (line 83308) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 83308) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 83430) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 83432) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 83432) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 83524) - Pullup Minimum data is non-monotonic
+
+NOTE (line 83532) - Pullup Typical data is non-monotonic
+
+NOTE (line 83533) - Pullup Maximum data is non-monotonic
+
+NOTE (line 84056) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 84058) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 84059) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 84092) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 84095) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 84095) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 84196) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 84197) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 84203) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 84203) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 84204) - Pulldown Typical data is non-monotonic
+
+NOTE (line 84333) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 84334) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 84334) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 84349) - Pullup Minimum data is non-monotonic
+
+NOTE (line 84357) - Pullup Typical data is non-monotonic
+
+NOTE (line 84366) - Pullup Maximum data is non-monotonic
+
+NOTE (line 84746) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 84747) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 84787) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 84787) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 84788) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 85096) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 85097) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 85120) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 85121) - Pulldown Typical data is non-monotonic
+
+NOTE (line 85124) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 85232) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 85233) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 85233) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 85247) - Pullup Minimum data is non-monotonic
+
+NOTE (line 85249) - Pullup Maximum data is non-monotonic
+
+NOTE (line 85252) - Pullup Typical data is non-monotonic
+
+NOTE (line 85647) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 85648) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 85686) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 85686) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 85687) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 85785) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 85786) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 85815) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 85923) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 85924) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 85924) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 86010) - Pullup Minimum data is non-monotonic
+
+NOTE (line 86011) - Pullup Typical data is non-monotonic
+
+NOTE (line 86012) - Pullup Maximum data is non-monotonic
+
+NOTE (line 86297) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 86298) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 86337) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 86337) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 86338) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 86432) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 86434) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 86435) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 86443) - Pulldown Typical data is non-monotonic
+
+NOTE (line 86447) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 86448) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 86564) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 86566) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 86566) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 86665) - Pullup Minimum data is non-monotonic
+
+NOTE (line 86666) - Pullup Typical data is non-monotonic
+
+NOTE (line 86667) - Pullup Maximum data is non-monotonic
+
+NOTE (line 87192) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 87194) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 87195) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 87203) - Pulldown Typical data is non-monotonic
+
+NOTE (line 87207) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 87208) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 87324) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 87326) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 87326) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 87425) - Pullup Minimum data is non-monotonic
+
+NOTE (line 87426) - Pullup Typical data is non-monotonic
+
+NOTE (line 87427) - Pullup Maximum data is non-monotonic
+
+NOTE (line 87950) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 87952) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 87953) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 87986) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 87988) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 87988) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 88089) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 88091) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 88102) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 88103) - Pulldown Typical data is non-monotonic
+
+NOTE (line 88105) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 88226) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 88227) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 88227) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 88321) - Pullup Typical data is non-monotonic
+
+NOTE (line 88329) - Pullup Minimum data is non-monotonic
+
+NOTE (line 88858) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 88860) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 88870) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 88871) - Pulldown Typical data is non-monotonic
+
+NOTE (line 88874) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 88995) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 88996) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 88996) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 89089) - Pullup Minimum data is non-monotonic
+
+NOTE (line 89090) - Pullup Typical data is non-monotonic
+
+NOTE (line 89627) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 89629) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 89639) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 89640) - Pulldown Typical data is non-monotonic
+
+NOTE (line 89643) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 89764) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 89765) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 89765) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 89858) - Pullup Minimum data is non-monotonic
+
+NOTE (line 89859) - Pullup Typical data is non-monotonic
+
+NOTE (line 90393) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 90395) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 90396) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 90403) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 90409) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 90410) - Pulldown Typical data is non-monotonic
+
+NOTE (line 90524) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 90527) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 90527) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 90845) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 90847) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 90848) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 90855) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 90861) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 90862) - Pulldown Typical data is non-monotonic
+
+NOTE (line 90976) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 90979) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 90979) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 91078) - Pullup Minimum data is non-monotonic
+
+NOTE (line 91079) - Pullup Typical data is non-monotonic
+
+NOTE (line 91080) - Pullup Maximum data is non-monotonic
+
+NOTE (line 91607) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 91609) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 91610) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 91617) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 91623) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 91624) - Pulldown Typical data is non-monotonic
+
+NOTE (line 91738) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 91741) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 91741) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 92059) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 92061) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 92062) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 92069) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 92075) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 92076) - Pulldown Typical data is non-monotonic
+
+NOTE (line 92190) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 92193) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 92193) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 92292) - Pullup Minimum data is non-monotonic
+
+NOTE (line 92293) - Pullup Typical data is non-monotonic
+
+NOTE (line 92294) - Pullup Maximum data is non-monotonic
+
+NOTE (line 92820) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 92822) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 92829) - Pulldown Typical data is non-monotonic
+
+NOTE (line 92830) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 92837) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 92951) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 92953) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 92953) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 93269) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 93271) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 93278) - Pulldown Typical data is non-monotonic
+
+NOTE (line 93279) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 93286) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 93400) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 93402) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 93403) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 93496) - Pullup Minimum data is non-monotonic
+
+NOTE (line 93499) - Pullup Maximum data is non-monotonic
+
+NOTE (line 94027) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 94029) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 94036) - Pulldown Typical data is non-monotonic
+
+NOTE (line 94037) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 94044) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 94158) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 94160) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 94160) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 94476) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 94478) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 94485) - Pulldown Typical data is non-monotonic
+
+NOTE (line 94486) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 94493) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 94607) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 94609) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 94610) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 94703) - Pullup Minimum data is non-monotonic
+
+NOTE (line 94706) - Pullup Maximum data is non-monotonic
+
+NOTE (line 95239) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 95240) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 95247) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 95251) - Pulldown Typical data is non-monotonic
+
+NOTE (line 95254) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 95375) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 95376) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 95376) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 95696) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 95697) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 95704) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 95708) - Pulldown Typical data is non-monotonic
+
+NOTE (line 95711) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 95832) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 95833) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 95833) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 95928) - Pullup Typical data is non-monotonic
+
+NOTE (line 95928) - Pullup Maximum data is non-monotonic
+
+NOTE (line 95930) - Pullup Minimum data is non-monotonic
+
+NOTE (line 96465) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 96466) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 96473) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 96477) - Pulldown Typical data is non-monotonic
+
+NOTE (line 96480) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 96601) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 96602) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 96602) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 96922) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 96923) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 96930) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 96934) - Pulldown Typical data is non-monotonic
+
+NOTE (line 96937) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 97058) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 97059) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 97059) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 97154) - Pullup Typical data is non-monotonic
+
+NOTE (line 97154) - Pullup Maximum data is non-monotonic
+
+NOTE (line 97156) - Pullup Minimum data is non-monotonic
+
+NOTE (line 97689) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 97691) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 97697) - Pulldown Typical data is non-monotonic
+
+NOTE (line 97699) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 97700) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 97827) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 97828) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 97829) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 98144) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 98146) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 98152) - Pulldown Typical data is non-monotonic
+
+NOTE (line 98154) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 98155) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 98282) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 98283) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 98284) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 98373) - Pullup Typical data is non-monotonic
+
+NOTE (line 98374) - Pullup Minimum data is non-monotonic
+
+NOTE (line 98379) - Pullup Maximum data is non-monotonic
+
+NOTE (line 98912) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 98914) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 98920) - Pulldown Typical data is non-monotonic
+
+NOTE (line 98922) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 98923) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 99050) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 99051) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 99052) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 99367) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 99369) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 99375) - Pulldown Typical data is non-monotonic
+
+NOTE (line 99377) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 99378) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 99505) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 99506) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 99507) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 99596) - Pullup Typical data is non-monotonic
+
+NOTE (line 99597) - Pullup Minimum data is non-monotonic
+
+NOTE (line 99602) - Pullup Maximum data is non-monotonic
+
+NOTE - Combined Pullup for Model: 1s_ttl33_nstatus Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_nstatus': TYP VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_nstatus Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_nstatus': MIN VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_nstatus Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_nstatus': MAX VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_cfdone Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_cfdone': TYP VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_cfdone Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_cfdone': MIN VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_cfdone Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_cfdone': MAX VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl25_nstatus Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl25_nstatus': TYP VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+WARNING - Model '1s_ttl25_nstatus': MIN VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl25_nstatus Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl25_nstatus': MAX VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl25_cfdone Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl25_cfdone': TYP VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+WARNING - Model '1s_ttl25_cfdone': MIN VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl25_cfdone Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl25_cfdone': MAX VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_nstatus Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_nstatus': TYP VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_nstatus Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_nstatus': MIN VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_nstatus Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_nstatus': MAX VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_cfdone Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_cfdone': TYP VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_cfdone Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_cfdone': MIN VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_cfdone Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_cfdone': MAX VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_cmos15_nstatus Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_cmos15_nstatus': TYP VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+WARNING - Model '1s_cmos15_nstatus': MIN VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_cmos15_nstatus Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_cmos15_nstatus': MAX VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_cmos15_cfdone Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_cmos15_cfdone': TYP VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+WARNING - Model '1s_cmos15_cfdone': MIN VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_cmos15_cfdone Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_cmos15_cfdone': MAX VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ht25_out Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_ht25_out Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_lvds33_out Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_lvds33_out Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_cmos15_io_d8e Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_cmos15_io_d8e': TYP VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+WARNING - Model '1s_cmos15_io_d8e': MIN VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_cmos15_io_d8e Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_cmos15_io_d8e': MAX VI curves cannot drive through Vmeas=0.75V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_io_d12e Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_io_d12e': TYP VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_io_d12e Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_io_d12e': MIN VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl18_io_d12e Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl18_io_d12e': MAX VI curves cannot drive through Vmeas=0.9V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl25_io_d16e Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl25_io_d16e': TYP VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+WARNING - Model '1s_ttl25_io_d16e': MIN VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl25_io_d16e Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl25_io_d16e': MAX VI curves cannot drive through Vmeas=1.25V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_io_d24e Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_io_d24e': TYP VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_io_d24e Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_io_d24e': MIN VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_ttl33_io_d24e Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model '1s_ttl33_io_d24e': MAX VI curves cannot drive through Vmeas=1.5V
+
+          given load Rref=1e+006 Ohms to Vref=0V
+
+NOTE - Combined Pullup for Model: 1s_gtlp33_io_s Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp33_io_s Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp33_io_s Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp25_io_s Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp25_io_s Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl33_io_s Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl33_io_s Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl33_io_s Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl25_io_s Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl25_io_s Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp33_io Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp33_io Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp33_io Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp25_io Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtlp25_io Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl33_io Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl33_io Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl33_io Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl25_io Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: 1s_gtl25_io Maximum data is non-monotonic based on piece-wise linear interpolation
+
+
+
+Errors  : 2
+
+Warnings: 38
+
+
+
+File Failed
+

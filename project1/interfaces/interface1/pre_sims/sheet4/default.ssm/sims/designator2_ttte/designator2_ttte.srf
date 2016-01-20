@@ -1,0 +1,37 @@
+#PARAM tr0 designator2_ttte\designator2_ttte.csd
+#st_load generic_3_3v generic_3_3v.ibs 3_3V_O_fast_40ohm slpad TTTE D NA NA 0110010101 10n sheet4
+#st_load generic_3_3v generic_3_3v.ibs 3_3V_O_fast_40ohm slpin TTTE D NA NA 0110010101 10n sheet4
+#PARAM TRANSFER_NET sheet4
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator2
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT sheet4.tsc
+#PARAM CORNER TTTE
+#PARAM UI 10n
+#PARAM PATTERN default_data
+designator2 v_stimulus stimulus IBIS IBIS R 1 10.375 10.375 10.375 10.375 1.333 1.333 1.333 1.000 0.000
+designator2 v_stimulus stimulus IBIS IBIS F 2 30.375 30.375 30.375 30.375 -1.333 -1.333 -1.333 1.000 0.000
+designator2 v_stimulus stimulus IBIS IBIS R 3 50.375 50.375 50.375 50.375 1.333 1.333 1.333 1.000 0.000
+designator2 v_stimulus stimulus IBIS IBIS F 4 60.375 60.375 60.375 60.375 -1.333 -1.333 -1.333 1.000 0.000
+designator2 v_stimulus stimulus IBIS IBIS R 5 70.375 70.375 70.375 70.375 1.333 1.333 1.333 1.000 0.000
+designator2 v_stimulus stimulus IBIS IBIS F 6 80.375 80.375 80.375 80.375 -1.333 -1.333 -1.333 1.000 0.000
+designator2 v_stimulus stimulus IBIS IBIS R 7 90.375 90.375 90.375 90.375 1.333 1.333 1.333 1.000 0.000
+#ss_surf error: low overshoot, voltage -0.854 for 5.399 nsec designator1_pad designator2_ttte\designator2_ttte.csd
+designator2 designator1_pad receiver generic_3_3v.ibs 3_3V_I F 2 32.238 32.238 32.099 32.402 -8.716 -7.904 -1.333 1.000 0.000
+#ss_surf error: high overshoot, voltage 4.143 for 4.917 nsec designator1_pad designator2_ttte\designator2_ttte.csd
+designator2 designator1_pad receiver generic_3_3v.ibs 3_3V_I R 3 52.236 52.236 52.099 52.399 8.778 7.982 1.333 1.000 0.000
+#ss_surf error: low overshoot, voltage -0.863 for 5.648 nsec designator1_pad designator2_ttte\designator2_ttte.csd
+designator2 designator1_pad receiver generic_3_3v.ibs 3_3V_I F 4 62.240 62.240 62.104 62.401 -8.897 -8.069 -1.333 1.000 0.000
+#ss_surf error: high overshoot, voltage 4.143 for 5.369 nsec designator1_pad designator2_ttte\designator2_ttte.csd
+designator2 designator1_pad receiver generic_3_3v.ibs 3_3V_I R 5 72.238 72.238 72.100 72.401 8.720 7.977 1.333 1.000 0.000
+#ss_surf error: low overshoot, voltage -0.856 for 5.690 nsec designator1_pad designator2_ttte\designator2_ttte.csd
+designator2 designator1_pad receiver generic_3_3v.ibs 3_3V_I F 6 82.243 82.243 82.104 82.412 -8.399 -7.795 -1.333 1.000 0.000
+#ss_surf error: high overshoot, voltage 4.143 for 5.321 nsec designator1_pad designator2_ttte\designator2_ttte.csd
+designator2 designator1_pad receiver generic_3_3v.ibs 3_3V_I R 7 92.239 92.239 92.101 92.404 8.638 7.939 1.333 1.000 0.000

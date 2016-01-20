@@ -1,0 +1,7 @@
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 

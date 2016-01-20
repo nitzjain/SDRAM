@@ -1,0 +1,4 @@
+Transfer Net,Designator,Part,IBIS File,IBIS Model,IBIS Model Type,Model Type,Timing File,Timing Pindef,Timing Pin Type,Timing Data
+sheet1,designator1,55202_3,55202_3.ibs,3V6XX,Output,IBIS,55202_3.tmg,Q,OUTPUT,
+sheet1,designator2,generic_3_3v,generic_3_3v.ibs,3_3V_IO_fast_40ohm,I/O,IBIS,generic_3_3v.tmg,DATA_IO,BIDIR,Yes
+sheet1,designator4,stratix2,stratix2.ibs,2s_pci33_cin,Input,IBIS,stratix2.tmg,,,

@@ -1,0 +1,30 @@
+*****************************************
+**    Transfer Net  DQM  **
+*****************************************
+TRANSFER_NET DQM
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR designator1
+	SUBCIRCUIT_PORT port1
+	PART stratix
+	PIN_NAMES DQM
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR designator2
+	SUBCIRCUIT_PORT port2
+	PART y95c
+	PIN_NAMES DQM
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER designator1
+	RECEIVER designator2
+

@@ -1,0 +1,21 @@
+Setup Margin (ns),Hold Margin (ns),Data R/F,Transfer Net,Driver,Receiver,UI (ns),Min Data Etch Delay (ns),Max Data Etch Delay (ns),Min Tco (ns),Max Tco (ns),Setup (ns),Hold (ns),Setup Skew (ns),Hold Skew (ns),Source Clock Net,Target Clock Net,Simulation,Corner
+3.903,3.219,R,DQM,designator1,designator2,10.000,-0.181,0.397,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_2\designator1_ssse_2.csd,SSSE
+3.665,3.232,F,DQM,designator1,designator2,10.000,-0.168,0.635,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_2\designator1_ssse_2.csd,SSSE
+3.697,3.404,R,DQM,designator1,designator2,10.000,0.004,0.603,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_3\designator1_ssse_3.csd,SSSE
+3.524,3.448,F,DQM,designator1,designator2,10.000,0.048,0.776,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_3\designator1_ssse_3.csd,SSSE
+3.517,3.612,R,DQM,designator1,designator2,10.000,0.212,0.783,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_4\designator1_ssse_4.csd,SSSE
+3.339,3.644,F,DQM,designator1,designator2,10.000,0.244,0.961,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_4\designator1_ssse_4.csd,SSSE
+3.281,3.809,R,DQM,designator1,designator2,10.000,0.409,1.019,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_5\designator1_ssse_5.csd,SSSE
+3.096,3.843,F,DQM,designator1,designator2,10.000,0.443,1.204,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_5\designator1_ssse_5.csd,SSSE
+3.118,3.961,R,DQM,designator1,designator2,10.000,0.561,1.182,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_6\designator1_ssse_6.csd,SSSE
+2.901,4.021,F,DQM,designator1,designator2,10.000,0.621,1.399,4.200,4.200,1.500,0.800,0.000,0.000,NA,NA,designator1_ssse_6\designator1_ssse_6.csd,SSSE
+6.141,1.314,R,DQM,designator1,designator2,10.000,-0.086,0.159,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_2\designator1_fffe_2.csd,FFFE
+6.212,1.267,F,DQM,designator1,designator2,10.000,-0.133,0.088,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_2\designator1_fffe_2.csd,FFFE
+5.978,1.474,R,DQM,designator1,designator2,10.000,0.074,0.322,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_3\designator1_fffe_3.csd,FFFE
+6.049,1.426,F,DQM,designator1,designator2,10.000,0.026,0.251,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_3\designator1_fffe_3.csd,FFFE
+5.804,1.640,R,DQM,designator1,designator2,10.000,0.240,0.496,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_4\designator1_fffe_4.csd,FFFE
+5.876,1.589,F,DQM,designator1,designator2,10.000,0.189,0.424,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_4\designator1_fffe_4.csd,FFFE
+5.654,1.780,R,DQM,designator1,designator2,10.000,0.380,0.646,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_5\designator1_fffe_5.csd,FFFE
+5.726,1.729,F,DQM,designator1,designator2,10.000,0.329,0.574,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_5\designator1_fffe_5.csd,FFFE
+5.491,1.961,R,DQM,designator1,designator2,10.000,0.561,0.809,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_6\designator1_fffe_6.csd,FFFE
+5.565,1.907,F,DQM,designator1,designator2,10.000,0.507,0.735,2.200,2.200,1.500,0.800,0.000,0.000,NA,NA,designator1_fffe_6\designator1_fffe_6.csd,FFFE

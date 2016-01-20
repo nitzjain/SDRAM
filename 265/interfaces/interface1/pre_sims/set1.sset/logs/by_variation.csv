@@ -1,0 +1,2 @@
+Setup Margin (ns),Hold Margin (ns),Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Column,Ac Noise,Ac Noise Source,PATTERN
+No AC specs,No AC specs,-0.333,-0.168,-0.527,-0.389,sheet2,,0.00V,tnet,default_data

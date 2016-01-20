@@ -1,0 +1,2 @@
+Transfer Net,Waveform Fatal Count,Waveform Quality Count,Waveform Overshoot Count,VinMeas Margin,Min Slew Time (ns),Max Slew Time (ns),VinH Margin (V),VinL Margin (V),Overshoot Low Margin (V),Overshoot High Margin (V),AC Overshoot Low Area Margin (V*ns),AC Overshoot High Area Margin (V*ns),Non Monotonic Time (ns),Eye Width (ns),VinMeas Jitter (ns),Eye Inner Height (V),Eye Outer Height (V)
+ADR,0,0,0,0.834,0.290,1.101,1.376,1.130,,,,,,8.898,0.133,2.415,6.037

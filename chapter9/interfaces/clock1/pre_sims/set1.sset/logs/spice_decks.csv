@@ -1,0 +1,3 @@
+Simulation,Transfer Net,Driver,Corner,Aggressors,Subcircuit,UI,$T1:DELAY
+designator1_ttte_4/designator1_ttte_4.ckt,skew1,designator1,TTTE,0,skew1.tsc,3n,4in
+designator1_ttte_6/designator1_ttte_6.ckt,skew1,designator1,TTTE,0,skew1.tsc,3n,6in

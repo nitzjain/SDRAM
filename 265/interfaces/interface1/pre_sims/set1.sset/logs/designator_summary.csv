@@ -1,0 +1,3 @@
+Transfer Net,Designator,Part,IBIS File,IBIS Model,IBIS Model Type,Model Type,Timing File,Timing Pindef,Timing Pin Type,Timing Data
+sheet2,designator1,ad2147x_196_ibs,ad2147x_196_ibs.ibs,PDT12DGZ,3-state,IBIS,ad2147x_196_ibs.tmg,TDO,OUTPUT,
+sheet2,designator2,y14w,y14w.ibs,inbuff,Input,IBIS,y14w.tmg,A,INPUT,

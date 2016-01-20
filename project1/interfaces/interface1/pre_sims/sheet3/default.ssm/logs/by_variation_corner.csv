@@ -1,0 +1,2 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Column,Ac Noise,Ac Noise Source,$RSERIESTERM,$W1:LENGTH,$W2:LENGTH,$W3:LENGTH,PATTERN
+4.363,2.199,1.699,2.637,sheet3,,0.00V,tnet,50ohm,2in,2in,2in,default_data

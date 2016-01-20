@@ -1,0 +1,12 @@
+Part,High Pin,Low Pin,Vdiff,IBIS File,IBIS Component
+stratix,125,126,.2,stratix.ibs,Stratix
+stratix,127,128,.4,stratix.ibs,Stratix
+stratix,129,130,.4,stratix.ibs,Stratix
+stratix,131,132,.2,stratix.ibs,Stratix
+stratix,133,134,.5,stratix.ibs,Stratix
+stratix,135,136,.2,stratix.ibs,Stratix
+stratix,137,138,.6,stratix.ibs,Stratix
+stratix,139,140,.2,stratix.ibs,Stratix
+stratix,141,142,.2,stratix.ibs,Stratix
+stratix,143,144,.2,stratix.ibs,Stratix
+stratix,145,146,.2,stratix.ibs,Stratix

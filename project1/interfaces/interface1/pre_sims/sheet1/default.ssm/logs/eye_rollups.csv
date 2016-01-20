@@ -1,0 +1,5 @@
+Transfer Net,UI (ns),Node,Designator,Corner,Eye Width (ns),Virtual Eye Width (ns),VinMeas Jitter (ns),VinMeas Rising Jitter (ns),VinMeas Falling Jitter (ns),Duty Cycle,Inner Height (V),Outer Height (V),Composite Eye Width (ns),Composite VinMeas Jitter (ns),Composite Inner Height (V),Composite Outer Height (V)
+sheet1,3.000,All,All,All,2.970,2.970,0.030,0.028,0.030,,3.201,4.084,2.970,0.030,3.201,4.084
+sheet1,3.000,myreceiver_pad,myreceiver,All,2.970,2.970,0.030,0.028,0.030,,3.201,4.084,2.970,0.030,3.201,4.084
+sheet1,3.000,All,All,TT,2.970,2.970,0.030,0.028,0.030,,3.201,4.084,2.970,0.030,3.201,4.084
+sheet1,3.000,myreceiver_pad,myreceiver,TT,2.970,2.970,0.030,0.028,0.030,,3.201,4.084,2.970,0.030,3.201,4.084

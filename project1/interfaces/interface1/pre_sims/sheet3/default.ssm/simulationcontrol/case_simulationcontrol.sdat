@@ -1,0 +1,20 @@
+*Simulation Control data for Transfer net sheet3 State default
+*Generated from Schematic Set set1
+case_name "Case Name" case_mode_variation Case_1
+augmentation off
+augmenting_from 0
+ac_noise +/-0.00V
+ac_noise_source tnet
+aggressors 0
+aggressor_separation 4mil
+driver_model IBIS
+receiver_model IBIS
+sub_circuit sheet3.tsc
+Etch Corner case_mode_variation TE
+Process Corner case_mode_variation TT
+coupled_model "W-Line Model" case_mode_variation ""
+$RSeriesTerm Resistance case_mode_variation 50ohm
+sso_capacitance "SSO Capacitance" case_mode_variation 10nF
+$W1:Length "W Length" case_mode_variation 2in
+$W2:Length "W Length" case_mode_variation 2in
+$W3:Length "W Length" case_mode_variation 2in

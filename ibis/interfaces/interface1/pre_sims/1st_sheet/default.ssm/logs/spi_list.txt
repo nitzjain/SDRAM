@@ -1,0 +1,2 @@
+designator1_ttte/designator1_ttte.ckt
+stload%_stratix_1s_sstl33c2_io_ttte.ckt

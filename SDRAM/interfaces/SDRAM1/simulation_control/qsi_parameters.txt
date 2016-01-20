@@ -1,0 +1,14 @@
+* QSI parameters
+	
+rise_time 100pS
+
+tran_extension 0ns
+tran_time_step 20ps
+max_tran_time_step 20ps
+stdload_tran_time_step 20ps
+
+skip_data_edge 1
+skip_strobe_edge 1
+skip_clock_edge 6
+
+skip_time 0ns

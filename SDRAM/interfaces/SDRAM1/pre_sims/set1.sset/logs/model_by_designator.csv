@@ -1,0 +1,14 @@
+Transfer Net,Transfer,Designator,Part,IBIS File,IBIS Model,Timing File,Timing Model
+ADR,designator1 -> designator2,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,stratix.tmg,stratix
+ADR,designator1 -> designator2,designator2,y95c,y95c.ibs,input,y95c.tmg,y95c
+ADR,designator1 -> designator2,designator3,y95c,y95c.ibs,input,y95c.tmg,y95c
+CS,designator1 -> designator2,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,stratix.tmg,stratix
+CS,designator1 -> designator2,designator2,y95c,y95c.ibs,input2,y95c.tmg,y95c
+CS,designator1 -> designator2,designator3,y95c,y95c.ibs,input2,y95c.tmg,y95c
+DQ,designator1 -> designator2,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,stratix.tmg,stratix
+DQ,designator1 -> designator2,designator2,y95c,y95c.ibs,dq,y95c.tmg,y95c
+DQM,designator1 -> designator2,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,stratix.tmg,stratix
+DQM,designator1 -> designator2,designator2,y95c,y95c.ibs,input2,y95c.tmg,y95c
+WE,designator1 -> designator2,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,stratix.tmg,stratix
+WE,designator1 -> designator2,designator2,y95c,y95c.ibs,input_we,y95c.tmg,y95c
+WE,designator1 -> designator2,designator3,y95c,y95c.ibs,input_we,y95c.tmg,y95c

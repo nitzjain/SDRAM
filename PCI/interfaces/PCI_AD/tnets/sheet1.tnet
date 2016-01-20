@@ -1,0 +1,43 @@
+*****************************************
+**    Transfer Net  sheet1  **
+*****************************************
+TRANSFER_NET sheet1
+* Transfer Net Data:
+CLOCK_DOMAIN 15ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR Controller
+	SUBCIRCUIT_PORT port1
+	PART stratix2
+	PIN_NAMES AddressData
+	STIMULUS default_clock
+	MODEL_TYPE IBIS
+
+	DESIGNATOR IO0
+	SUBCIRCUIT_PORT port2
+	PART stratix2
+	PIN_NAMES AddressData
+	STIMULUS default_clock
+	MODEL_TYPE IBIS
+
+	DESIGNATOR IO1
+	SUBCIRCUIT_PORT port3
+	PART stratix2
+	PIN_NAMES AddressData
+	STIMULUS default_clock
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER Controller
+	RECEIVER IO0,IO1
+
+	DRIVER IO0
+	RECEIVER Controller
+
+	DRIVER IO1
+	RECEIVER Controller
+

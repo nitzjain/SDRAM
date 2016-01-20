@@ -1,0 +1,2 @@
+Part,Part File,IBIS File,IBIS Component,Timing File,Timing Model,CAD Part Number
+stratix,C:\Myproject\ibis\si_lib\parts\stratix.prt,stratix.ibs,Stratix,stratix.tmg,stratix,stratix

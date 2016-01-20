@@ -1,0 +1,292 @@
+*****************************************
+**    Transfer Net  sheet1  **
+*****************************************
+TRANSFER_NET sheet1
+* Transfer Net Data:
+CLOCK_DOMAIN 3.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR mydriver
+	SUBCIRCUIT_PORT port2
+	PART generic_3_3v
+	PIN_NAMES 3_3V_O_fast_40ohmp
+	STIMULUS NJ_2_stimulus
+	MODEL_TYPE IBIS
+
+	DESIGNATOR myreceiver
+	SUBCIRCUIT_PORT port3
+	PART generic_3_3v
+	PIN_NAMES 3_3V_I
+	STIMULUS NJ_stimulus_pattern
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER mydriver
+	RECEIVER myreceiver
+	TIMED_FROM mydriver
+
+*****************************************
+**    Transfer Net  sheet1  **
+*****************************************
+TRANSFER_NET sheet1
+* Transfer Net Data:
+CLOCK_DOMAIN 3.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR mydriver
+	SUBCIRCUIT_PORT port2
+	PART generic_3_3v
+	PIN_NAMES 3_3V_O_fast_40ohmp
+	STIMULUS NJ_2_stimulus
+	MODEL_TYPE IBIS
+
+	DESIGNATOR myreceiver
+	SUBCIRCUIT_PORT port3
+	PART generic_3_3v
+	PIN_NAMES 3_3V_I
+	STIMULUS NJ_stimulus_pattern
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER mydriver
+	RECEIVER myreceiver
+	TIMED_FROM mydriver
+
+*****************************************
+**    Transfer Net  sheet4  **
+*****************************************
+TRANSFER_NET sheet4
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Differential
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR designator1
+	SUBCIRCUIT_PORT port1
+	PART generic_3_3v
+	PIN_NAMES 3_3V_Ip
+	PIN_NAMES_L 3_3V_In
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR designator2
+	SUBCIRCUIT_PORT port2
+	PART generic_3_3v
+	PIN_NAMES 3_3V_O_fast_40ohmp
+	PIN_NAMES_L 3_3V_O_fast_40ohmn
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER designator2
+	RECEIVER designator1
+	TIMED_FROM designator2
+
+*****************************************
+**    Transfer Net  sheet4  **
+*****************************************
+TRANSFER_NET sheet4
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Differential
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR designator1
+	SUBCIRCUIT_PORT port1
+	PART generic_3_3v
+	PIN_NAMES 3_3V_Ip
+	PIN_NAMES_L 3_3V_In
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR designator2
+	SUBCIRCUIT_PORT port2
+	PART generic_3_3v
+	PIN_NAMES 3_3V_O_fast_40ohmp
+	PIN_NAMES_L 3_3V_O_fast_40ohmn
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER designator2
+	RECEIVER designator1
+	TIMED_FROM designator2
+
+*****************************************
+**    Transfer Net  sheet3  **
+*****************************************
+TRANSFER_NET sheet3
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR source
+	SUBCIRCUIT_PORT source
+	PART generic_3_3V
+	PIN_NAMES 3_3V_O_fast_40ohm
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target1
+	SUBCIRCUIT_PORT target1
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target2
+	SUBCIRCUIT_PORT target2
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target3
+	SUBCIRCUIT_PORT target3
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+*****************************************
+**    Transfer Net  sheet3  **
+*****************************************
+TRANSFER_NET sheet3
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR source
+	SUBCIRCUIT_PORT source
+	PART generic_3_3V
+	PIN_NAMES 3_3V_O_fast_40ohm
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target1
+	SUBCIRCUIT_PORT target1
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target2
+	SUBCIRCUIT_PORT target2
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target3
+	SUBCIRCUIT_PORT target3
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+*****************************************
+**    Transfer Net  sheet3  **
+*****************************************
+TRANSFER_NET sheet3
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR source
+	SUBCIRCUIT_PORT source
+	PART generic_3_3V
+	PIN_NAMES 3_3V_O_fast_40ohm
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target1
+	SUBCIRCUIT_PORT target1
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target2
+	SUBCIRCUIT_PORT target2
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target3
+	SUBCIRCUIT_PORT target3
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+*****************************************
+**    Transfer Net  sheet3  **
+*****************************************
+TRANSFER_NET sheet3
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR source
+	SUBCIRCUIT_PORT source
+	PART generic_3_3V
+	PIN_NAMES 3_3V_O_fast_40ohm
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target1
+	SUBCIRCUIT_PORT target1
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target2
+	SUBCIRCUIT_PORT target2
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target3
+	SUBCIRCUIT_PORT target3
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:

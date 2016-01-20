@@ -1,0 +1,6 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Column,Ac Noise,Ac Noise Source,$T1:DELAY,PATTERN
+3.665,1.267,-0.181,0.635,DQM,,0.00V,tnet,2in,default_data
+3.524,1.426,0.004,0.776,DQM,,0.00V,tnet,3in,default_data
+3.339,1.589,0.189,0.961,DQM,,0.00V,tnet,4in,default_data
+3.096,1.729,0.329,1.204,DQM,,0.00V,tnet,5in,default_data
+2.901,1.907,0.507,1.399,DQM,,0.00V,tnet,6in,default_data

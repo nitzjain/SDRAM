@@ -1,0 +1,6 @@
+part ad2147x_196_ibs
+ibis_file ad2147x_196_ibs.ibs
+ibis_component ADSP-2147x
+timing_file ad2147x_196_ibs.tmg
+timing_model ad2147x_196_ibs
+cad_part ad2147x_196_ibs ADSP-2147x

@@ -1,0 +1,6 @@
+Transfer Net,Type,Mode,Clock Domain,Probe Points,Jitter,AC Noise,Timed Edge,Nodes
+ADR,data,Single Ended,10.0ns,SL_Pad/Pad,,+/-0.00V,Both,3
+CS,data,Single Ended,10.0ns,SL_Pad/Pad,,+/-0.00V,Both,3
+DQ,data,Single Ended,10.0ns,SL_Pad/Pad,,+/-0.00V,Both,2
+DQM,data,Single Ended,10.0ns,SL_Pad/Pad,,+/-0.00V,Both,2
+WE,data,Single Ended,10.0ns,SL_Pad/Pad,,+/-0.00V,Both,3

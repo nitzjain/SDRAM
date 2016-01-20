@@ -1,0 +1,48 @@
+#PARAM tr0 designator1_ssse_2\designator1_ssse_2.csd
+#st_load stratix stratix.ibs 1s_cmos33_io_d8ps slpad SSSE S NA NA 0101010101010101 10n WE
+#st_load stratix stratix.ibs 1s_cmos33_io_d8ps slpin SSSE S NA NA 0101010101010101 10n WE
+#PARAM TRANSFER_NET WE
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator1
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT WE.tsc
+#PARAM CORNER SSSE
+#PARAM $T1:DELAY 2in
+#PARAM UI 10n
+#PARAM PATTERN default_clock
+designator1 v_stimulus stimulus IBIS IBIS R 1 10.050 10.050 10.050 10.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 2 20.050 20.050 20.050 20.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 3 30.050 30.050 30.050 30.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 4 40.050 40.050 40.050 40.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 5 50.050 50.050 50.050 50.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 6 60.050 60.050 60.050 60.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 7 70.050 70.050 70.050 70.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 8 80.050 80.050 80.050 80.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 9 90.050 90.050 90.050 90.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 10 100.050 100.050 100.050 100.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 11 110.050 110.050 110.050 110.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 12 120.050 120.050 120.050 120.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 13 130.050 130.050 130.050 130.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 14 140.050 140.050 140.050 140.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 15 150.050 150.050 150.050 150.050 10.000 10.000 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we F 2 23.588 23.588 23.030 24.237 -0.966 -0.994 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we R 3 33.404 33.404 32.962 33.953 1.262 1.211 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we F 4 43.589 43.589 43.030 44.237 -0.949 -0.994 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we R 5 53.405 53.405 52.962 53.954 1.252 1.210 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we F 6 63.588 63.588 63.030 64.237 -0.941 -0.994 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we R 7 73.405 73.405 72.962 73.955 1.255 1.209 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we F 8 83.588 83.588 83.030 84.238 -0.940 -0.994 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we R 9 93.404 93.404 92.962 93.954 1.249 1.210 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we F 10 103.585 103.585 103.029 104.236 -0.923 -0.994 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we R 11 113.404 113.404 112.962 113.954 1.253 1.209 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we F 12 123.588 123.588 123.030 124.238 -0.914 -0.994 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we R 13 133.405 133.405 132.963 133.954 1.255 1.210 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we F 14 143.589 143.589 143.030 144.238 -0.931 -0.994 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input_we R 15 153.405 153.405 152.962 153.954 1.256 1.210 10.000 1.000 0.000

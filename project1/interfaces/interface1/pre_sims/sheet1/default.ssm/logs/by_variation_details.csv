@@ -1,0 +1,2 @@
+Setup Margin (ns),Hold Margin (ns),Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Driver,Receiver,Corner,Column,Ac Noise,Ac Noise Source,PATTERN,Simulation
+-1.310,1.780,1.281,1.310,1.280,1.310,sheet1,mydriver,myreceiver,TTTE,,0.00V,tnet,NJ_2_stimulus,mydriver_ttte\mydriver_ttte.csd

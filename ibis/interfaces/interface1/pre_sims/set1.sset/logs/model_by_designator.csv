@@ -1,0 +1,3 @@
+Transfer Net,Transfer,Designator,Part,IBIS File,IBIS Model,Timing File,Timing Model
+1st_sheet,designator1 -> designator2,designator1,stratix,stratix.ibs,1s_sstl33c2_io,stratix.tmg,stratix
+1st_sheet,designator1 -> designator2,designator2,stratix,stratix.ibs,1s_sstl33c2_io,stratix.tmg,stratix

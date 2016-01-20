@@ -1,0 +1,6 @@
+part y14w
+ibis_file y14w.ibs
+ibis_component MT48LC16M4A2TG
+timing_file y14w.tmg
+timing_model y14w
+cad_part y14w MT48LC16M4A2TG

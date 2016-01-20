@@ -1,0 +1,316 @@
+#     
+# Quantum-SI Timing Model Template
+#
+MODEL: stratix
+DESCRIPTION: Generated Timing Model
+SOURCE: Quantum-SI
+
+PARAMS:
+#######
+#    This optional section can be used to define AC specs as parameters to allow
+#    grouping of common signals. The Quantum-SI pre-processor can also handle
+#    algebraic expressions, the passing of parameters from the parts file, and 
+#    passing of clock domain values.
+#     
+#    All units are in ns
+#
+#    Syntax:
+#    <Variable Names> = <Variable Values>
+#
+#    Examples:
+#    DATA_SETUP      = 1.25
+#    DATA_HOLD       = 0.50
+#  
+#    CTRL_IN         = DATA_HOLD
+#  
+#    FREQUENCY = $clock_domain(sdram_clock)
+#    DATA_RATE = FREQUENCY / 2
+#    
+#    DATA_R_SETUP   = (DATA_RATE * 0.5) - 0.100
+#    DATA_F_SETUP   = (DATA_RATE * 0.5) - 0.150
+#    DATA_R_HOLD    = (DATA_RATE * 0.5) + 0.100
+#    DATA_F_HOLD    = (DATA_RATE * 0.5) + 0.150
+#
+
+END_PARAMS
+
+PINDEF: 164 PINS
+#######
+## This section defines each pin-name on the part by its signal type: input,
+#    output, bi-directional, or uninteresting. The pin names can be grouped
+#    by bus, or common timing function.
+## Syntax:
+#   <Timing Group Name> = <IBIS Model pin names>
+#
+ INPUTS
+  1s_cmos15_in = 1s_cmos15_in
+  1s_cmos33_in = 1s_cmos33_in
+  1s_cmos33_in_p = 1s_cmos33_in_p
+  1s_ctt33_in = 1s_ctt33_in
+  1s_dhstl15_inp = 1s_dhstl15_inp,1s_dhstl15_inn
+  1s_gtl25_in = 1s_gtl25_in
+  1s_gtl33_in = 1s_gtl33_in
+  1s_gtlp25_in = 1s_gtlp25_in
+  1s_gtlp33_in = 1s_gtlp33_in
+  1s_hstl15_in = 1s_hstl15_in
+  1s_hstl18_in = 1s_hstl18_in
+  1s_ht25_inp = 1s_ht25_inp,1s_ht25_inn
+  1s_lvds33_inp = 1s_lvds33_inp,1s_lvds33_inn
+  1s_lvds33_inp_t100 = 1s_lvds33_inp_t100,1s_lvds33_inn_t100
+  1s_lvpecl33_inp = 1s_lvpecl33_inp,1s_lvpecl33_inn
+  1s_pci33_in = 1s_pci33_in
+  1s_sstl18_in = 1s_sstl18_in
+  1s_sstl25_in = 1s_sstl25_in
+  1s_sstl33_in = 1s_sstl33_in
+  1s_ttl18_in = 1s_ttl18_in
+  1s_ttl25_in = 1s_ttl25_in
+  1s_ttl33_in = 1s_ttl33_in
+  1s_ttl33_in_p = 1s_ttl33_in_p
+## All input signals are listed in this section.
+## Example:
+#    CLK                =  CLOCK_IN
+#    DATA_I             =  DATA_IN<31:0>
+#    CTRL_I             =  ADDRESS<7:0>, WRITE_EN, RAS, CAS 
+#
+ OUTPUTS    
+  1s_dhstl15c_outp = 1s_dhstl15c[2:1]_outp,1s_dhstl15c[2:1]_outn
+  1s_dsstl25c2_outp = 1s_dsstl25c2_outp,1s_dsstl25c2_outn
+  1s_ht25_outp = 1s_ht25_outp,1s_ht25_outn
+  1s_lvds33_outp = 1s_lvds33_outp,1s_lvds33_outn
+  1s_lvpecl33_outp = 1s_lvpecl33_outp,1s_lvpecl33_outn
+## All output signals are listed in this section.
+## Example:
+#    DATA_O             = DATA_OUT<31:0>
+#    REFCLK_1		= CLOCK_OUT1, CLOCK_OUT3
+#    REFCLK_2		= CLOCK_OUT2, CLOCK_OUT4
+#
+ BIDIR
+  1s_cmos15_cfdone = 1s_cmos15_cfdone
+  1s_cmos15_io_d2 = 1s_cmos15_io_d2
+  1s_cmos15_io_d2s = 1s_cmos15_io_d2s
+  1s_cmos15_io_d4 = 1s_cmos15_io_d4
+  1s_cmos15_io_d4s = 1s_cmos15_io_d4s
+  1s_cmos15_io_d8 = 1s_cmos15_io_d8
+  1s_cmos15_io_d8e = 1s_cmos15_io_d8e
+  1s_cmos15_io_d8s = 1s_cmos15_io_d8s
+  1s_cmos15_nceo = 1s_cmos15_nceo
+  1s_cmos15_nstatus = 1s_cmos15_nstatus
+  1s_cmos15_tdo = 1s_cmos15_tdo
+  1s_cmos33_io_d2 = 1s_cmos33_io_d2
+  1s_cmos33_io_d2p = 1s_cmos33_io_d2p
+  1s_cmos33_io_d2ps = 1s_cmos33_io_d2ps
+  1s_cmos33_io_d2s = 1s_cmos33_io_d2s
+  1s_cmos33_io_d4 = 1s_cmos33_io_d4
+  1s_cmos33_io_d4p = 1s_cmos33_io_d4p
+  1s_cmos33_io_d4ps = 1s_cmos33_io_d4ps
+  1s_cmos33_io_d4s = 1s_cmos33_io_d4s
+  1s_cmos33_io_d8 = 1s_cmos33_io_d8
+  1s_cmos33_io_d8p = 1s_cmos33_io_d8p
+  1s_cmos33_io_d8ps = 1s_cmos33_io_d8ps
+  1s_cmos33_io_d8s = 1s_cmos33_io_d8s
+  1s_cmos33_io_d12 = 1s_cmos33_io_d12
+  1s_cmos33_io_d12p = 1s_cmos33_io_d12p
+  1s_cmos33_io_d12ps = 1s_cmos33_io_d12ps
+  1s_cmos33_io_d12s = 1s_cmos33_io_d12s
+  1s_cmos33_io_d24 = 1s_cmos33_io_d24
+  1s_cmos33_io_d24p = 1s_cmos33_io_d24p
+  1s_cmos33_io_d24ps = 1s_cmos33_io_d24ps
+  1s_cmos33_io_d24s = 1s_cmos33_io_d24s
+  1s_ctt33_io = 1s_ctt33_io
+  1s_ctt33_io_s = 1s_ctt33_io_s
+  1s_gtl25_io = 1s_gtl25_io
+  1s_gtl25_io_s = 1s_gtl25_io_s
+  1s_gtl33_io = 1s_gtl33_io
+  1s_gtl33_io_s = 1s_gtl33_io_s
+  1s_gtlp25_io = 1s_gtlp25_io
+  1s_gtlp25_io_s = 1s_gtlp25_io_s
+  1s_gtlp33_io = 1s_gtlp33_io
+  1s_gtlp33_io_s = 1s_gtlp33_io_s
+  1s_hstl15c_io = 1s_hstl15c[2:1]_io
+  1s_hstl15c_io_s = 1s_hstl15c[2:1]_io_s
+  1s_hstl18c_io = 1s_hstl18c[2:1]_io
+  1s_hstl18c_io_s = 1s_hstl18c[2:1]_io_s
+  1s_pci33_io = 1s_pci33_io
+  1s_pci33_io_s = 1s_pci33_io_s
+  1s_sstl18c_io = 1s_sstl18c[2:1]_io
+  1s_sstl18c_io_s = 1s_sstl18c[2:1]_io_s
+  1s_sstl25c_io = 1s_sstl25c[2:1]_io
+  1s_sstl25c_io_dm = 1s_sstl25c[2:1]_io_dm
+  1s_sstl25c_io_dms = 1s_sstl25c[2:1]_io_dms
+  1s_sstl25c_io_s = 1s_sstl25c[2:1]_io_s
+  1s_sstl33c_io = 1s_sstl33c[2:1]_io
+  1s_sstl33c_io_s = 1s_sstl33c[2:1]_io_s
+  1s_ttl18_cfdone = 1s_ttl18_cfdone
+  1s_ttl18_io_d2 = 1s_ttl18_io_d2
+  1s_ttl18_io_d2s = 1s_ttl18_io_d2s
+  1s_ttl18_io_d8 = 1s_ttl18_io_d8
+  1s_ttl18_io_d8s = 1s_ttl18_io_d8s
+  1s_ttl18_io_d12 = 1s_ttl18_io_d12
+  1s_ttl18_io_d12e = 1s_ttl18_io_d12e
+  1s_ttl18_io_d12s = 1s_ttl18_io_d12s
+  1s_ttl18_nceo = 1s_ttl18_nceo
+  1s_ttl18_nstatus = 1s_ttl18_nstatus
+  1s_ttl18_tdo = 1s_ttl18_tdo
+  1s_ttl25_cfdone = 1s_ttl25_cfdone
+  1s_ttl25_io_d2 = 1s_ttl25_io_d2
+  1s_ttl25_io_d2p = 1s_ttl25_io_d2p
+  1s_ttl25_io_d2ps = 1s_ttl25_io_d2ps
+  1s_ttl25_io_d2s = 1s_ttl25_io_d2s
+  1s_ttl25_io_d8 = 1s_ttl25_io_d8
+  1s_ttl25_io_d8p = 1s_ttl25_io_d8p
+  1s_ttl25_io_d8ps = 1s_ttl25_io_d8ps
+  1s_ttl25_io_d8s = 1s_ttl25_io_d8s
+  1s_ttl25_io_d12 = 1s_ttl25_io_d12
+  1s_ttl25_io_d12p = 1s_ttl25_io_d12p
+  1s_ttl25_io_d12ps = 1s_ttl25_io_d12ps
+  1s_ttl25_io_d12s = 1s_ttl25_io_d12s
+  1s_ttl25_io_d16 = 1s_ttl25_io_d16
+  1s_ttl25_io_d16e = 1s_ttl25_io_d16e
+  1s_ttl25_io_d16p = 1s_ttl25_io_d16p
+  1s_ttl25_io_d16ps = 1s_ttl25_io_d16ps
+  1s_ttl25_io_d16s = 1s_ttl25_io_d16s
+  1s_ttl25_nceo = 1s_ttl25_nceo
+  1s_ttl25_nstatus = 1s_ttl25_nstatus
+  1s_ttl25_tdo = 1s_ttl25_tdo
+  1s_ttl33_cfdone = 1s_ttl33_cfdone
+  1s_ttl33_io_d4 = 1s_ttl33_io_d4
+  1s_ttl33_io_d4p = 1s_ttl33_io_d4p
+  1s_ttl33_io_d4ps = 1s_ttl33_io_d4ps
+  1s_ttl33_io_d4s = 1s_ttl33_io_d4s
+  1s_ttl33_io_d8 = 1s_ttl33_io_d8
+  1s_ttl33_io_d8p = 1s_ttl33_io_d8p
+  1s_ttl33_io_d8ps = 1s_ttl33_io_d8ps
+  1s_ttl33_io_d8s = 1s_ttl33_io_d8s
+  1s_ttl33_io_d12 = 1s_ttl33_io_d12
+  1s_ttl33_io_d12p = 1s_ttl33_io_d12p
+  1s_ttl33_io_d12ps = 1s_ttl33_io_d12ps
+  1s_ttl33_io_d12s = 1s_ttl33_io_d12s
+  1s_ttl33_io_d16 = 1s_ttl33_io_d16
+  1s_ttl33_io_d16p = 1s_ttl33_io_d16p
+  1s_ttl33_io_d16ps = 1s_ttl33_io_d16ps
+  1s_ttl33_io_d16s = 1s_ttl33_io_d16s
+  1s_ttl33_io_d24 = 1s_ttl33_io_d24
+  1s_ttl33_io_d24e = 1s_ttl33_io_d24e
+  1s_ttl33_io_d24p = 1s_ttl33_io_d24p
+  1s_ttl33_io_d24ps = 1s_ttl33_io_d24ps
+  1s_ttl33_io_d24s = 1s_ttl33_io_d24s
+  1s_ttl33_nceo = 1s_ttl33_nceo
+  1s_ttl33_nstatus = 1s_ttl33_nstatus
+  1s_ttl33_tdo = 1s_ttl33_tdo
+## All bi-directional signals are listed in this section.
+## Example:
+#    DATA_IO            =  D_A_<3:0>, D_B_<7:4>, D_C_<11:8>, D_D_<15:12>
+#
+ UNINTERESTING
+## All other signals are listed in this section. No timing will be done on 
+#    any of these signals, but any miscellaneous signals can be included 
+#    for completeness and to eliminate coverage warnings in Validation.
+## Example:
+#    MISC               = AUD_BITCLK_A_H,AUD_SYNC_A_H,EXT_<11:0>_H,USB_PRTPWR_<2:0>_L,\
+#		          USB_VD_<5:0>_N,USB_VD_<5:0>_P
+#
+END_PINDEF
+
+######
+## All of the timing relationships between the signals on this component are defined
+#    in the following section. 
+#
+##############################################
+### Input timing relationships: (Setup & Hold)
+##############################################
+#
+#    All input pin timing constraints are defined using the 'SETHLD'
+#    keyword. Note that setup and hold constraints can be defined using 1, 2,
+#    or 4 values giving the user flexibility to define timing constraints
+#    at the required granularity. In the examples below, setup and hold
+#    constraints are defined for all pins in the "Data Timing Group" relative
+#    to the defined "Edge" (rising or falling) of all pins in the "Clock Timing Group"
+#    
+#    Syntax:
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <Setup/Hold Time>
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <Setup Time> <Hold Time>
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <R Setup Time> <F Setup Time> <R Hold Time> <F Hold Time>
+#    
+#    Examples:
+#    SETHLD  CTRL_I   *TO  R  CLK  CTRL_IN
+#    SETHLD  DATA_I   *TO  F  CLK  DATA_SETUP    DATA_HOLD
+#    SETHLD  DATA_IO  *TO  R  CLK  DATA_R_SETUP  DATA_F_SETUP  DATA_R_HOLD  DATA_F_HOLD 
+#
+###########################################
+## Output timing: Synchronous Output delays 
+###########################################
+#
+#    The DELAY, DELAY_CORRELATED, and DELAY_ANTICORRELATED keywords are used to
+#    define synchronous output timing relationships between the data and clock
+#    timing groups defined in the PINDEF section above. To define output timing
+#    relationships on both rising and falling edges, multiple delay statements
+#    are required. Note that Clock-to-out (Tco) delay values can be defined
+#    using 2 or 4 values, giving the user flexibility to define output
+#    timing relationships at the required granularity. In the examples below,
+#    output timing relationships are defined for all pins in the "Data Timing
+#    Group" relative to the defined "Edge" (rising or falling) of all pins in
+#    the "Clock Timing Group".
+#
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Tco Min> <Tco Max>
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Tco Rmin> <Tco Rmax> <Tco Fmin> <Tco Fmax>
+#    
+#    When the 'DELAY' keyword is used, synchronous timing is done using both the
+#    'Tco Min' and 'Tco Max' delay values for each process corner (FF and
+#    SS). This is a worst-case analysis.
+#    
+#    When the 'DELAY_C' or 'DELAY_CORRELATED' keyword is used, synchronous timing
+#    is done using the 'Tco Min' value for the FF process corner, and the 
+#    'Tco Max' delay value for the SS process corner timing calculation. This
+#    is a correlative analysis.
+#
+#    When the 'DELAY_A' or 'DELAY_ANTI_CORRELATED' keyword is used, synchronous
+#    timing is done using the 'Tco Max' value for the FF process corner, and
+#    the 'Tco Min' delay value for the SS process corner timing calculation.
+#    This is another form of correlated analysis.
+#    
+#    Examples:
+#    DELAY                  R  CLK  *TO  DATA_IO  1.0  5.2
+#    DELAY_C                R  CLK  *TO  DATA_IO  1.0  5.0  1.2  5.2
+#    DELAY_CORRELATED       R  CLK  *TO  DATA_IO  1.0  5.0  1.2  5.2
+#  
+#
+##################################################
+## Output timing: Dynamic clock skew output delays
+##################################################
+#    The 'CLOCK_SKEW' keyword is used to define the out-to-out skew between two
+#    output clock timing groups.  To define output timing relationships on both
+#    rising and falling edges, multiple delay statements are required. This
+#    skew along with associated interconnect delays for the source and target
+#    clocks are used to determine the setup skew and hold skew used in
+#    synchronous dynamic skew clock timing analysis. Note: for loopback
+#    clocks, the two timing groups can be the same.
+#
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Clock Timing Group> <Min>  <Max>
+#     
+#    Example:
+#    CLOCK_SKEW  R  REFCLK_1  *TO  REFCLK_2  SKEW_MIN  SKEW_MAX
+#
+#################################################
+## Output timing: Source Synchronous Output delays
+#################################################
+#     
+#    The 'DELAY_SKEW' or 'DELAY_S' keywords are used to define the
+#    source-synchronous timing relationships between the timing groups defined
+#    in the PINDEF section above.  Typically, these are defined between output
+#    pins of a source synchronous bus.  However, these can be defined using and
+#    input clock timing group in loop-back clocking scenarios. To analyze
+#    timing on both edges, multiple delay statements are required.  Note that
+#    source synchronous delay values can be defined using 2, or 4 values.
+#     
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <DS_Min> <DS_Max>
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Rmin> <Rmax> <Fmin> <Fmax>
+#
+#    Examples:
+#    DELAY_SKEW  R  STROBE  *TO  DATA_O  DS_MIN   DS_MAX
+#    DELAY_S     R  STROBE  *TO  DATA_O  DS_RMIN  DS_RMAX  DS_FMIN  DS_FMAX
+
+END_MODEL
+

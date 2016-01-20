@@ -1,0 +1,3 @@
+Part,Timing File,Timing Model,Timing Rule,Source,Source Pin,Target,Target Pin,Edge,Type,Rmin Delay,Rmax Delay,Fmin Delay,Fmax Delay,SetupR,SetupF,HoldR,HoldF
+stratix2,stratix2.tmg,stratix2,DELAY_C,CK,Clock,AD,AddressData,R,*TO,.7,3.8,.7,3.8,,,,
+stratix2,stratix2.tmg,stratix2,SETHLD,CK,Clock,AD,AddressData,R,*TO,,,,,1.7,1.7,.5,.5

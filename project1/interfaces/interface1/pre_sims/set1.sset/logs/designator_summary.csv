@@ -1,0 +1,9 @@
+Transfer Net,Designator,Part,IBIS File,IBIS Model,IBIS Model Type,Model Type,Timing File,Timing Pindef,Timing Pin Type,Timing Data
+sheet1,mydriver,generic_3_3v,generic_3_3v.ibs,3_3V_O_fast_40ohm,Output,IBIS,generic_3_3v.tmg,DATA_OUT,OUTPUT,Yes
+sheet1,myreceiver,generic_3_3v,generic_3_3v.ibs,3_3V_I,Input,IBIS,generic_3_3v.tmg,DATA_IN,INPUT,Yes
+sheet3,source,generic_3_3V,generic_3_3v.ibs,3_3V_O_fast_40ohm,Output,IBIS,generic_3_3v.tmg,DATA_OUT,OUTPUT,Yes
+sheet3,target1,generic_3_3V,generic_3_3v.ibs,3_3V_I,Input,IBIS,generic_3_3v.tmg,DATA_IN,INPUT,Yes
+sheet3,target2,generic_3_3V,generic_3_3v.ibs,3_3V_I,Input,IBIS,generic_3_3v.tmg,DATA_IN,INPUT,Yes
+sheet3,target3,generic_3_3V,generic_3_3v.ibs,3_3V_I,Input,IBIS,generic_3_3v.tmg,DATA_IN,INPUT,Yes
+sheet4,designator1,generic_3_3v,generic_3_3v.ibs,3_3V_I,Input,IBIS,generic_3_3v.tmg,DATA_IN,INPUT,Yes
+sheet4,designator2,generic_3_3v,generic_3_3v.ibs,3_3V_O_fast_40ohm,Output,IBIS,generic_3_3v.tmg,DATA_OUT,OUTPUT,Yes

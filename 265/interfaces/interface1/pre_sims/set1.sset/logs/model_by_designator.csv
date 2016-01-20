@@ -1,0 +1,3 @@
+Transfer Net,Transfer,Designator,Part,IBIS File,IBIS Model,Timing File,Timing Model
+sheet2,designator1 -> designator2,designator1,ad2147x_196_ibs,ad2147x_196_ibs.ibs,PDT12DGZ,ad2147x_196_ibs.tmg,ad2147x_196_ibs
+sheet2,designator1 -> designator2,designator2,y14w,y14w.ibs,inbuff,y14w.tmg,y14w

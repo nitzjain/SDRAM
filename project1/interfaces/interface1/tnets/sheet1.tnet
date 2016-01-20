@@ -1,0 +1,30 @@
+*****************************************
+**    Transfer Net  sheet1  **
+*****************************************
+TRANSFER_NET sheet1
+* Transfer Net Data:
+CLOCK_DOMAIN 3.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR mydriver
+	SUBCIRCUIT_PORT port2
+	PART generic_3_3v
+	PIN_NAMES 3_3V_O_fast_40ohmp
+	STIMULUS NJ_2_stimulus
+	MODEL_TYPE IBIS
+
+	DESIGNATOR myreceiver
+	SUBCIRCUIT_PORT port3
+	PART generic_3_3v
+	PIN_NAMES 3_3V_I
+	STIMULUS NJ_stimulus_pattern
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER mydriver
+	RECEIVER myreceiver
+

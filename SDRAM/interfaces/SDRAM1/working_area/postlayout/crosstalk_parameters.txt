@@ -1,0 +1,10 @@
+tnet CS CS 1.0 0.0 0.0 0.0 0.0
+tnet_gui CS "" "" "" "" "" "" 0
+tnet DQ DQ 1.0 0.0 0.0 0.0 0.0
+tnet_gui DQ "" "" "" "" "" "" 0
+tnet DQM DQM 1.0 0.0 0.0 0.0 0.0
+tnet_gui DQM "" "" "" "" "" "" 0
+tnet ADR ADR 1.0 0.0 0.0 0.0 0.0
+tnet_gui ADR "" "" "" "" "" "" 0
+tnet WE WE 1.0 0.0 0.0 0.0 0.0
+tnet_gui WE "" "" "" "" "" "" 0

@@ -1,0 +1,4 @@
+*Simulation Control for Schematic Set set1
+*	Transfer Nets in the set:
+included_tnet skew1 default
+corners_in_solution_space yes

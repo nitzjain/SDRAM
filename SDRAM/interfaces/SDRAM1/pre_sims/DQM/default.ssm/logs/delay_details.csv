@@ -1,0 +1,3 @@
+Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Driver,Receiver,Corner,Column
+-0.181,1.182,-0.168,1.399,DQM,designator1,designator2,SSSE,
+-0.086,0.809,-0.133,0.735,DQM,designator1,designator2,FFFE,

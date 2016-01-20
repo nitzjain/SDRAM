@@ -1,0 +1,26 @@
+Transfer Net,Waveform Fatal Count,Waveform Quality Count,Waveform Overshoot Count,VinMeas Margin,Min Slew Time (ns),Max Slew Time (ns),VinH Margin (V),VinL Margin (V),Overshoot Low Margin (V),Overshoot High Margin (V),AC Overshoot Low Area Margin (V*ns),AC Overshoot High Area Margin (V*ns),Non Monotonic Time (ns),Eye Width (ns),Virtual Eye Width (ns),VinMeas Jitter (ns),Eye Inner Height (V),Eye Outer Height (V),SIMULATOR,AC_NOISE,AC_NOISE_SOURCE,AGGRESSORS,$T1:DELAY,PATTERN
+ADR,0,0,0,0.843,0.290,1.101,1.376,1.130,,,,,,8.898,8.898,0.132,2.960,5.527,IsSpice4,0.000,tnet,0,2in,default_clock
+ADR,0,0,0,0.874,0.316,0.966,1.486,1.165,,,,,,8.975,8.975,0.091,2.887,5.759,IsSpice4,0.000,tnet,0,3in,default_clock
+ADR,0,0,0,0.834,0.306,0.895,1.582,1.215,,,,,,9.042,9.042,0.133,2.628,5.939,IsSpice4,0.000,tnet,0,4in,default_clock
+ADR,0,0,0,0.835,0.306,0.881,1.678,1.293,,,,,,9.091,9.091,0.085,2.434,6.002,IsSpice4,0.000,tnet,0,5in,default_clock
+ADR,0,0,0,0.869,0.300,0.823,1.758,1.351,,,,,,9.162,9.162,0.063,2.415,6.037,IsSpice4,0.000,tnet,0,6in,default_clock
+CS,0,0,0,0.842,0.287,1.086,1.374,1.123,,,,,,8.913,8.913,0.132,2.956,5.404,IsSpice4,0.000,tnet,0,2in,default_clock
+CS,0,0,0,0.876,0.311,1.019,1.490,1.163,,,,,,8.921,8.921,0.092,2.893,5.576,IsSpice4,0.000,tnet,0,3in,default_clock
+CS,0,0,0,0.838,0.299,0.901,1.578,1.204,,,,,,9.035,9.035,0.137,2.655,5.718,IsSpice4,0.000,tnet,0,4in,default_clock
+CS,0,0,0,0.827,0.304,0.891,1.671,1.283,,,,,,9.077,9.077,0.086,2.587,5.757,IsSpice4,0.000,tnet,0,5in,default_clock
+CS,0,0,0,0.879,0.302,0.827,1.752,1.347,,,,,,9.164,9.164,0.065,2.577,5.765,IsSpice4,0.000,tnet,0,6in,default_clock
+DQ,0,0,0,0.833,0.233,0.830,1.393,1.126,,,,,,9.171,9.171,0.020,3.135,5.227,IsSpice4,0.000,tnet,0,2in,default_data
+DQ,0,0,0,0.835,0.232,0.708,1.496,1.183,,,,,,9.286,9.286,0.029,2.985,5.404,IsSpice4,0.000,tnet,0,3in,default_data
+DQ,0,0,0,0.833,0.236,0.737,1.604,1.256,,,,,,9.278,9.278,0.037,2.783,5.484,IsSpice4,0.000,tnet,0,4in,default_data
+DQ,0,0,0,0.836,0.234,0.770,1.690,1.310,,,,,,9.230,9.230,0.048,2.714,5.506,IsSpice4,0.000,tnet,0,5in,default_data
+DQ,0,0,0,0.862,0.236,0.792,1.745,1.349,,,,,,9.180,9.180,0.093,2.507,5.540,IsSpice4,0.000,tnet,0,6in,default_data
+DQM,0,0,0,0.841,0.220,0.804,1.349,1.109,,,,,,9.197,9.197,0.010,3.100,5.247,IsSpice4,0.000,tnet,0,2in,default_data
+DQM,0,0,0,0.844,0.221,0.727,1.447,1.159,,,,,,9.272,9.272,0.003,3.041,5.583,IsSpice4,0.000,tnet,0,3in,default_data
+DQM,0,0,0,0.845,0.222,0.716,1.557,1.231,,,,,,9.283,9.283,0.019,2.895,5.717,IsSpice4,0.000,tnet,0,4in,default_data
+DQM,0,0,0,0.845,0.221,0.732,1.650,1.293,,,,,,9.267,9.267,0.042,2.735,5.798,IsSpice4,0.000,tnet,0,5in,default_data
+DQM,0,0,0,0.844,0.218,0.777,1.721,1.336,,,,,,9.223,9.223,0.036,2.438,5.831,IsSpice4,0.000,tnet,0,6in,default_data
+WE,0,0,0,0.821,0.405,1.208,1.207,0.821,,,,,,8.724,8.724,0.185,3.120,3.704,IsSpice4,0.000,tnet,0,2in,default_clock
+WE,0,0,0,0.821,0.404,1.262,1.207,0.821,,,,,,8.675,8.675,0.139,3.109,3.903,IsSpice4,0.000,tnet,0,3in,default_clock
+WE,0,0,0,0.823,0.405,1.235,1.205,0.823,,,,,,8.704,8.704,0.112,3.102,4.084,IsSpice4,0.000,tnet,0,4in,default_clock
+WE,0,0,0,0.823,0.405,1.197,1.201,0.823,,,,,,8.749,8.749,0.107,3.082,4.227,IsSpice4,0.000,tnet,0,5in,default_clock
+WE,0,0,0,0.823,0.407,1.178,1.195,0.823,,,,,,8.780,8.780,0.099,3.062,4.325,IsSpice4,0.000,tnet,0,6in,default_clock

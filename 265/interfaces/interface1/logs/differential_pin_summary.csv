@@ -1,0 +1,23 @@
+Part,High Pin,Low Pin,Vdiff,IBIS File,IBIS Component
+generic_3_3v,CLKP,CLKN,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,1p,1n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,2p,2n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,3p,3n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,4p,4n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,5p,5n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,6p,6n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,7p,7n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,8p,8n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,9p,9n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,10p,10n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,11p,11n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,12p,12n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,13p,13n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,14p,14n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,15p,15n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,16p,16n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,17p,17n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,18p,18n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,19p,19n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,20p,20n,.1,generic_3_3v.ibs,generic_3_3v
+generic_3_3v,21p,21n,.1,generic_3_3v.ibs,generic_3_3v

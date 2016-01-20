@@ -1,0 +1,220 @@
+* Stimulus File
+*
+
+* Quantum-SI and Quantum Channel Designer simulations are controlled by keywords added to this
+* file.  Since multiple stimulus.txt files may exist at different levels in a project, QSI/QCD use
+* a precedence order for determining which stimulus.txt should be used. 
+* This order (from highest to lowest) is:
+* 
+* Sheet
+* Project
+* Site
+* Installation
+* 
+* This stimulus.txt file is used to provide both input pattern data and control information for how 
+* analysis should be performed.
+* 
+* This sample file is separated into sections for Quantum-SI and Quantum Channel Designer.  Quantum-SI data
+* is defined at the top of this sample file, additional data for Quantum Channel Designer is located
+* further down in this file.  This segementing is purely for documentation purposes - QSI and QCD keywords
+* can be freely interspersed.
+* 
+
+*******************************************************************************************************
+*
+* Quantum-SI section
+*
+*******************************************************************************************************
+
+* Stimulus waveforms are generated for data, clock and strobe nets according
+* to the stimulus.txt file. This file also defines stimulus patterns used for coupled analysis.
+
+****** The following stimulus patterns represent the defaults, edit as needed. ********************
+
+rise_time            100pS                            Transition time (0-100%) of the input to the Driver
+character_time       100pS                            Used to adjust pulse width times
+       
+data                 0110010101                       Stimulus pattern for data nets
+data_victim          0100101-0101-0101-11111-000000   Stimulus pattern for victim data nets
+data_aggressor       0000000-0101-1010-01100-001100   Stimulus pattern for data net aggressors
+      
+clock                0101010101010101                 Stimulus pattern for clock nets
+clock_victim         0101010101010101                 Stimulus pattern for victim clock nets
+clock_aggressor      0000000001001000                 Stimulus pattern for clock net aggressors
+       
+strobe               1000010101010100000              Stimulus pattern for strobe nets
+strobe_victim        0101010101010101010101010        Stimulus pattern for victim strobe nets
+strobe_aggressor     0000000001010101001010100        Stimulus pattern for strobe net aggressors
+
+* Note that when generating a stimulus for the spice deck the tool appends a duplicate of the start 
+* bit at the end of the stimulus if the end state of the pattern in the stimulus file is not the same as 
+* that of the start. In the following comments a zero added this way is indicated by (0).
+*
+* The 11 bit default data stimulus pattern 0110010101(0) above has been found to meet
+* most situations.
+*
+* Named Stimulus Patterns
+*     Named patterns can be specified in the file stimulus_patterns.txt. They are used 
+*     by specifying the name instead of a bit pattern:
+*        data stimulus=<name> [jitter=<jval>] [repeat=<rval>]
+*     Where <name> is the nameed stimulus
+*           <jval> is a jitter amount
+*           <rval> is a repeat count
+*     Example:
+*        data stimulus=prbs jitter=100ps repeat=4
+*
+* In the case of long etches run at high data rates a longer pattern is suggested to maximize jitter. 
+* The length of pattern needed to do this is dependent upon the ratio of settling time to bit time. 
+* Determine the number of the bits corresponding to settling time similarly to below for coupling 
+* pushout. Then, as a starting point, the data pattern should be a PRBS pattern of something 
+* like double this in length.
+*
+* For a GTL net with a 20 inch lossy line at 500 Mb/s data rate (2ns bit time) the following heuristically 
+* obtained 16 bit data stimulus pattern was found to be a reasonable compromise between obtaining maximum 
+* jitter and moderate pattern length to limit simulation time: -
+*data          011101110000101      Stimulus pattern for data nets 15 bits + (0) 
+*
+* More jitter for the case above was achieved with the following 24 bit pattern starting in the high 
+* state. This was obtained from a 31 bit PRBS pattern by stripping repeated leading 1s and trailing 
+* 0s. Starting in the high state eliminates the long low to high settling time for terminator pullup 
+* on a lossy line and also eliminates any shortfall in its final value related to wline response: -
+*data          100110100100001010111011   Stimulus pattern for data nets 24 bits
+*
+* For coupling pushout with long etches run at high data rates then to ensure that the tool does not confuse 
+* incidental ISI with true coupling pushout, the victim pattern during even and odd mode aggressing must be 
+* an exact repeat of that for the quiescent pattern, and adequate settling time must be allowed between each 
+* section of the victim and aggressor patterns as in the example below. Find settling time by running the bus 
+* at sufficiently low data rate for the bus to settle before the next transition. Then divide the settling time 
+* by the bit time at the normal data rate and round up. The result is the number of bits required for settling.
+* The aggressor quiescent region must precede the aggressor switching regions. The initializing pulse
+* for the victim supplies the first edge that is discarded in the timing analysis.
+*
+*data_victim     01-00000000-01100101010-000000000-1100101010-00000000000-000000000-00000000-1100101010-11111111111-111111111
+*data_aggressor  00-00000000-00000000000-000000000-1100101010-00000000000-110000000-11111111-0011010101-00000000000-110000000
+*               init settle   quiesc     settle     even       settle      low      settle     odd        settle      high 
+*
+* The following example is using the pulse width adjustment capability
+
+*data            011110000110100110100IoiQaAbBcDdDeFfFgGhH
+*data_victim     01111000011010010AaBbCcDdEeFfGgHh10AaBbCcDdEeFfGgHh111010010AaBbCcDdEeFfGgHh0000011111
+*data_aggressor  00000000000000000aabbccddeeffgghh10AaBbCcDdEeFfGgHh000101101aAbBcCdDeEfFgGhH0011001100
+
+*clock           010101010101QiQiQioIoIoIaAbBcDdDeFfFgGhH0101
+*clock_victim    010101010101QiQiQioIoIoI010101QiQiQioIoIoI010101QiQiQioIoIoI0101
+*clock_aggressor 000000000000QoQoQooQoQoQ010101QiQiQioIoIoI101010IoIoIoiQiQiQ1010
+
+
+****** The following keywords allow certain defaults to be overridden *******************
+
+* This keyword stretches the last bit by the designated time for long nets e.g. cable
+* to ensure simulation does not end before the end of the pattern arrives at the far end:
+*
+*tran_extension 5ns
+*
+* This keyword overrides the Hspice .tran time step computed by the tool with the designated time:
+*
+*tran_time_step 1ps
+*
+* The following skip edge keywords allow the number of transitions specified to be skipped at the
+* beginning of the stimulus in the waveform analysis for the referenced signal type. Values shown 
+* are defaults used by the tool, so commenting them out would have no effect:
+
+skip_data_edge  1
+skip_strobe_edge  1
+skip_clock_edge  6
+
+****** These stimulus definitions are used for I/O Characterization *******************
+
+* Values shown are defaults used by the tool, so commenting them out would have no effect:
+
+test_model_V_start   (The default value is 2*Vmeas)   Receiver IO Characterization Voltage swing start
+test_model_V_end     .03V                             Receiver IO Characterization Voltage swing end
+* Either
+test_model_V_factor  2.                               Receiver IO Characterization Voltage swing factor
+* or (will override test_model_V_factor)
+*test_model_V_delta  default=<test_model_V_factor=2>   Receiver IO Characterization Voltage swing delta
+
+test_model_S_start   8V/nS                            Receiver IO Characterization slew rate start
+test_model_S_end     .07V/nS                          Receiver IO Characterization slew rate end
+* Either
+test_model_S_factor  2.                               Receiver IO Characterization slew rate factor
+* or (will override test_model_S_factor)
+*test_model_S_delta  default=<test_model_S_factor=2>   Receiver IO Characterization slew rate delta
+
+* Each character in the stimulus waveform string represents a pulse width. 
+
+* Characters that have high levels (1.0V)
+* 1 I i   A B C D E F G H R S T U V W X Y
+
+* Characters that have low levels (0.0V)
+* 0 Q o q a b c d e f g h r s t u v w x y
+
+* Duty Cycle characters 
+* Q I    PulseWidth=(1+DutyCycle)*DataRate
+* q i o  PulseWidth=(1-DutyCycle)*DataRate
+
+* Characters that adjust the length of the Pulse Width by a multiple of character_time
+* A a   1*character_time
+* B b   2*character_time
+* C c   3*character_time
+* D d   4*character_time
+* E e   5*character_time
+* F f   6*character_time
+* G g   7*character_time
+* H h   8*character_time
+* R r  -1*character_time
+* S s  -2*character_time
+* T t  -3*character_time
+* U u  -4*character_time
+* V v  -5*character_time
+* W w  -6*character_time
+* X x  -7*character_time
+* Y y  -8*character_time
+
+**************** Bus Turnaround simulation keywords *********************************
+** Bus turn around keywords are offset, case, bus_stimulus and delay.
+
+** offset defines the bubble or delay between the end of one designator transisition
+*   and the beginning of the next designator transition. The default offset is one
+*   transfer net bit time. Examples of offset are:
+*
+* offset <designator 1> <designator 2> 1ns
+* offset * * 0.
+* offset * * $clock_domain(<clock_domain_name>)
+
+** case defines a simulation evaluating the bus turn around on a specific designator.
+*   Examples of case are:
+*
+* case <designator> <case_name>
+* case <designator> <default>
+* case <default>
+
+** bus_stimulus and delay statements are required only if <case_name> is not "<default>"
+*   Examples bus_stimulus and delay statements:
+*
+* bus_stimulus <designator> <bit pattern>
+* delay 1ns
+* delay -.5ns
+* delay $clock_domain(<clock_domain_name>)
+
+** Example of one complete bus turnaround entry:
+*
+*offset source target $clock_domain(bus_turn)
+*offset target source $clock_domain(bus_turn2x)
+*offset source source $clock_domain(bus_turn2x)
+*offset target target $clock_domain(bus_turn2x)
+*case source
+*bus_stimulus source 011001010 
+*bus_stimulus target 10
+*bus_stimulus source 01
+*bus_stimulus target 01
+*bus_stimulus source 01
+*bus_stimulus source 01
+*delay 10ns
+*bus_stimulus target 01
+*delay $clock_domain(bus_turn)
+*bus_stimulus target 01
+
+
+
+

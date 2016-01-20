@@ -1,0 +1,10 @@
+frequency_multiplier 1.50
+frequency_divisor 4
+frequency_increment 5
+minimum_swing_multiplier 0.25
+maximum_swing_multiplier 1.50
+swing_increment 5
+target_slew_rate_multiplier  0.10
+minimum_slew_rate_multiplier 0.25
+maximum_slew_rate_multiplier 1.50
+slew_increment 5

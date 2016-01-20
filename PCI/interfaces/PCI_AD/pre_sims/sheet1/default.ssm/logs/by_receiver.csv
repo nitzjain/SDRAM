@@ -1,0 +1,4 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Receiver,Column
+6.459,0.237,0.537,2.541,sheet1,IO0,
+7.169,0.401,0.701,1.831,sheet1,IO1,
+7.169,0.264,0.564,1.831,sheet1,Controller,

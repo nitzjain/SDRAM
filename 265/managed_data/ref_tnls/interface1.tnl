@@ -1,0 +1,62 @@
+*****************************************
+**    Transfer Net  sheet2  **
+*****************************************
+TRANSFER_NET sheet2
+* Transfer Net Data:
+CLOCK_DOMAIN 3ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR designator1
+	SUBCIRCUIT_PORT port1
+	PART ad2147x_196_ibs
+	PIN_NAMES TDO
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR designator2
+	SUBCIRCUIT_PORT port2
+	PART y14w
+	PIN_NAMES A0
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER designator1
+	RECEIVER designator2
+	TIMED_FROM designator1
+
+*****************************************
+**    Transfer Net  sheet2  **
+*****************************************
+TRANSFER_NET sheet2
+* Transfer Net Data:
+CLOCK_DOMAIN 3ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR designator1
+	SUBCIRCUIT_PORT port1
+	PART ad2147x_196_ibs
+	PIN_NAMES TDO
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR designator2
+	SUBCIRCUIT_PORT port2
+	PART y14w
+	PIN_NAMES A0
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:
+	DRIVER designator1
+	RECEIVER designator2
+	TIMED_FROM designator1
+

@@ -1,0 +1,2 @@
+sheet2/default.ssm/sims/designator1_ttte/designator1_ttte.ckt
+sheet2/default.ssm/sims/stload%_ad2147x_196_ibs_pdt12dgz_ttte.ckt

@@ -1,0 +1,7 @@
+Transfer Net,Driver,Receiver,R / F,Min Etch Delay (ns),Max Etch Delay (ns),AC-DC Slew Rate (V/ns),Corner,Edge #,Time (ns),Pulse Width (ns),Delay Variation (ns),Driver Probe Point,Receiver Node,Min Raw Etch Delay (ns),Max Raw Etch Delay (ns),Min Derate (ns),Max Derate (ns),Standard Load Delay (ns),Simulation,Ac Noise,Ac Noise Source,PATTERN
+sheet1,designator1,designator2,F,1.018,1.124,11.354,TTTE,2,10.526,6.000,0.106,SL_PAD/,designator2_pad,1.424,1.530,0.000,0.000,0.406,designator1_ttte\designator1_ttte.csd,0.00V,tnet,default_data
+sheet1,designator1,designator2,R,0.919,1.041,9.782,TTTE,3,16.498,6.000,0.122,SL_PAD/,designator2_pad,1.387,1.509,0.000,0.000,0.468,designator1_ttte\designator1_ttte.csd,0.00V,tnet,default_data
+sheet1,designator1,designator2,F,0.918,1.018,12.013,TTTE,4,19.426,3.000,0.100,SL_PAD/,designator2_pad,1.324,1.424,0.000,0.000,0.406,designator1_ttte\designator1_ttte.csd,0.00V,tnet,default_data
+sheet1,designator1,designator2,R,0.876,1.001,9.640,TTTE,5,22.462,3.000,0.125,SL_PAD/,designator2_pad,1.344,1.469,0.000,0.000,0.468,designator1_ttte\designator1_ttte.csd,0.00V,tnet,default_data
+sheet1,designator1,designator2,F,0.911,1.020,11.050,TTTE,6,25.424,3.000,0.109,SL_PAD/,designator2_pad,1.317,1.426,0.000,0.000,0.406,designator1_ttte\designator1_ttte.csd,0.00V,tnet,default_data
+sheet1,designator1,designator2,R,0.875,1.002,9.424,TTTE,7,28.462,3.000,0.127,SL_PAD/,designator2_pad,1.343,1.470,0.000,0.000,0.468,designator1_ttte\designator1_ttte.csd,0.00V,tnet,default_data

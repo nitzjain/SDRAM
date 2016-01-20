@@ -1,0 +1,485 @@
+Pre-Layout  Spice Simulation Run Log
+User: 010328058
+Thu Nov 05 20:24:52 PST 2015
+
+Simulation: designator1_ssse_3:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\ADR\default.ssm\sims\designator1_ssse_3\designator1_ssse_3.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_2:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\ADR\default.ssm\sims\designator1_ssse_2\designator1_ssse_2.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_4:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\ADR\default.ssm\sims\designator1_ssse_4\designator1_ssse_4.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_6:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\ADR\default.ssm\sims\designator1_ssse_6\designator1_ssse_6.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: stload%_stratix_1s_cmos33_io_d8ps_sste:
+---------------------------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\ADR\default.ssm\sims\stload%_stratix_1s_cmos33_io_d8ps_sste.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_5:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\ADR\default.ssm\sims\designator1_ssse_5\designator1_ssse_5.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_3:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\CS\default.ssm\sims\designator1_ssse_3\designator1_ssse_3.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_2:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\CS\default.ssm\sims\designator1_ssse_2\designator1_ssse_2.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_4:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\CS\default.ssm\sims\designator1_ssse_4\designator1_ssse_4.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: stload%_stratix_1s_cmos33_io_d8ps_sste:
+---------------------------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\CS\default.ssm\sims\stload%_stratix_1s_cmos33_io_d8ps_sste.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_4:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQ\default.ssm\sims\designator1_ssse_4\designator1_ssse_4.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: stload%_stratix_1s_cmos33_io_d8ps_sste:
+---------------------------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQ\default.ssm\sims\stload%_stratix_1s_cmos33_io_d8ps_sste.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_5:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\CS\default.ssm\sims\designator1_ssse_5\designator1_ssse_5.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_6:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\CS\default.ssm\sims\designator1_ssse_6\designator1_ssse_6.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_3:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQ\default.ssm\sims\designator1_ssse_3\designator1_ssse_3.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_5:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQ\default.ssm\sims\designator1_ssse_5\designator1_ssse_5.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_6:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQ\default.ssm\sims\designator1_ssse_6\designator1_ssse_6.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_3:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQM\default.ssm\sims\designator1_ssse_3\designator1_ssse_3.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_4:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQM\default.ssm\sims\designator1_ssse_4\designator1_ssse_4.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: stload%_stratix_1s_cmos33_io_d8ps_sste:
+---------------------------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQM\default.ssm\sims\stload%_stratix_1s_cmos33_io_d8ps_sste.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_2:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQ\default.ssm\sims\designator1_ssse_2\designator1_ssse_2.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_2:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQM\default.ssm\sims\designator1_ssse_2\designator1_ssse_2.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_5:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQM\default.ssm\sims\designator1_ssse_5\designator1_ssse_5.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_6:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\DQM\default.ssm\sims\designator1_ssse_6\designator1_ssse_6.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_4:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\WE\default.ssm\sims\designator1_ssse_4\designator1_ssse_4.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: stload%_stratix_1s_cmos33_io_d8ps_sste:
+---------------------------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\WE\default.ssm\sims\stload%_stratix_1s_cmos33_io_d8ps_sste.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_3:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\WE\default.ssm\sims\designator1_ssse_3\designator1_ssse_3.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_5:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\WE\default.ssm\sims\designator1_ssse_5\designator1_ssse_5.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_2:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\WE\default.ssm\sims\designator1_ssse_2\designator1_ssse_2.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+
+Simulation: designator1_ssse_6:
+-------------------------------
+
+File: C:\Myproject\SDRAM\interfaces\SDRAM1\pre_sims\WE\default.ssm\sims\designator1_ssse_6\designator1_ssse_6.err Errors: 0 Warnings: 1
+
+1 Warnings Found:
+Warning: IC stepping failed
+
+HOSTNAME=COE-LAB-E489-02 
+PLATFORM=Windows_NT 
+SIMCMD=C:/SiSoft/2015.07/libexec/sia_isspice4.exe 
+SIMTYPE=local 
+  ----------------------------------------- 
+Standard Output From Spice job: 
+  ----------------------------------------- 
+ 
+0 Jobs with Errors; 30 Jobs with Warnings in 60 Total Jobs.

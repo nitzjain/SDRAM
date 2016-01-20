@@ -1,0 +1,6 @@
+Transfer Net,Waveform Fatal Count,Waveform Quality Count,Waveform Overshoot Count,VinMeas Margin,Min Slew Time (ns),Max Slew Time (ns),VinH Margin (V),VinL Margin (V),Overshoot Low Margin (V),Overshoot High Margin (V),AC Overshoot Low Area Margin (V*ns),AC Overshoot High Area Margin (V*ns),Non Monotonic Time (ns),Eye Width (ns),Virtual Eye Width (ns),VinMeas Jitter (ns),Eye Inner Height (V),Eye Outer Height (V),SIMULATOR,AC_NOISE,AC_NOISE_SOURCE,AGGRESSORS,$T1:DELAY,PATTERN
+CS,0,0,0,0.842,0.287,1.086,1.374,1.123,,,,,,8.913,8.913,0.132,2.956,5.404,IsSpice4,0.000,tnet,0,2in,default_clock
+CS,0,0,0,0.876,0.311,1.019,1.490,1.163,,,,,,8.921,8.921,0.092,2.893,5.576,IsSpice4,0.000,tnet,0,3in,default_clock
+CS,0,0,0,0.838,0.299,0.901,1.578,1.204,,,,,,9.035,9.035,0.137,2.655,5.718,IsSpice4,0.000,tnet,0,4in,default_clock
+CS,0,0,0,0.827,0.304,0.891,1.671,1.283,,,,,,9.077,9.077,0.086,2.587,5.757,IsSpice4,0.000,tnet,0,5in,default_clock
+CS,0,0,0,0.879,0.302,0.827,1.752,1.347,,,,,,9.164,9.164,0.065,2.577,5.765,IsSpice4,0.000,tnet,0,6in,default_clock

@@ -1,0 +1,100 @@
+IBISCHK6 V6.0.1
+
+
+
+Checking C:\Myproject\Models\ad2147x_196.ibs for IBIS 3.2 Compatibility...
+
+
+
+NOTE (line  348) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line  425) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line  426) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line  429) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line  461) - Pulldown Maximum data is non-monotonic
+
+NOTE (line  468) - Pulldown Typical data is non-monotonic
+
+NOTE (line  469) - Pulldown Minimum data is non-monotonic
+
+NOTE (line  565) - Pullup Minimum data is non-monotonic
+
+NOTE (line  651) - Pullup Maximum data is non-monotonic
+
+NOTE (line  761) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line  838) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line  839) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line  842) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 1611) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 1688) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 1689) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 1692) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 1726) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 1733) - Pulldown Typical data is non-monotonic
+
+NOTE (line 1734) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 1830) - Pullup Minimum data is non-monotonic
+
+NOTE (line 1916) - Pullup Maximum data is non-monotonic
+
+NOTE (line 2026) - GND Clamp Minimum data is non-monotonic
+
+NOTE (line 2103) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 2104) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 2107) - POWER Clamp Minimum data is non-monotonic
+
+NOTE (line 2587) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 2594) - Pulldown Typical data is non-monotonic
+
+NOTE (line 2595) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 2762) - Pullup Minimum data is non-monotonic
+
+NOTE (line 2957) - POWER Clamp Maximum data is non-monotonic
+
+NOTE (line 2958) - POWER Clamp Typical data is non-monotonic
+
+NOTE (line 2960) - POWER Clamp Minimum data is non-monotonic
+
+WARNING - Model PDD24SDGZ: POWER Clamp : Typical value never becomes zero
+
+WARNING - Model PDD24SDGZ: POWER Clamp : Minimum value never becomes zero
+
+WARNING - Model PDD24SDGZ: POWER Clamp : Maximum value never becomes zero
+
+NOTE - Combined Pulldown for Model: PDD24SDGZ Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pulldown for Model: PDU12SDGZ Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PDU12SDGZ Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pulldown for Model: PDT12DGZ Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PDT12DGZ Minimum data is non-monotonic based on piece-wise linear interpolation
+
+
+
+Errors  : 0
+
+Warnings: 3
+
+
+
+File Passed
+

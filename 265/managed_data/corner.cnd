@@ -1,0 +1,18 @@
+* This is the default conditions file. These are default values
+* the SiAuditor will use unless the user overrides the values 
+*
+* Temperature is in degree Celsius
+* Tpd is in ns/inch or ps/inch
+
+Tpd_default	180ps/in
+
+default_z0 50ohm
+
+shortest_tline 20ps
+
+* parameter   	slow	typ	fast
+* ---------   	----	---	----
+temperature    	100	25	0
+voltage_factor	.95	1.0	1.05
+tpd_factor     	1.1	1.0	0.9
+Z0_factor     	.90	1.0	1.1

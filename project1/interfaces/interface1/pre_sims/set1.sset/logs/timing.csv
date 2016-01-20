@@ -1,0 +1,4 @@
+Setup Margin (ns),Hold Margin (ns),Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Column
+-1.310,1.780,1.281,1.310,1.280,1.310,sheet1,
+4.363,2.199,1.700,2.637,1.699,2.636,sheet3,
+5.364,1.823,1.323,1.628,1.323,1.636,sheet4,

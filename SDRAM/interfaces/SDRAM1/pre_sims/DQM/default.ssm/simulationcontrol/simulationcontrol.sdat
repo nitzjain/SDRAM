@@ -1,0 +1,14 @@
+*Simulation Control data for Transfer net DQM State default
+*Generated from Schematic Set set1
+use_case_mode no
+ac_noise +/-0.00V
+ac_noise_source tnet
+aggressors 0
+aggressor_separation 4mil
+driver_model IBIS
+receiver_model IBIS
+sub_circuit DQM.tsc
+corner SSSE FFFE
+coupled_model "W-Line Model" <none>
+sso_capacitance "SSO Capacitance" <none> 10nF
+$T1:Delay Delay/Distance <none> 2in 3in 4in 5in 6in

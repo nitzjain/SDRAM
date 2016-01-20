@@ -1,0 +1,17 @@
+#PARAM tr0 stload%_stratix_1s_cmos33_io_d8ps_sste.csd
+#PARAM STLOAD slpad
+#PARAM PART stratix
+#PARAM IBIS_FILE stratix.ibs
+#PARAM IBIS_MODEL 1s_cmos33_io_d8ps
+#PARAM CORNER SSTE
+#PARAM TRANSFER_NET CS
+#PARAM UI 20n
+#PARAM SIMULATOR IsSpice4
+#PARAM STIMULUS 0011001111
+1s_cmos33_io_d8ps v_stimulus stimulus IBIS IBIS R 1 20.050 20.050 20.050 20.050 10.000 10.000 10.000 1.000 0.000
+1s_cmos33_io_d8ps v_stimulus stimulus IBIS IBIS F 2 40.050 40.050 40.050 40.050 -10.000 -10.000 -10.000 1.000 0.000
+1s_cmos33_io_d8ps v_stimulus stimulus IBIS IBIS R 3 60.050 60.050 60.050 60.050 10.000 10.000 10.000 1.000 0.000
+1s_cmos33_io_d8ps stload_sl_wopkg_!load slpad stratix.ibs 1s_cmos33_io_d8ps F 2 42.569 42.569 42.569 42.569 -1.850 -1.850 -10.000 1.000 0.000
+1s_cmos33_io_d8ps stload_sl_wopkg_!load slpad stratix.ibs 1s_cmos33_io_d8ps R 3 62.640 62.640 62.640 62.640 1.967 1.967 10.000 1.000 0.000
+1s_cmos33_io_d8ps stload_sl_wpkg_!load slpin stratix.ibs 1s_cmos33_io_d8ps F 2 42.679 42.679 42.679 42.679 -1.882 -1.882 -10.000 1.000 0.000
+1s_cmos33_io_d8ps stload_sl_wpkg_!load slpin stratix.ibs 1s_cmos33_io_d8ps R 3 62.732 62.732 62.732 62.732 1.892 1.892 10.000 1.000 0.000

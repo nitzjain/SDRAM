@@ -1,0 +1,17 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Waveform Fatal Count,Waveform Quality Count,Waveform Overshoot Count,VinMeas Margin,Min Slew Time (ns),Max Slew Time (ns),VinH Margin (V),VinL Margin (V),Overshoot Low Margin (V),Overshoot High Margin (V),AC Overshoot Low Area Margin (V*ns),AC Overshoot High Area Margin (V*ns),Non Monotonic Time (ns),Eye Width (ns),Virtual Eye Width (ns),VinMeas Jitter (ns),Eye Inner Height (V),Eye Outer Height (V),Transfer Net,Column,Ac Noise,Ac Noise Source,$T1:DELAY,$T2:DELAY,$T4:DELAY,PATTERN
+7.910,0.237,0.537,1.090,sheet1,0,0,0,1.141,0.058,0.103,2.035,1.649,,,,,,14.789,14.789,0.125,2.532,5.208,sheet1,,0.00V,tnet,3in,0.75in,0.75in,default_clock
+7.073,0.248,0.548,1.927,sheet1,0,7,0,1.110,0.058,0.101,1.757,1.651,,,,,,13.874,13.874,0.119,2.442,5.246,sheet1,,0.00V,tnet,3in,0.75in,1.5in,default_clock
+7.902,0.362,0.662,1.098,sheet1,0,0,0,1.178,0.058,0.103,1.994,1.659,,,,,,14.796,14.796,0.129,2.435,5.227,sheet1,,0.00V,tnet,3in,1.5in,0.75in,default_clock
+7.755,0.359,0.659,1.245,sheet1,0,0,0,1.200,0.058,0.095,1.765,1.660,,,,,,14.788,14.788,0.131,2.489,5.206,sheet1,,0.00V,tnet,3in,1.5in,1.5in,default_clock
+7.713,0.406,0.706,1.287,sheet1,0,0,0,1.161,0.056,0.110,2.134,1.647,,,,,,14.797,14.797,0.125,2.606,5.225,sheet1,,0.00V,tnet,4in,0.75in,0.75in,default_clock
+6.866,0.399,0.699,2.134,sheet1,0,7,0,1.192,0.057,0.099,2.041,1.650,,,,,,13.875,13.875,0.131,2.269,5.208,sheet1,,0.00V,tnet,4in,0.75in,1.5in,default_clock
+7.712,0.519,0.819,1.288,sheet1,0,0,0,1.218,0.058,0.098,2.018,1.662,,,,,,14.779,14.779,0.144,2.517,5.257,sheet1,,0.00V,tnet,4in,1.5in,0.75in,default_clock
+7.570,0.505,0.805,1.430,sheet1,0,0,0,1.155,0.055,0.089,2.007,1.667,,,,,,14.785,14.785,0.144,2.419,5.278,sheet1,,0.00V,tnet,4in,1.5in,1.5in,default_clock
+7.513,0.560,0.860,1.487,sheet1,0,0,0,1.173,0.056,0.099,2.132,1.664,,,,,,14.778,14.778,0.141,2.367,5.209,sheet1,,0.00V,tnet,5in,0.75in,0.75in,default_clock
+6.653,0.555,0.855,2.347,sheet1,0,7,0,1.165,0.057,0.109,2.118,1.642,,,,,,13.858,13.858,0.143,1.991,5.227,sheet1,,0.00V,tnet,5in,0.75in,1.5in,default_clock
+7.522,0.677,0.977,1.478,sheet1,0,0,0,1.223,0.058,0.091,2.029,1.657,,,,,,14.785,14.785,0.139,1.993,5.238,sheet1,,0.00V,tnet,5in,1.5in,0.75in,default_clock
+7.369,0.684,0.984,1.631,sheet1,0,0,0,1.213,0.056,0.089,2.084,1.660,,,,,,14.763,14.763,0.162,1.732,5.232,sheet1,,0.00V,tnet,5in,1.5in,1.5in,default_clock
+7.320,0.727,1.027,1.680,sheet1,0,0,0,1.189,0.058,0.105,2.125,1.658,,,,,,14.784,14.784,0.137,2.192,5.227,sheet1,,0.00V,tnet,6in,0.75in,0.75in,default_clock
+6.459,0.727,1.027,2.541,sheet1,0,7,0,1.211,0.055,0.108,2.093,1.658,,,,,,13.862,13.862,0.141,2.219,5.239,sheet1,,0.00V,tnet,6in,0.75in,1.5in,default_clock
+7.322,0.844,1.144,1.678,sheet1,0,0,0,1.197,0.058,0.099,2.074,1.656,,,,,,14.789,14.789,0.138,1.927,5.235,sheet1,,0.00V,tnet,6in,1.5in,0.75in,default_clock
+7.169,0.830,1.130,1.831,sheet1,0,0,0,1.172,0.057,0.097,2.101,1.657,,,,,,14.767,14.767,0.156,1.832,5.238,sheet1,,0.00V,tnet,6in,1.5in,1.5in,default_clock

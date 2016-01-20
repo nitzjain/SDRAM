@@ -1,0 +1,2 @@
+source_ttte_50oh_2_2_2/source_ttte_50oh_2_2_2.ckt
+stload%_generic_3_3v_3_3v_o_fast_40ohm_ttte.ckt

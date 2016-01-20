@@ -1,0 +1,11 @@
+Setup Margin (ns),Hold Margin (ns),Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Driver,Receiver,Corner,Column,Ac Noise,Ac Noise Source,$T1:DELAY,PATTERN,Simulation
+2.631,3.722,0.322,1.315,0.460,1.669,WE,designator1,designator2,SSSE,,0.00V,tnet,2in,default_clock,designator1_ssse_2\designator1_ssse_2.csd
+2.391,3.912,0.512,1.492,0.646,1.909,WE,designator1,designator2,SSSE,,0.00V,tnet,3in,default_clock,designator1_ssse_3\designator1_ssse_3.csd
+2.221,4.112,0.712,1.660,0.844,2.079,WE,designator1,designator2,SSSE,,0.00V,tnet,4in,default_clock,designator1_ssse_4\designator1_ssse_4.csd
+2.065,4.313,0.913,1.850,1.038,2.235,WE,designator1,designator2,SSSE,,0.00V,tnet,5in,default_clock,designator1_ssse_5\designator1_ssse_5.csd
+1.897,4.512,1.112,2.050,1.225,2.403,WE,designator1,designator2,SSSE,,0.00V,tnet,6in,default_clock,designator1_ssse_6\designator1_ssse_6.csd
+5.574,1.638,0.238,0.644,0.264,0.726,WE,designator1,designator2,FFFE,,0.00V,tnet,2in,default_clock,designator1_fffe_2\designator1_fffe_2.csd
+5.408,1.801,0.401,0.806,0.425,0.892,WE,designator1,designator2,FFFE,,0.00V,tnet,3in,default_clock,designator1_fffe_3\designator1_fffe_3.csd
+5.246,1.963,0.563,0.970,0.587,1.054,WE,designator1,designator2,FFFE,,0.00V,tnet,4in,default_clock,designator1_fffe_4\designator1_fffe_4.csd
+5.084,2.125,0.725,1.132,0.749,1.216,WE,designator1,designator2,FFFE,,0.00V,tnet,5in,default_clock,designator1_fffe_5\designator1_fffe_5.csd
+4.923,2.283,0.883,1.291,0.909,1.377,WE,designator1,designator2,FFFE,,0.00V,tnet,6in,default_clock,designator1_fffe_6\designator1_fffe_6.csd

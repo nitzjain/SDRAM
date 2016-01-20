@@ -1,0 +1,6 @@
+part bf60x_19x19
+ibis_file bf60x_19x19.ibs
+ibis_component BF606/BF607/BF608/BF609
+timing_file bf60x_19x19.tmg
+timing_model bf60x_19x19
+cad_part bf60x_19x19 BF606/BF607/BF608/BF609

@@ -1,0 +1,9 @@
+Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Driver,Receiver,Corner,Column
+0.711,1.565,0.796,2.541,sheet1,Controller,IO0,SSSE,
+0.926,1.792,1.008,1.831,sheet1,Controller,IO1,SSSE,
+0.723,1.569,0.806,1.628,sheet1,IO0,Controller,SSSE,
+0.904,1.800,1.004,1.831,sheet1,IO1,Controller,SSSE,
+0.537,1.225,0.568,1.246,sheet1,Controller,IO0,FFFE,
+0.701,1.392,0.729,1.415,sheet1,Controller,IO1,FFFE,
+0.564,1.242,0.579,1.273,sheet1,IO0,Controller,FFFE,
+0.705,1.395,0.743,1.429,sheet1,IO1,Controller,FFFE,

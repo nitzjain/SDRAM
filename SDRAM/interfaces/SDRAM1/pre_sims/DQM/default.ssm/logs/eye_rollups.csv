@@ -1,0 +1,7 @@
+Transfer Net,UI (ns),Node,Designator,Corner,Eye Width (ns),Virtual Eye Width (ns),VinMeas Jitter (ns),VinMeas Rising Jitter (ns),VinMeas Falling Jitter (ns),Duty Cycle,Inner Height (V),Outer Height (V),Composite Eye Width (ns),Composite VinMeas Jitter (ns),Composite Inner Height (V),Composite Outer Height (V)
+DQM,10.000,All,All,All,9.197,9.197,0.042,0.033,0.025,,2.438,5.831,-0.101,9.881,2.438,5.831
+DQM,10.000,designator2_pad,designator2,All,9.197,9.197,0.042,0.033,0.025,,2.438,5.831,-0.101,9.881,2.438,5.831
+DQM,10.000,All,All,FF,9.733,9.733,0.030,0.028,0.025,,2.438,5.831,-0.101,9.881,2.438,5.831
+DQM,10.000,designator2_pad,designator2,FF,9.733,9.733,0.030,0.028,0.025,,2.438,5.831,-0.101,9.881,2.438,5.831
+DQM,10.000,All,All,SS,9.197,9.197,0.042,0.033,0.006,,2.684,4.276,8.439,0.802,2.684,4.276
+DQM,10.000,designator2_pad,designator2,SS,9.197,9.197,0.042,0.033,0.006,,2.684,4.276,8.439,0.802,2.684,4.276

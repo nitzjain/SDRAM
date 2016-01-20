@@ -1,0 +1,3 @@
+Transfer Net,Transfer,Designator,Part,IBIS File,IBIS Model,Timing File,Timing Model
+DQ,designator1 -> designator2,designator1,stratix,stratix.ibs,1s_cmos33_io_d8ps,stratix.tmg,stratix
+DQ,designator1 -> designator2,designator2,y95c,y95c.ibs,dq,y95c.tmg,y95c

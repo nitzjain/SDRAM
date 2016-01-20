@@ -1,0 +1,3 @@
+Transfer Net,Designator,Part,IBIS File,IBIS Model,IBIS Model Type,Model Type,Timing File,Timing Pindef,Timing Pin Type,Timing Data
+sheet1,designator1,55202_3,55202_3.ibs,3V6XX,Output,IBIS,55202_3.tmg,Q,OUTPUT,
+sheet1,designator2,Y15w,Y15w.ibs,clkbuff,Input,IBIS,Y15w.tmg,CLK,INPUT,

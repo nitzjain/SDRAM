@@ -1,0 +1,26 @@
+IBISCHK6 V6.0.1
+
+
+
+Checking C:\Myproject\Models\55202_3.ibs for IBIS 2.1 Compatibility...
+
+
+
+NOTE (line  137) - Pulldown Typical data is non-monotonic
+
+NOTE (line  137) - Pulldown Minimum data is non-monotonic
+
+NOTE (line  137) - Pulldown Maximum data is non-monotonic
+
+NOTE - Combined Pulldown for Model: 3V6XX Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pulldown for Model: 3V6XX Minimum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pulldown for Model: 3V6XX Maximum data is non-monotonic based on piece-wise linear interpolation
+
+Errors  : 0
+
+
+
+File Passed
+

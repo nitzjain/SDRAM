@@ -1,0 +1,674 @@
+IBISCHK6 V6.0.1
+
+
+
+Checking C:\Myproject\Models\bf60x_19x19.ibs for IBIS 3.2 Compatibility...
+
+
+
+ERROR (line    9) - File name opened 'bf60x_19x19.ibs' not the same as File_name 'bf606_19x19.ibs'.
+
+WARNING (line   25) - IBIS files should not contain tab characters.
+
+WARNING (line  435) -
+
+    Model pmemio_full: C_comp min value is not the smallest value listed
+
+WARNING (line  435) -
+
+    Model pmemio_full: C_comp max value is not the largest value listed
+
+NOTE (line  446) - Pulldown Minimum data is non-monotonic
+
+NOTE (line  461) - Pulldown Typical data is non-monotonic
+
+NOTE (line  461) - Pulldown Maximum data is non-monotonic
+
+NOTE (line  552) - Pullup Maximum data is non-monotonic
+
+NOTE (line  553) - Pullup Typical data is non-monotonic
+
+NOTE (line  556) - Pullup Minimum data is non-monotonic
+
+WARNING (line 1057) -
+
+    Model pmemio_half: C_comp min value is not the smallest value listed
+
+WARNING (line 1057) -
+
+    Model pmemio_half: C_comp max value is not the largest value listed
+
+NOTE (line 1068) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 1083) - Pulldown Typical data is non-monotonic
+
+NOTE (line 1083) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 1174) - Pullup Maximum data is non-monotonic
+
+NOTE (line 1175) - Pullup Typical data is non-monotonic
+
+NOTE (line 1177) - Pullup Minimum data is non-monotonic
+
+WARNING (line 1679) -
+
+    Model pmemiodif_full: C_comp min value is not the smallest value listed
+
+WARNING (line 1679) -
+
+    Model pmemiodif_full: C_comp max value is not the largest value listed
+
+NOTE (line 1690) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 1705) - Pulldown Typical data is non-monotonic
+
+NOTE (line 1705) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 1796) - Pullup Maximum data is non-monotonic
+
+NOTE (line 1797) - Pullup Typical data is non-monotonic
+
+NOTE (line 1800) - Pullup Minimum data is non-monotonic
+
+WARNING (line 2301) -
+
+    Model pmemiodif_half: C_comp min value is not the smallest value listed
+
+WARNING (line 2301) -
+
+    Model pmemiodif_half: C_comp max value is not the largest value listed
+
+NOTE (line 2312) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 2327) - Pulldown Typical data is non-monotonic
+
+NOTE (line 2327) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 2418) - Pullup Maximum data is non-monotonic
+
+NOTE (line 2419) - Pullup Typical data is non-monotonic
+
+NOTE (line 2421) - Pullup Minimum data is non-monotonic
+
+WARNING (line 2923) -
+
+    Model pmemiopl_full: C_comp min value is not the smallest value listed
+
+WARNING (line 2923) -
+
+    Model pmemiopl_full: C_comp max value is not the largest value listed
+
+NOTE (line 2934) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 2949) - Pulldown Typical data is non-monotonic
+
+NOTE (line 2949) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 3040) - Pullup Maximum data is non-monotonic
+
+NOTE (line 3041) - Pullup Typical data is non-monotonic
+
+NOTE (line 3044) - Pullup Minimum data is non-monotonic
+
+WARNING (line 3545) -
+
+    Model pmemiopl_half: C_comp min value is not the smallest value listed
+
+WARNING (line 3545) -
+
+    Model pmemiopl_half: C_comp max value is not the largest value listed
+
+NOTE (line 3556) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 3571) - Pulldown Typical data is non-monotonic
+
+NOTE (line 3571) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 3662) - Pullup Maximum data is non-monotonic
+
+NOTE (line 3663) - Pullup Typical data is non-monotonic
+
+NOTE (line 3665) - Pullup Minimum data is non-monotonic
+
+NOTE (line 4178) - Pulldown Typical data is non-monotonic
+
+WARNING (line 4182) - Value -9.000000e-001 repeated in the First Column
+
+NOTE (line 4184) - Pulldown Minimum data is non-monotonic
+
+WARNING (line 4228) - Value 0.000000e+000 repeated in the First Column
+
+NOTE (line 4228) - Pulldown Voltage data is non-monotonic
+
+NOTE (line 4228) - Pulldown Maximum data is non-monotonic
+
+WARNING (line 4230) - Value 3.600000e+000 repeated in the First Column
+
+NOTE (line 4239) - Pullup Maximum data is non-monotonic
+
+NOTE (line 4242) - Pullup Typical data is non-monotonic
+
+WARNING (line 4245) - Value -9.000000e-001 repeated in the First Column
+
+NOTE (line 4247) - Pullup Minimum data is non-monotonic
+
+WARNING -
+
+    Model 'gpio_1p8': Vmeas timing test load parameter should be specified
+
+NOTE (line 4618) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 4620) - Pulldown Typical data is non-monotonic
+
+NOTE (line 4622) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 4697) - Pullup Maximum data is non-monotonic
+
+NOTE (line 4698) - Pullup Typical data is non-monotonic
+
+NOTE (line 4700) - Pullup Minimum data is non-monotonic
+
+WARNING -
+
+    Model 'gpio_3p3': Vmeas timing test load parameter should be specified
+
+WARNING (line 5121) -
+
+    Model PIIC400K_S1: C_comp min value is not the smallest value listed
+
+WARNING (line 5121) -
+
+    Model PIIC400K_S1: C_comp max value is not the largest value listed
+
+NOTE (line 5136) - Pulldown Typical data is non-monotonic
+
+NOTE (line 5142) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 5145) - Pulldown Minimum data is non-monotonic
+
+WARNING - Model PIIC400K_S1: GND Clamp : Typical value never becomes zero
+
+WARNING - Model PIIC400K_S1: GND Clamp : Maximum value never becomes zero
+
+WARNING (line 5562) -
+
+    Model PIIC400K_S2: C_comp min value is not the smallest value listed
+
+WARNING (line 5562) -
+
+    Model PIIC400K_S2: C_comp max value is not the largest value listed
+
+NOTE (line 5575) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 5578) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 5590) - Pulldown Typical data is non-monotonic
+
+WARNING - Model PIIC400K_S2: GND Clamp : Typical value never becomes zero
+
+WARNING - Model PIIC400K_S2: GND Clamp : Maximum value never becomes zero
+
+WARNING (line 5993) -
+
+    Model PIIC400K_S3: C_comp min value is not the smallest value listed
+
+WARNING (line 5993) -
+
+    Model PIIC400K_S3: C_comp max value is not the largest value listed
+
+NOTE (line 6008) - Pulldown Typical data is non-monotonic
+
+NOTE (line 6010) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 6026) - Pulldown Minimum data is non-monotonic
+
+WARNING - Model PIIC400K_S3: GND Clamp : Typical value never becomes zero
+
+WARNING - Model PIIC400K_S3: GND Clamp : Maximum value never becomes zero
+
+WARNING (line 6434) -
+
+    Model PIIC400K_S4: C_comp min value is not the smallest value listed
+
+WARNING (line 6434) -
+
+    Model PIIC400K_S4: C_comp max value is not the largest value listed
+
+NOTE (line 6444) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 6444) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 6445) - Pulldown Typical data is non-monotonic
+
+WARNING - Model PIIC400K_S4: GND Clamp : Typical value never becomes zero
+
+WARNING - Model PIIC400K_S4: GND Clamp : Maximum value never becomes zero
+
+WARNING (line 6858) -
+
+    Model PIIC400K_S5: C_comp min value is not the smallest value listed
+
+WARNING (line 6858) -
+
+    Model PIIC400K_S5: C_comp max value is not the largest value listed
+
+NOTE (line 6871) - Pulldown Typical data is non-monotonic
+
+NOTE (line 6873) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 6886) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 6987) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 6988) - GND Clamp Typical data is non-monotonic
+
+WARNING - Model PIIC400K_S5: GND Clamp : Maximum value never becomes zero
+
+WARNING (line 7286) -
+
+    Model PIIC400K_S6: C_comp min value is not the smallest value listed
+
+WARNING (line 7286) -
+
+    Model PIIC400K_S6: C_comp max value is not the largest value listed
+
+NOTE (line 7296) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 7300) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 7303) - Pulldown Typical data is non-monotonic
+
+NOTE (line 7421) - GND Clamp Maximum data is non-monotonic
+
+NOTE (line 7422) - GND Clamp Typical data is non-monotonic
+
+WARNING - Model PIIC400K_S6: GND Clamp : Typical value never becomes zero
+
+WARNING - Model PIIC400K_S6: GND Clamp : Maximum value never becomes zero
+
+WARNING (line 7710) -
+
+    Model PIIC400K_S7: C_comp min value is not the smallest value listed
+
+WARNING (line 7710) -
+
+    Model PIIC400K_S7: C_comp max value is not the largest value listed
+
+NOTE (line 7722) - Pulldown Typical data is non-monotonic
+
+NOTE (line 7727) - Pulldown Minimum data is non-monotonic
+
+NOTE (line 7730) - Pulldown Maximum data is non-monotonic
+
+NOTE (line 7859) - GND Clamp Typical data is non-monotonic
+
+NOTE (line 7859) - GND Clamp Maximum data is non-monotonic
+
+WARNING - Model PIIC400K_S7: GND Clamp : Typical value never becomes zero
+
+WARNING - Model PIIC400K_S7: GND Clamp : Maximum value never becomes zero
+
+NOTE - Combined Pulldown for Model: PIIC400K_S7 Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PIIC400K_S7 Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S7: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture]=3.3V
+
+      has TYP column DC endpoints of  0.17V and  3.19v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.17V and  3.30V),
+
+      a difference of  0.04% and  3.48%, respectively.
+
+WARNING - Model PIIC400K_S7: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=3.135V
+
+      has MIN column DC endpoints of  0.34V and  3.04v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.35V and  3.13V),
+
+      a difference of  0.09% and  3.48%, respectively.
+
+WARNING - Model PIIC400K_S7: The [Falling Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=3.135V
+
+      has MIN column DC endpoints of  0.41V and  3.13v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.35V and  3.13V),
+
+      a difference of  2.26% and  0.00%, respectively.
+
+NOTE - Combined Pulldown for Model: PIIC400K_S7 Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PIIC400K_S7 Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S7: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_max]=3.63V
+
+      has MAX column DC endpoints of  0.11V and  3.51v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.11V and  3.63V),
+
+      a difference of  0.02% and  3.44%, respectively.
+
+WARNING - Model 'PIIC400K_S7': Extreme currents present in MAX GND_Clamp VI Curve (-10.1521A @ -1.5V)
+
+NOTE - Combined Pulldown for Model: PIIC400K_S6 Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PIIC400K_S6 Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S6: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture]=2.5V
+
+      has TYP column DC endpoints of  0.16V and  2.40v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.16V and  2.50V),
+
+      a difference of  0.04% and  4.06%, respectively.
+
+WARNING - Model PIIC400K_S6: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=2.375V
+
+      has MIN column DC endpoints of  0.33V and  2.29v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.33V and  2.38V),
+
+      a difference of  0.06% and  4.05%, respectively.
+
+WARNING - Model PIIC400K_S6: The [Falling Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=2.375V
+
+      has MIN column DC endpoints of  0.38V and  2.38v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.33V and  2.38V),
+
+      a difference of  2.64% and  0.00%, respectively.
+
+NOTE - Combined Pulldown for Model: PIIC400K_S6 Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PIIC400K_S6 Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S6: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_max]=2.625V
+
+      has MAX column DC endpoints of  0.10V and  2.52v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.11V and  2.62V),
+
+      a difference of  0.03% and  4.05%, respectively.
+
+WARNING - Model 'PIIC400K_S6': Extreme currents present in MAX GND_Clamp VI Curve (-10.1507A @ -1.5V)
+
+NOTE - Combined Pulldown for Model: PIIC400K_S5 Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PIIC400K_S5 Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S5: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture]=1.8V
+
+      has TYP column DC endpoints of  0.16V and  1.72v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.16V and  1.80V),
+
+      a difference of  0.03% and  4.70%, respectively.
+
+WARNING - Model PIIC400K_S5: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=1.71V
+
+      has MIN column DC endpoints of  0.31V and  1.64v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.31V and  1.71V),
+
+      a difference of  0.03% and  4.72%, respectively.
+
+WARNING - Model PIIC400K_S5: The [Falling Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=1.71V
+
+      has MIN column DC endpoints of  0.35V and  1.71v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.31V and  1.71V),
+
+      a difference of  2.91% and  0.00%, respectively.
+
+NOTE - Combined Pulldown for Model: PIIC400K_S5 Maximum data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pullup for Model: PIIC400K_S5 Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S5: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_max]=1.98V
+
+      has MAX column DC endpoints of  0.11V and  1.89v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.11V and  1.98V),
+
+      a difference of  0.01% and  4.66%, respectively.
+
+WARNING - Model 'PIIC400K_S5': Extreme currents present in MAX GND_Clamp VI Curve (-10.1535A @ -1.5V)
+
+WARNING - Model PIIC400K_S4: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture]=2.5V
+
+      has TYP column DC endpoints of  0.12V and  2.40v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.12V and  2.50V),
+
+      a difference of  0.02% and  4.12%, respectively.
+
+WARNING - Model PIIC400K_S4: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=2.25V
+
+      has MIN column DC endpoints of  0.19V and  2.17v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.19V and  2.25V),
+
+      a difference of  0.03% and  4.13%, respectively.
+
+WARNING - Model PIIC400K_S4: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_max]=2.75V
+
+      has MAX column DC endpoints of  0.09V and  2.64v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.09V and  2.75V),
+
+      a difference of  0.02% and  4.14%, respectively.
+
+WARNING - Model 'PIIC400K_S4': Extreme currents present in MAX GND_Clamp VI Curve (-10.188A @ -1.5V)
+
+WARNING - Model PIIC400K_S3: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture]=3.3V
+
+      has TYP column DC endpoints of  0.12V and  3.19v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.12V and  3.30V),
+
+      a difference of  0.02% and  3.49%, respectively.
+
+WARNING - Model PIIC400K_S3: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=2.97V
+
+      has MIN column DC endpoints of  0.20V and  2.87v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.20V and  2.97V),
+
+      a difference of  0.01% and  3.50%, respectively.
+
+WARNING - Model PIIC400K_S3: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_max]=3.63V
+
+      has MAX column DC endpoints of  0.09V and  3.51v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.09V and  3.63V),
+
+      a difference of  0.00% and  3.51%, respectively.
+
+WARNING - Model 'PIIC400K_S3': Extreme currents present in MAX GND_Clamp VI Curve (-10.1843A @ -1.5V)
+
+NOTE - Combined Pulldown for Model: PIIC400K_S2 Typical data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S2: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture]=5V
+
+      has TYP column DC endpoints of  0.12V and  4.88v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.12V and  5.00V),
+
+      a difference of  0.00% and  2.54%, respectively.
+
+NOTE - Combined Pulldown for Model: PIIC400K_S2 Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S2: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=4.5V
+
+      has MIN column DC endpoints of  0.17V and  4.39v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.17V and  4.50V),
+
+      a difference of  0.04% and  2.55%, respectively.
+
+WARNING - Model PIIC400K_S2: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_max]=5.5V
+
+      has MAX column DC endpoints of  0.10V and  5.36v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.10V and  5.50V),
+
+      a difference of  0.01% and  2.53%, respectively.
+
+WARNING - Model 'PIIC400K_S2': Extreme currents present in MAX GND_Clamp VI Curve (-10.224A @ -1.5V)
+
+WARNING - Model PIIC400K_S1: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture]=3.3V
+
+      has TYP column DC endpoints of  0.11V and  3.19v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.11V and  3.30V),
+
+      a difference of  0.00% and  3.60%, respectively.
+
+WARNING - Model PIIC400K_S1: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_min]=2.97V
+
+      has MIN column DC endpoints of  0.16V and  2.87v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.16V and  2.97V),
+
+      a difference of  0.02% and  3.59%, respectively.
+
+WARNING - Model PIIC400K_S1: The [Rising Waveform] 
+
+      with [R_fixture]=5000 Ohms and [V_fixture_max]=3.63V
+
+      has MAX column DC endpoints of  0.09V and  3.50v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.09V and  3.63V),
+
+      a difference of  0.00% and  3.59%, respectively.
+
+WARNING - Model 'PIIC400K_S1': Extreme currents present in MAX GND_Clamp VI Curve (-10.2236A @ -1.5V)
+
+NOTE - Combined Pulldown for Model: gpio_1p8 Voltage data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pulldown for Model: gpio_1p8 Typical data is non-monotonic based on piece-wise linear interpolation
+
+NOTE - Combined Pulldown for Model: gpio_1p8 Minimum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model gpio_1p8: The [Falling Waveform] 
+
+      with [R_fixture]=50 Ohms and [V_fixture_min]=1.62V
+
+      has MIN column DC endpoints of  0.78V and  1.62v, but
+
+      an equivalent load applied to the model's I-V tables yields
+
+      different voltages ( 0.76V and  1.62V),
+
+      a difference of  2.17% and  0.00%, respectively.
+
+NOTE - Combined Pulldown for Model: gpio_1p8 Maximum data is non-monotonic based on piece-wise linear interpolation
+
+WARNING - Model PIIC400K_S4 not referenced in any [Pin], [Model Selector], [Driver Schedule] or [Series Pin Mapping] sections.
+
+ No more warnings will be generated for un-referenced models
+
+
+
+Errors  : 1
+
+Warnings: 79
+
+
+
+File Failed
+

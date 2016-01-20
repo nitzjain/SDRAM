@@ -1,0 +1,3 @@
+Transfer Net,Transfer,Designator,Part,IBIS File,IBIS Model,Timing File,Timing Model
+sheet1,mydriver -> myreceiver,mydriver,generic_3_3v,generic_3_3v.ibs,3_3V_O_fast_40ohm,generic_3_3v.tmg,generic_3_3v
+sheet1,mydriver -> myreceiver,myreceiver,generic_3_3v,generic_3_3v.ibs,3_3V_I,generic_3_3v.tmg,generic_3_3v

@@ -1,0 +1,6 @@
+part memcnt
+ibis_file memcnt.ibs
+ibis_component MemCnt
+timing_file memcnt.tmg
+timing_model memcnt
+cad_part memcnt

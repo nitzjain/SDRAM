@@ -1,0 +1,3 @@
+Error,Part,IBIS File,IBIS Component,Timing File,Timing Model,Additional Data
+sheet1 has duplicate SubcircuitPorts port1 designator1 designator2
+(W) sheet1 designator2 is not in any transfer

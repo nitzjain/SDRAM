@@ -1,0 +1,477 @@
+#     
+# Quantum-SI Timing Model Template
+#
+MODEL: stratix2
+DESCRIPTION: Generated Timing Model
+SOURCE: Quantum-SI
+
+PARAMS:
+#######
+#    This optional section can be used to define AC specs as parameters to allow
+#    grouping of common signals. The Quantum-SI pre-processor can also handle
+#    algebraic expressions, the passing of parameters from the parts file, and 
+#    passing of clock domain values.
+#     
+#    All units are in ns
+#
+#    Syntax:
+#    <Variable Names> = <Variable Values>
+#
+#    Examples:
+#    DATA_SETUP      = 1.25
+#    DATA_HOLD       = 0.50
+#  
+#    CTRL_IN         = DATA_HOLD
+#  
+#    FREQUENCY = $clock_domain(sdram_clock)
+#    DATA_RATE = FREQUENCY / 2
+#    
+#    DATA_R_SETUP   = (DATA_RATE * 0.5) - 0.100
+#    DATA_F_SETUP   = (DATA_RATE * 0.5) - 0.150
+#    DATA_R_HOLD    = (DATA_RATE * 0.5) + 0.100
+#    DATA_F_HOLD    = (DATA_RATE * 0.5) + 0.150
+#
+AD_SETUP = 1.7
+AD_HOLD = 0.5
+AD_TCO_MIN = 0.7
+AD_TCO_MAX = 3.8
+
+END_PARAMS
+
+PINDEF: 346 PINS
+#######
+## This section defines each pin-name on the part by its signal type: input,
+#    output, bi-directional, or uninteresting. The pin names can be grouped
+#    by bus, or common timing function.
+## Syntax:
+#   <Timing Group Name> = <IBIS Model pin names>
+#
+ INPUTS
+CK = Clock
+  2s_cmos15_cin = 2s_cmos15_cin
+  2s_cmos15_rrin = 2s_cmos15_rrin
+  2s_cmos15_rtin = 2s_cmos15_rtin
+  2s_cmos33_cin = 2s_cmos33_cin
+  2s_cmos33_cin_p = 2s_cmos33_cin_p
+  2s_cmos33_rrin = 2s_cmos33_rrin
+  2s_cmos33_rtin = 2s_cmos33_rtin
+  2s_dhstl15_cinp = 2s_dhstl15_cinp,2s_dhstl15_cinn
+  2s_dhstl15_cinp_g50c = 2s_dhstl15_cinp_g50c,2s_dhstl15_cinn_g50c
+  2s_dhstl18_cinp = 2s_dhstl18_cinp,2s_dhstl18_cinn
+  2s_dhstl18_cinp_g50c = 2s_dhstl18_cinp_g50c,2s_dhstl18_cinn_g50c
+  2s_dsstl18_cinp = 2s_dsstl18_cinp,2s_dsstl18_cinn
+  2s_dsstl18_cinp_g50c = 2s_dsstl18_cinp_g50c,2s_dsstl18_cinn_g50c
+  2s_dsstl25_cinp = 2s_dsstl25_cinp,2s_dsstl25_cinn
+  2s_dsstl25_cinp_g50c = 2s_dsstl25_cinp_g50c,2s_dsstl25_cinn_g50c
+  2s_hstl12_cin = 2s_hstl12_cin
+  2s_hstl12_cin_g50c = 2s_hstl12_cin_g50c
+  2s_hstl15_cin = 2s_hstl15_cin
+  2s_hstl15_cin_g50c = 2s_hstl15_cin_g50c
+  2s_hstl15_rrin = 2s_hstl15_rrin
+  2s_hstl15_rtin = 2s_hstl15_rtin
+  2s_hstl18_cin = 2s_hstl18_cin
+  2s_hstl18_cin_g50c = 2s_hstl18_cin_g50c
+  2s_hstl18_rrin = 2s_hstl18_rrin
+  2s_hstl18_rtin = 2s_hstl18_rtin
+  2s_ht25_rinp = 2s_ht25_rinp,2s_ht25_rinn
+  2s_ht25_rinp_t100 = 2s_ht25_rinp_t100,2s_ht25_rinn_t100
+  2s_lvds25_rinp = 2s_lvds25_rinp,2s_lvds25_rinn
+  2s_lvds25_rinp_t100 = 2s_lvds25_rinp_t100,2s_lvds25_rinn_t100
+  2s_pci33_cin = 2s_pci33_cin
+  2s_pcix33_cin = 2s_pcix33_cin
+  2s_sstl18_cin = 2s_sstl18_cin
+  2s_sstl18_cin_g50c = 2s_sstl18_cin_g50c
+  2s_sstl18_rrin = 2s_sstl18_rrin
+  2s_sstl18_rtin = 2s_sstl18_rtin
+  2s_sstl25_cin = 2s_sstl25_cin
+  2s_sstl25_cin_g50c = 2s_sstl25_cin_g50c
+  2s_sstl25_rrin = 2s_sstl25_rrin
+  2s_sstl25_rtin = 2s_sstl25_rtin
+  2s_ttl18_cin = 2s_ttl18_cin
+  2s_ttl18_rrin = 2s_ttl18_rrin
+  2s_ttl18_rtin = 2s_ttl18_rtin
+  2s_ttl25_cin = 2s_ttl25_cin
+  2s_ttl25_rrin = 2s_ttl25_rrin
+  2s_ttl25_rtin = 2s_ttl25_rtin
+  2s_ttl33_cin = 2s_ttl33_cin
+  2s_ttl33_cin_p = 2s_ttl33_cin_p
+  2s_ttl33_rrin = 2s_ttl33_rrin
+  2s_ttl33_rtin = 2s_ttl33_rtin
+## All input signals are listed in this section.
+## Example:
+#    CLK                =  CLOCK_IN
+#    DATA_I             =  DATA_IN<31:0>
+#    CTRL_I             =  ADDRESS<7:0>, WRITE_EN, RAS, CAS 
+#
+ OUTPUTS    
+  2s_cmos15_tdo = 2s_cmos15_tdo
+  2s_ht25_rop = 2s_ht25_rop,2s_ht25_ron
+  2s_lvds25_rop = 2s_lvds25_rop,2s_lvds25_ron
+  2s_ttl18_tdo = 2s_ttl18_tdo
+  2s_ttl33_tdo = 2s_ttl33_tdo
+## All output signals are listed in this section.
+## Example:
+#    DATA_O             = DATA_OUT<31:0>
+#    REFCLK_1		= CLOCK_OUT1, CLOCK_OUT3
+#    REFCLK_2		= CLOCK_OUT2, CLOCK_OUT4
+#
+ BIDIR
+AD = AddressData
+  2s_cmos15_cfdone = 2s_cmos15_cfdone
+  2s_cmos15_cio_d2 = 2s_cmos15_cio_d2
+  2s_cmos15_cio_d4 = 2s_cmos15_cio_d4
+  2s_cmos15_cio_d6 = 2s_cmos15_cio_d6
+  2s_cmos15_cio_d8 = 2s_cmos15_cio_d8
+  2s_cmos15_cio_r50 = 2s_cmos15_cio_r50
+  2s_cmos15_cio_r50c = 2s_cmos15_cio_r50c
+  2s_cmos15_dclk = 2s_cmos15_dclk
+  2s_cmos15_nceo = 2s_cmos15_nceo
+  2s_cmos15_nstatus = 2s_cmos15_nstatus
+  2s_cmos15_rrio_d2 = 2s_cmos15_rrio_d2
+  2s_cmos15_rrio_d4 = 2s_cmos15_rrio_d4
+  2s_cmos15_rrio_r50 = 2s_cmos15_rrio_r50
+  2s_cmos15_rtio_d2 = 2s_cmos15_rtio_d2
+  2s_cmos15_rtio_d4 = 2s_cmos15_rtio_d4
+  2s_cmos15_rtio_r50 = 2s_cmos15_rtio_r50
+  2s_cmos33_cio_d4 = 2s_cmos33_cio_d4
+  2s_cmos33_cio_d4p = 2s_cmos33_cio_d4p
+  2s_cmos33_cio_d8 = 2s_cmos33_cio_d8
+  2s_cmos33_cio_d8p = 2s_cmos33_cio_d8p
+  2s_cmos33_cio_d12 = 2s_cmos33_cio_d12
+  2s_cmos33_cio_d12p = 2s_cmos33_cio_d12p
+  2s_cmos33_cio_d16 = 2s_cmos33_cio_d16
+  2s_cmos33_cio_d16p = 2s_cmos33_cio_d16p
+  2s_cmos33_cio_d20 = 2s_cmos33_cio_d20
+  2s_cmos33_cio_d20p = 2s_cmos33_cio_d20p
+  2s_cmos33_cio_d24 = 2s_cmos33_cio_d24
+  2s_cmos33_cio_d24p = 2s_cmos33_cio_d24p
+  2s_cmos33_cio_r25 = 2s_cmos33_cio_r25
+  2s_cmos33_cio_r25c = 2s_cmos33_cio_r25c
+  2s_cmos33_cio_r50 = 2s_cmos33_cio_r50
+  2s_cmos33_cio_r50c = 2s_cmos33_cio_r50c
+  2s_cmos33_rrio_d4 = 2s_cmos33_rrio_d4
+  2s_cmos33_rrio_d8 = 2s_cmos33_rrio_d8
+  2s_cmos33_rrio_r25 = 2s_cmos33_rrio_r25
+  2s_cmos33_rrio_r50 = 2s_cmos33_rrio_r50
+  2s_cmos33_rtio_d4 = 2s_cmos33_rtio_d4
+  2s_cmos33_rtio_d8 = 2s_cmos33_rtio_d8
+  2s_cmos33_rtio_r25 = 2s_cmos33_rtio_r25
+  2s_cmos33_rtio_r50 = 2s_cmos33_rtio_r50
+  2s_dhstl15c1_cop_d4 = 2s_dhstl15c1_cop_d4,2s_dhstl15c1_con_d4
+  2s_dhstl15c1_cop_d6 = 2s_dhstl15c1_cop_d6,2s_dhstl15c1_con_d6
+  2s_dhstl15c1_cop_d8 = 2s_dhstl15c1_cop_d8,2s_dhstl15c1_con_d8
+  2s_dhstl15c1_cop_d10 = 2s_dhstl15c1_cop_d10,2s_dhstl15c1_con_d10
+  2s_dhstl15c1_cop_d12 = 2s_dhstl15c1_cop_d12,2s_dhstl15c1_con_d12
+  2s_dhstl15c1_cop_r50 = 2s_dhstl15c1_cop_r50,2s_dhstl15c1_con_r50
+  2s_dhstl15c2_cop_d16 = 2s_dhstl15c2_cop_d16,2s_dhstl15c2_con_d16
+  2s_dhstl15c2_cop_d18 = 2s_dhstl15c2_cop_d18,2s_dhstl15c2_con_d18
+  2s_dhstl15c2_cop_d20 = 2s_dhstl15c2_cop_d20,2s_dhstl15c2_con_d20
+  2s_dhstl18c1_cop_d4 = 2s_dhstl18c1_cop_d4,2s_dhstl18c1_con_d4
+  2s_dhstl18c1_cop_d6 = 2s_dhstl18c1_cop_d6,2s_dhstl18c1_con_d6
+  2s_dhstl18c1_cop_d8 = 2s_dhstl18c1_cop_d8,2s_dhstl18c1_con_d8
+  2s_dhstl18c1_cop_d10 = 2s_dhstl18c1_cop_d10,2s_dhstl18c1_con_d10
+  2s_dhstl18c1_cop_d12 = 2s_dhstl18c1_cop_d12,2s_dhstl18c1_con_d12
+  2s_dhstl18c1_cop_r50 = 2s_dhstl18c1_cop_r50,2s_dhstl18c1_con_r50
+  2s_dhstl18c2_cop_d16 = 2s_dhstl18c2_cop_d16,2s_dhstl18c2_con_d16
+  2s_dhstl18c2_cop_d18 = 2s_dhstl18c2_cop_d18,2s_dhstl18c2_con_d18
+  2s_dhstl18c2_cop_d20 = 2s_dhstl18c2_cop_d20,2s_dhstl18c2_con_d20
+  2s_dhstl18c2_cop_r25 = 2s_dhstl18c2_cop_r25,2s_dhstl18c2_con_r25
+  2s_dsstl18c1_cop_d4 = 2s_dsstl18c1_cop_d4,2s_dsstl18c1_con_d4
+  2s_dsstl18c1_cop_d6 = 2s_dsstl18c1_cop_d6,2s_dsstl18c1_con_d6
+  2s_dsstl18c_cop_d8 = 2s_dsstl18c[2:1]_cop_d8,2s_dsstl18c[2:1]_con_d8
+  2s_dsstl18c1_cop_d10 = 2s_dsstl18c1_cop_d10,2s_dsstl18c1_con_d10
+  2s_dsstl18c1_cop_d12 = 2s_dsstl18c1_cop_d12,2s_dsstl18c1_con_d12
+  2s_dsstl18c1_cop_r50 = 2s_dsstl18c1_cop_r50,2s_dsstl18c1_con_r50
+  2s_dsstl18c2_cop_d16 = 2s_dsstl18c2_cop_d16,2s_dsstl18c2_con_d16
+  2s_dsstl18c2_cop_d18 = 2s_dsstl18c2_cop_d18,2s_dsstl18c2_con_d18
+  2s_dsstl18c2_cop_d20 = 2s_dsstl18c2_cop_d20,2s_dsstl18c2_con_d20
+  2s_dsstl18c2_cop_r25 = 2s_dsstl18c2_cop_r25,2s_dsstl18c2_con_r25
+  2s_dsstl25c1_cop_d8 = 2s_dsstl25c1_cop_d8,2s_dsstl25c1_con_d8
+  2s_dsstl25c1_cop_d12 = 2s_dsstl25c1_cop_d12,2s_dsstl25c1_con_d12
+  2s_dsstl25c1_cop_r50 = 2s_dsstl25c1_cop_r50,2s_dsstl25c1_con_r50
+  2s_dsstl25c2_cop_d16 = 2s_dsstl25c2_cop_d16,2s_dsstl25c2_con_d16
+  2s_dsstl25c2_cop_d20 = 2s_dsstl25c2_cop_d20,2s_dsstl25c2_con_d20
+  2s_dsstl25c2_cop_d24 = 2s_dsstl25c2_cop_d24,2s_dsstl25c2_con_d24
+  2s_dsstl25c2_cop_r25 = 2s_dsstl25c2_cop_r25,2s_dsstl25c2_con_r25
+  2s_hstl12_cio_r50c = 2s_hstl12_cio_r50c
+  2s_hstl15c1_cio_d4 = 2s_hstl15c1_cio_d4
+  2s_hstl15c1_cio_d6 = 2s_hstl15c1_cio_d6
+  2s_hstl15c1_cio_d8 = 2s_hstl15c1_cio_d8
+  2s_hstl15c1_cio_d10 = 2s_hstl15c1_cio_d10
+  2s_hstl15c1_cio_d12 = 2s_hstl15c1_cio_d12
+  2s_hstl15c1_cio_r50 = 2s_hstl15c1_cio_r50
+  2s_hstl15c1_cio_r50c = 2s_hstl15c1_cio_r50c
+  2s_hstl15c1_rrio_d4 = 2s_hstl15c1_rrio_d4
+  2s_hstl15c1_rrio_d6 = 2s_hstl15c1_rrio_d6
+  2s_hstl15c1_rrio_d8 = 2s_hstl15c1_rrio_d8
+  2s_hstl15c1_rrio_r50 = 2s_hstl15c1_rrio_r50
+  2s_hstl15c1_rtio_d4 = 2s_hstl15c1_rtio_d4
+  2s_hstl15c1_rtio_d6 = 2s_hstl15c1_rtio_d6
+  2s_hstl15c1_rtio_d8 = 2s_hstl15c1_rtio_d8
+  2s_hstl15c1_rtio_r50 = 2s_hstl15c1_rtio_r50
+  2s_hstl15c2_cio_d16 = 2s_hstl15c2_cio_d16
+  2s_hstl15c2_cio_d18 = 2s_hstl15c2_cio_d18
+  2s_hstl15c2_cio_d20 = 2s_hstl15c2_cio_d20
+  2s_hstl18c1_cio_d4 = 2s_hstl18c1_cio_d4
+  2s_hstl18c1_cio_d6 = 2s_hstl18c1_cio_d6
+  2s_hstl18c1_cio_d8 = 2s_hstl18c1_cio_d8
+  2s_hstl18c1_cio_d10 = 2s_hstl18c1_cio_d10
+  2s_hstl18c1_cio_d12 = 2s_hstl18c1_cio_d12
+  2s_hstl18c1_cio_r50 = 2s_hstl18c1_cio_r50
+  2s_hstl18c1_cio_r50c = 2s_hstl18c1_cio_r50c
+  2s_hstl18c1_rrio_d4 = 2s_hstl18c1_rrio_d4
+  2s_hstl18c1_rrio_d6 = 2s_hstl18c1_rrio_d6
+  2s_hstl18c1_rrio_d8 = 2s_hstl18c1_rrio_d8
+  2s_hstl18c1_rrio_d10 = 2s_hstl18c1_rrio_d10
+  2s_hstl18c1_rrio_d12 = 2s_hstl18c1_rrio_d12
+  2s_hstl18c1_rrio_r50 = 2s_hstl18c1_rrio_r50
+  2s_hstl18c1_rtio_d4 = 2s_hstl18c1_rtio_d4
+  2s_hstl18c1_rtio_d6 = 2s_hstl18c1_rtio_d6
+  2s_hstl18c1_rtio_d8 = 2s_hstl18c1_rtio_d8
+  2s_hstl18c1_rtio_d10 = 2s_hstl18c1_rtio_d10
+  2s_hstl18c1_rtio_d12 = 2s_hstl18c1_rtio_d12
+  2s_hstl18c1_rtio_r50 = 2s_hstl18c1_rtio_r50
+  2s_hstl18c2_cio_d16 = 2s_hstl18c2_cio_d16
+  2s_hstl18c2_cio_d18 = 2s_hstl18c2_cio_d18
+  2s_hstl18c2_cio_d20 = 2s_hstl18c2_cio_d20
+  2s_hstl18c2_cio_r25 = 2s_hstl18c2_cio_r25
+  2s_hstl18c2_cio_r25c = 2s_hstl18c2_cio_r25c
+  2s_pci33_cio = 2s_pci33_cio
+  2s_pcix33_cio = 2s_pcix33_cio
+  2s_sstl18c1_cio_d4 = 2s_sstl18c1_cio_d4
+  2s_sstl18c1_cio_d6 = 2s_sstl18c1_cio_d6
+  2s_sstl18c_cio_d8 = 2s_sstl18c[2:1]_cio_d8
+  2s_sstl18c1_cio_d10 = 2s_sstl18c1_cio_d10
+  2s_sstl18c1_cio_d12 = 2s_sstl18c1_cio_d12
+  2s_sstl18c1_cio_r50 = 2s_sstl18c1_cio_r50
+  2s_sstl18c1_cio_r50c = 2s_sstl18c1_cio_r50c
+  2s_sstl18c1_rrio_d4 = 2s_sstl18c1_rrio_d4
+  2s_sstl18c1_rrio_d6 = 2s_sstl18c1_rrio_d6
+  2s_sstl18c1_rrio_d8 = 2s_sstl18c1_rrio_d8
+  2s_sstl18c1_rrio_d10 = 2s_sstl18c1_rrio_d10
+  2s_sstl18c1_rrio_r50 = 2s_sstl18c1_rrio_r50
+  2s_sstl18c1_rtio_d4 = 2s_sstl18c1_rtio_d4
+  2s_sstl18c1_rtio_d6 = 2s_sstl18c1_rtio_d6
+  2s_sstl18c1_rtio_d8 = 2s_sstl18c1_rtio_d8
+  2s_sstl18c1_rtio_d10 = 2s_sstl18c1_rtio_d10
+  2s_sstl18c1_rtio_r50 = 2s_sstl18c1_rtio_r50
+  2s_sstl18c2_cio_d16 = 2s_sstl18c2_cio_d16
+  2s_sstl18c2_cio_d18 = 2s_sstl18c2_cio_d18
+  2s_sstl18c2_cio_d20 = 2s_sstl18c2_cio_d20
+  2s_sstl18c2_cio_r25 = 2s_sstl18c2_cio_r25
+  2s_sstl18c2_cio_r25c = 2s_sstl18c2_cio_r25c
+  2s_sstl25c1_cio_d8 = 2s_sstl25c1_cio_d8
+  2s_sstl25c1_cio_d12 = 2s_sstl25c1_cio_d12
+  2s_sstl25c1_cio_r50 = 2s_sstl25c1_cio_r50
+  2s_sstl25c1_cio_r50c = 2s_sstl25c1_cio_r50c
+  2s_sstl25c1_rrio_d8 = 2s_sstl25c1_rrio_d8
+  2s_sstl25c1_rrio_d12 = 2s_sstl25c1_rrio_d12
+  2s_sstl25c1_rrio_r50 = 2s_sstl25c1_rrio_r50
+  2s_sstl25c1_rtio_d8 = 2s_sstl25c1_rtio_d8
+  2s_sstl25c1_rtio_d12 = 2s_sstl25c1_rtio_d12
+  2s_sstl25c1_rtio_r50 = 2s_sstl25c1_rtio_r50
+  2s_sstl25c2_cio_d16 = 2s_sstl25c2_cio_d16
+  2s_sstl25c2_cio_d20 = 2s_sstl25c2_cio_d20
+  2s_sstl25c2_cio_d24 = 2s_sstl25c2_cio_d24
+  2s_sstl25c2_cio_r25 = 2s_sstl25c2_cio_r25
+  2s_sstl25c2_cio_r25c = 2s_sstl25c2_cio_r25c
+  2s_sstl25c2_rrio_d16 = 2s_sstl25c2_rrio_d16
+  2s_sstl25c2_rrio_r25 = 2s_sstl25c2_rrio_r25
+  2s_sstl25c2_rtio_d16 = 2s_sstl25c2_rtio_d16
+  2s_sstl25c2_rtio_r25 = 2s_sstl25c2_rtio_r25
+  2s_ttl18_cfdone = 2s_ttl18_cfdone
+  2s_ttl18_cio_d2 = 2s_ttl18_cio_d2
+  2s_ttl18_cio_d4 = 2s_ttl18_cio_d4
+  2s_ttl18_cio_d6 = 2s_ttl18_cio_d6
+  2s_ttl18_cio_d8 = 2s_ttl18_cio_d8
+  2s_ttl18_cio_d10 = 2s_ttl18_cio_d10
+  2s_ttl18_cio_d12 = 2s_ttl18_cio_d12
+  2s_ttl18_cio_r25 = 2s_ttl18_cio_r25
+  2s_ttl18_cio_r25c = 2s_ttl18_cio_r25c
+  2s_ttl18_cio_r50 = 2s_ttl18_cio_r50
+  2s_ttl18_cio_r50c = 2s_ttl18_cio_r50c
+  2s_ttl18_dclk = 2s_ttl18_dclk
+  2s_ttl18_nceo = 2s_ttl18_nceo
+  2s_ttl18_nstatus = 2s_ttl18_nstatus
+  2s_ttl18_rrio_d2 = 2s_ttl18_rrio_d2
+  2s_ttl18_rrio_d4 = 2s_ttl18_rrio_d4
+  2s_ttl18_rrio_d6 = 2s_ttl18_rrio_d6
+  2s_ttl18_rrio_d8 = 2s_ttl18_rrio_d8
+  2s_ttl18_rrio_r50 = 2s_ttl18_rrio_r50
+  2s_ttl18_rtio_d2 = 2s_ttl18_rtio_d2
+  2s_ttl18_rtio_d4 = 2s_ttl18_rtio_d4
+  2s_ttl18_rtio_d6 = 2s_ttl18_rtio_d6
+  2s_ttl18_rtio_d8 = 2s_ttl18_rtio_d8
+  2s_ttl18_rtio_r50 = 2s_ttl18_rtio_r50
+  2s_ttl25_cfdone = 2s_ttl25_cfdone
+  2s_ttl25_cio_d4 = 2s_ttl25_cio_d4
+  2s_ttl25_cio_d8 = 2s_ttl25_cio_d8
+  2s_ttl25_cio_d12 = 2s_ttl25_cio_d12
+  2s_ttl25_cio_d16 = 2s_ttl25_cio_d16
+  2s_ttl25_cio_r25 = 2s_ttl25_cio_r25
+  2s_ttl25_cio_r25c = 2s_ttl25_cio_r25c
+  2s_ttl25_cio_r50 = 2s_ttl25_cio_r50
+  2s_ttl25_cio_r50c = 2s_ttl25_cio_r50c
+  2s_ttl25_dclk = 2s_ttl25_dclk
+  2s_ttl25_nceo = 2s_ttl25_nceo
+  2s_ttl25_nstatus = 2s_ttl25_nstatus
+  2s_ttl25_rrio_d4 = 2s_ttl25_rrio_d4
+  2s_ttl25_rrio_d8 = 2s_ttl25_rrio_d8
+  2s_ttl25_rrio_d12 = 2s_ttl25_rrio_d12
+  2s_ttl25_rrio_r25 = 2s_ttl25_rrio_r25
+  2s_ttl25_rrio_r50 = 2s_ttl25_rrio_r50
+  2s_ttl25_rtio_d4 = 2s_ttl25_rtio_d4
+  2s_ttl25_rtio_d8 = 2s_ttl25_rtio_d8
+  2s_ttl25_rtio_d12 = 2s_ttl25_rtio_d12
+  2s_ttl25_rtio_r25 = 2s_ttl25_rtio_r25
+  2s_ttl25_rtio_r50 = 2s_ttl25_rtio_r50
+  2s_ttl25_tdo = 2s_ttl25_tdo
+  2s_ttl33_cfdone = 2s_ttl33_cfdone
+  2s_ttl33_cio_d4 = 2s_ttl33_cio_d4
+  2s_ttl33_cio_d4p = 2s_ttl33_cio_d4p
+  2s_ttl33_cio_d8 = 2s_ttl33_cio_d8
+  2s_ttl33_cio_d8p = 2s_ttl33_cio_d8p
+  2s_ttl33_cio_d12 = 2s_ttl33_cio_d12
+  2s_ttl33_cio_d12p = 2s_ttl33_cio_d12p
+  2s_ttl33_cio_d16 = 2s_ttl33_cio_d16
+  2s_ttl33_cio_d16p = 2s_ttl33_cio_d16p
+  2s_ttl33_cio_d20 = 2s_ttl33_cio_d20
+  2s_ttl33_cio_d20p = 2s_ttl33_cio_d20p
+  2s_ttl33_cio_d24 = 2s_ttl33_cio_d24
+  2s_ttl33_cio_d24p = 2s_ttl33_cio_d24p
+  2s_ttl33_cio_r25 = 2s_ttl33_cio_r25
+  2s_ttl33_cio_r25c = 2s_ttl33_cio_r25c
+  2s_ttl33_cio_r50 = 2s_ttl33_cio_r50
+  2s_ttl33_cio_r50c = 2s_ttl33_cio_r50c
+  2s_ttl33_dclk = 2s_ttl33_dclk
+  2s_ttl33_nceo = 2s_ttl33_nceo
+  2s_ttl33_nstatus = 2s_ttl33_nstatus
+  2s_ttl33_rrio_d4 = 2s_ttl33_rrio_d4
+  2s_ttl33_rrio_d8 = 2s_ttl33_rrio_d8
+  2s_ttl33_rrio_d12 = 2s_ttl33_rrio_d12
+  2s_ttl33_rrio_r25 = 2s_ttl33_rrio_r25
+  2s_ttl33_rrio_r50 = 2s_ttl33_rrio_r50
+  2s_ttl33_rtio_d4 = 2s_ttl33_rtio_d4
+  2s_ttl33_rtio_d8 = 2s_ttl33_rtio_d8
+  2s_ttl33_rtio_d12 = 2s_ttl33_rtio_d12
+  2s_ttl33_rtio_r25 = 2s_ttl33_rtio_r25
+  2s_ttl33_rtio_r50 = 2s_ttl33_rtio_r50
+## All bi-directional signals are listed in this section.
+## Example:
+#    DATA_IO            =  D_A_<3:0>, D_B_<7:4>, D_C_<11:8>, D_D_<15:12>
+#
+ UNINTERESTING
+## All other signals are listed in this section. No timing will be done on 
+#    any of these signals, but any miscellaneous signals can be included 
+#    for completeness and to eliminate coverage warnings in Validation.
+## Example:
+#    MISC               = AUD_BITCLK_A_H,AUD_SYNC_A_H,EXT_<11:0>_H,USB_PRTPWR_<2:0>_L,\
+#		          USB_VD_<5:0>_N,USB_VD_<5:0>_P
+#
+END_PINDEF
+
+######
+## All of the timing relationships between the signals on this component are defined
+#    in the following section. 
+#
+##############################################
+### Input timing relationships: (Setup & Hold)
+##############################################
+#
+#    All input pin timing constraints are defined using the 'SETHLD'
+#    keyword. Note that setup and hold constraints can be defined using 1, 2,
+#    or 4 values giving the user flexibility to define timing constraints
+#    at the required granularity. In the examples below, setup and hold
+#    constraints are defined for all pins in the "Data Timing Group" relative
+#    to the defined "Edge" (rising or falling) of all pins in the "Clock Timing Group"
+#    
+#    Syntax:
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <Setup/Hold Time>
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <Setup Time> <Hold Time>
+#    <Keyword> <Data Timing Group> *TO <Edge> <Clock Timing Group> <R Setup Time> <F Setup Time> <R Hold Time> <F Hold Time>
+#    
+#    Examples:
+#    SETHLD  CTRL_I   *TO  R  CLK  CTRL_IN
+#    SETHLD  DATA_I   *TO  F  CLK  DATA_SETUP    DATA_HOLD
+#    SETHLD  DATA_IO  *TO  R  CLK  DATA_R_SETUP  DATA_F_SETUP  DATA_R_HOLD  DATA_F_HOLD 
+#
+###########################################
+## Output timing: Synchronous Output delays 
+###########################################
+#
+#    The DELAY, DELAY_CORRELATED, and DELAY_ANTICORRELATED keywords are used to
+#    define synchronous output timing relationships between the data and clock
+#    timing groups defined in the PINDEF section above. To define output timing
+#    relationships on both rising and falling edges, multiple delay statements
+#    are required. Note that Clock-to-out (Tco) delay values can be defined
+#    using 2 or 4 values, giving the user flexibility to define output
+#    timing relationships at the required granularity. In the examples below,
+#    output timing relationships are defined for all pins in the "Data Timing
+#    Group" relative to the defined "Edge" (rising or falling) of all pins in
+#    the "Clock Timing Group".
+#
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Tco Min> <Tco Max>
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Tco Rmin> <Tco Rmax> <Tco Fmin> <Tco Fmax>
+#    
+#    When the 'DELAY' keyword is used, synchronous timing is done using both the
+#    'Tco Min' and 'Tco Max' delay values for each process corner (FF and
+#    SS). This is a worst-case analysis.
+#    
+#    When the 'DELAY_C' or 'DELAY_CORRELATED' keyword is used, synchronous timing
+#    is done using the 'Tco Min' value for the FF process corner, and the 
+#    'Tco Max' delay value for the SS process corner timing calculation. This
+#    is a correlative analysis.
+#
+#    When the 'DELAY_A' or 'DELAY_ANTI_CORRELATED' keyword is used, synchronous
+#    timing is done using the 'Tco Max' value for the FF process corner, and
+#    the 'Tco Min' delay value for the SS process corner timing calculation.
+#    This is another form of correlated analysis.
+#    
+#    Examples:
+#    DELAY                  R  CLK  *TO  DATA_IO  1.0  5.2
+#    DELAY_C                R  CLK  *TO  DATA_IO  1.0  5.0  1.2  5.2
+#    DELAY_CORRELATED       R  CLK  *TO  DATA_IO  1.0  5.0  1.2  5.2
+#  
+#
+##################################################
+## Output timing: Dynamic clock skew output delays
+##################################################
+#    The 'CLOCK_SKEW' keyword is used to define the out-to-out skew between two
+#    output clock timing groups.  To define output timing relationships on both
+#    rising and falling edges, multiple delay statements are required. This
+#    skew along with associated interconnect delays for the source and target
+#    clocks are used to determine the setup skew and hold skew used in
+#    synchronous dynamic skew clock timing analysis. Note: for loopback
+#    clocks, the two timing groups can be the same.
+#
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Clock Timing Group> <Min>  <Max>
+#     
+#    Example:
+#    CLOCK_SKEW  R  REFCLK_1  *TO  REFCLK_2  SKEW_MIN  SKEW_MAX
+#
+#################################################
+## Output timing: Source Synchronous Output delays
+#################################################
+#     
+#    The 'DELAY_SKEW' or 'DELAY_S' keywords are used to define the
+#    source-synchronous timing relationships between the timing groups defined
+#    in the PINDEF section above.  Typically, these are defined between output
+#    pins of a source synchronous bus.  However, these can be defined using and
+#    input clock timing group in loop-back clocking scenarios. To analyze
+#    timing on both edges, multiple delay statements are required.  Note that
+#    source synchronous delay values can be defined using 2, or 4 values.
+#     
+#    Syntax:
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <DS_Min> <DS_Max>
+#    <Keyword> <Edge> <Clock Timing Group> *TO <Data Timing Group> <Rmin> <Rmax> <Fmin> <Fmax>
+#
+#    Examples:
+#    DELAY_SKEW  R  STROBE  *TO  DATA_O  DS_MIN   DS_MAX
+#    DELAY_S     R  STROBE  *TO  DATA_O  DS_RMIN  DS_RMAX  DS_FMIN  DS_FMAX
+DELAY_C R CK *TO AD 0.7 3.8 0.7 3.8
+
+SETHELD AD *TO R CK AD_SETUP AD_HOLD
+END_MODEL
+

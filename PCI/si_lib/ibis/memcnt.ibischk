@@ -1,0 +1,26 @@
+IBISCHK6 V6.0.1
+
+
+
+Checking C:\Myproject\Models\memcnt.ibs for IBIS 3.2 Compatibility...
+
+
+
+WARNING - Model Selector: 'sstl_clk' has only one model defined
+
+NOTE (line   87) - Pulldown Maximum data is non-monotonic
+
+NOTE (line   88) - Pulldown Typical data is non-monotonic
+
+NOTE (line   89) - Pulldown Minimum data is non-monotonic
+
+
+
+Errors  : 0
+
+Warnings: 1
+
+
+
+File Passed
+

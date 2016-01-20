@@ -1,0 +1,3 @@
+skew1/default.ssm/sims/designator1_ttte_4/designator1_ttte_4.ckt
+skew1/default.ssm/sims/designator1_ttte_6/designator1_ttte_6.ckt
+skew1/default.ssm/sims/stload%_55202_3_3v6xx_ttte.ckt

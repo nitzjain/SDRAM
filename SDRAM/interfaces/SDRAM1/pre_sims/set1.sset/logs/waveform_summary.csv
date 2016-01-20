@@ -1,0 +1,6 @@
+Transfer Net,Base Simulation Count,Standard Load Simulation Count,Waveform Fatal Count,Waveform Quality Count,Waveform Overshoot Count
+ADR,10,2,0,0,0
+CS,10,2,0,0,0
+DQ,10,2,0,0,0
+DQM,10,2,0,0,0
+WE,10,2,0,0,0

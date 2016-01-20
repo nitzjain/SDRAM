@@ -1,0 +1,27 @@
+Transfer Net,Driver,Receiver,R / F,Min Etch Delay (ns),Max Etch Delay (ns),AC-DC Slew Rate (V/ns),Corner,Edge #,Time (ns),Pulse Width (ns),Delay Variation (ns),Driver Probe Point,Receiver Node,Min Raw Etch Delay (ns),Max Raw Etch Delay (ns),Min Derate (ns),Max Derate (ns),Standard Load Delay (ns),Simulation,Ac Noise,Ac Noise Source,PATTERN
+1st_sheet,designator1,designator2,F,1.190,1.264,5.433,TTTE,2,13.976,6.000,0.074,SL_PAD/,designator2_pad,1.889,1.963,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.168,1.243,5.330,TTTE,3,19.991,6.000,0.075,SL_PAD/,designator2_pad,1.904,1.979,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.193,1.262,5.793,TTTE,4,31.976,12.000,0.069,SL_PAD/,designator2_pad,1.892,1.961,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.172,1.245,5.505,TTTE,5,43.994,12.000,0.073,SL_PAD/,designator2_pad,1.908,1.981,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.206,1.270,6.263,TTTE,6,46.986,3.000,0.064,SL_PAD/,designator2_pad,1.905,1.969,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.119,1.178,6.726,TTTE,7,49.933,3.000,0.059,SL_PAD/,designator2_pad,1.855,1.914,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.184,1.245,6.590,TTTE,8,52.963,3.000,0.061,SL_PAD/,designator2_pad,1.883,1.944,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.118,1.180,6.472,TTTE,9,55.934,3.000,0.062,SL_PAD/,designator2_pad,1.854,1.916,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.189,1.247,6.894,TTTE,10,58.967,3.000,0.058,SL_PAD/,designator2_pad,1.888,1.946,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.113,1.173,6.602,TTTE,11,61.928,3.000,0.060,SL_PAD/,designator2_pad,1.849,1.909,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.183,1.238,7.314,TTTE,12,64.959,3.000,0.055,SL_PAD/,designator2_pad,1.882,1.937,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.119,1.179,6.756,TTTE,13,67.934,3.000,0.060,SL_PAD/,designator2_pad,1.855,1.915,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.183,1.239,7.147,TTTE,14,70.959,3.000,0.056,SL_PAD/,designator2_pad,1.882,1.938,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.121,1.180,6.772,TTTE,15,73.936,3.000,0.059,SL_PAD/,designator2_pad,1.857,1.916,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.184,1.240,7.255,TTTE,16,76.960,3.000,0.056,SL_PAD/,designator2_pad,1.883,1.939,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.120,1.178,6.789,TTTE,17,79.934,3.000,0.058,SL_PAD/,designator2_pad,1.856,1.914,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.182,1.239,7.004,TTTE,18,82.959,3.000,0.057,SL_PAD/,designator2_pad,1.881,1.938,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.119,1.179,6.719,TTTE,19,85.934,3.000,0.060,SL_PAD/,designator2_pad,1.855,1.915,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.185,1.242,7.002,TTTE,20,88.961,3.000,0.057,SL_PAD/,designator2_pad,1.884,1.941,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.118,1.177,6.736,TTTE,21,91.933,3.000,0.059,SL_PAD/,designator2_pad,1.854,1.913,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.182,1.239,7.055,TTTE,22,94.959,3.000,0.057,SL_PAD/,designator2_pad,1.881,1.938,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.119,1.179,6.668,TTTE,23,97.934,3.000,0.060,SL_PAD/,designator2_pad,1.855,1.915,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.183,1.239,7.114,TTTE,24,100.960,3.000,0.056,SL_PAD/,designator2_pad,1.882,1.938,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.114,1.174,6.672,TTTE,25,103.929,3.000,0.060,SL_PAD/,designator2_pad,1.850,1.910,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,F,1.182,1.240,6.959,TTTE,26,106.959,3.000,0.058,SL_PAD/,designator2_pad,1.881,1.939,0.000,0.000,0.699,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ
+1st_sheet,designator1,designator2,R,1.120,1.181,6.604,TTTE,27,109.936,3.000,0.061,SL_PAD/,designator2_pad,1.856,1.917,0.000,0.000,0.736,designator1_ttte\designator1_ttte.csd,0.00V,tnet,NJ

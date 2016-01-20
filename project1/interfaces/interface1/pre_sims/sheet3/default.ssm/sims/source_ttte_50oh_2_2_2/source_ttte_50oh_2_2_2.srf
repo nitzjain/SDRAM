@@ -1,0 +1,53 @@
+#PARAM tr0 source_ttte_50oh_2_2_2\source_ttte_50oh_2_2_2.csd
+#st_load generic_3_3v generic_3_3v.ibs 3_3V_O_fast_40ohm slpad TTTE S NA NA 0110010101 10n sheet3
+#st_load generic_3_3v generic_3_3v.ibs 3_3V_O_fast_40ohm slpin TTTE S NA NA 0110010101 10n sheet3
+#PARAM TRANSFER_NET sheet3
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER source
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT sheet3.tsc
+#PARAM CORNER TTTE
+#PARAM $RSERIESTERM 50ohm
+#PARAM $W1:LENGTH 2in
+#PARAM $W2:LENGTH 2in
+#PARAM $W3:LENGTH 2in
+#PARAM UI 10n
+#PARAM PATTERN default_data
+source v_stimulus stimulus IBIS IBIS R 1 10.375 10.375 10.375 10.375 1.333 1.333 1.333 1.000 0.000
+source v_stimulus stimulus IBIS IBIS F 2 30.375 30.375 30.375 30.375 -1.333 -1.333 -1.333 1.000 0.000
+source v_stimulus stimulus IBIS IBIS R 3 50.375 50.375 50.375 50.375 1.333 1.333 1.333 1.000 0.000
+source v_stimulus stimulus IBIS IBIS F 4 60.375 60.375 60.375 60.375 -1.333 -1.333 -1.333 1.000 0.000
+source v_stimulus stimulus IBIS IBIS R 5 70.375 70.375 70.375 70.375 1.333 1.333 1.333 1.000 0.000
+source v_stimulus stimulus IBIS IBIS F 6 80.375 80.375 80.375 80.375 -1.333 -1.333 -1.333 1.000 0.000
+source v_stimulus stimulus IBIS IBIS R 7 90.375 90.375 90.375 90.375 1.333 1.333 1.333 1.000 0.000
+source target1_pad receiver generic_3_3v.ibs 3_3V_I F 2 33.412 33.412 33.412 33.412 -1.643 -0.520 -1.333 1.000 0.000
+source target1_pad receiver generic_3_3v.ibs 3_3V_I R 3 53.413 53.413 53.413 53.413 1.639 0.541 1.333 1.000 0.000
+source target1_pad receiver generic_3_3v.ibs 3_3V_I F 4 63.381 63.381 63.381 63.381 -1.602 -0.528 -1.333 1.000 0.000
+source target1_pad receiver generic_3_3v.ibs 3_3V_I R 5 73.383 73.383 73.383 73.383 1.598 0.538 1.333 1.000 0.000
+source target1_pad receiver generic_3_3v.ibs 3_3V_I F 6 83.382 83.382 83.382 83.382 -1.606 -0.529 -1.333 1.000 0.000
+source target1_pad receiver generic_3_3v.ibs 3_3V_I R 7 93.383 93.383 93.383 93.383 1.591 0.538 1.333 1.000 0.000
+source target2_pad receiver generic_3_3v.ibs 3_3V_I F 2 32.988 32.988 32.988 32.988 -1.886 -0.583 -1.333 1.000 0.000
+#ss_surf error: ringback high voltage 1.950 at 54.107 target2_pad source_ttte_50oh_2_2_2\source_ttte_50oh_2_2_2.csd
+source target2_pad receiver generic_3_3v.ibs 3_3V_I R 3 52.989 52.989 52.989 52.989 1.925 0.932 1.333 1.000 0.000
+source target2_pad receiver generic_3_3v.ibs 3_3V_I F 4 62.957 62.957 62.957 62.957 -1.752 -0.559 -1.333 1.000 0.000
+#ss_surf error: ringback high voltage 1.984 at 74.133 target2_pad source_ttte_50oh_2_2_2\source_ttte_50oh_2_2_2.csd
+source target2_pad receiver generic_3_3v.ibs 3_3V_I R 5 72.960 72.960 72.960 72.960 1.775 0.934 1.333 1.000 0.000
+source target2_pad receiver generic_3_3v.ibs 3_3V_I F 6 82.960 82.960 82.960 82.960 -1.777 -0.559 -1.333 1.000 0.000
+#ss_surf error: ringback high voltage 1.985 at 94.119 target2_pad source_ttte_50oh_2_2_2\source_ttte_50oh_2_2_2.csd
+source target2_pad receiver generic_3_3v.ibs 3_3V_I R 7 92.960 92.960 92.960 92.960 1.813 0.933 1.333 1.000 0.000
+source target3_pad receiver generic_3_3v.ibs 3_3V_I F 2 32.499 32.499 32.499 32.499 -2.670 -0.437 -1.333 1.000 0.000
+#ss_surf error: ringback high voltage 1.868 at 53.547 target3_pad source_ttte_50oh_2_2_2\source_ttte_50oh_2_2_2.csd
+source target3_pad receiver generic_3_3v.ibs 3_3V_I R 3 52.500 52.500 52.500 52.500 2.673 2.858 1.333 1.000 0.000
+source target3_pad receiver generic_3_3v.ibs 3_3V_I F 4 62.475 62.475 62.475 62.475 -2.670 -0.437 -1.333 1.000 0.000
+#ss_surf error: ringback high voltage 1.903 at 73.573 target3_pad source_ttte_50oh_2_2_2\source_ttte_50oh_2_2_2.csd
+source target3_pad receiver generic_3_3v.ibs 3_3V_I R 5 72.476 72.476 72.476 72.476 2.660 2.833 1.333 1.000 0.000
+source target3_pad receiver generic_3_3v.ibs 3_3V_I F 6 82.476 82.476 82.476 82.476 -2.636 -0.437 -1.333 1.000 0.000
+#ss_surf error: ringback high voltage 1.903 at 93.559 target3_pad source_ttte_50oh_2_2_2\source_ttte_50oh_2_2_2.csd
+source target3_pad receiver generic_3_3v.ibs 3_3V_I R 7 92.476 92.476 92.476 92.476 2.722 2.835 1.333 1.000 0.000

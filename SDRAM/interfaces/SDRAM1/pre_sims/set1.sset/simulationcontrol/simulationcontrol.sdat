@@ -1,0 +1,12 @@
+*Simulation Control for Schematic Set set1
+*	Transfer Nets in the set:
+included_tnet ADR default
+corners_in_solution_space yes
+included_tnet CS default
+corners_in_solution_space yes
+included_tnet DQ default
+corners_in_solution_space yes
+included_tnet DQM default
+corners_in_solution_space yes
+included_tnet WE default
+corners_in_solution_space yes

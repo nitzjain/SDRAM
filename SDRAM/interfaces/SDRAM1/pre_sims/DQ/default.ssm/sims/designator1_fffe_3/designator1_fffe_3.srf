@@ -1,0 +1,32 @@
+#PARAM tr0 designator1_fffe_3\designator1_fffe_3.csd
+#st_load stratix stratix.ibs 1s_cmos33_io_d8ps slpad FFFE S NA NA 0110010101 10n DQ
+#st_load stratix stratix.ibs 1s_cmos33_io_d8ps slpin FFFE S NA NA 0110010101 10n DQ
+#PARAM TRANSFER_NET DQ
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator1
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT DQ.tsc
+#PARAM CORNER FFFE
+#PARAM $T1:DELAY 3in
+#PARAM UI 10n
+#PARAM PATTERN default_data
+designator1 v_stimulus stimulus IBIS IBIS R 1 10.050 10.050 10.050 10.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 2 30.050 30.050 30.050 30.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 3 50.050 50.050 50.050 50.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 4 60.050 60.050 60.050 60.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 5 70.050 70.050 70.050 70.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 6 80.050 80.050 80.050 80.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 7 90.050 90.050 90.050 90.050 10.000 10.000 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs dq F 2 31.822 31.822 31.702 31.939 -5.136 -5.070 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs dq R 3 51.814 51.814 51.678 51.931 4.779 4.747 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs dq F 4 61.822 61.822 61.704 61.937 -5.228 -5.158 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs dq R 5 71.821 71.821 71.686 71.936 4.919 4.797 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs dq F 6 81.822 81.822 81.704 81.937 -5.243 -5.164 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs dq R 7 91.821 91.821 91.686 91.937 5.010 4.791 10.000 1.000 0.000

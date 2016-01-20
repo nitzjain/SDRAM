@@ -1,0 +1,13 @@
+Part,Timing File,Timing Model,Timing Rule,Source,Source Pin,Target,Target Pin,Edge,Type,Rmin Delay,Rmax Delay,Fmin Delay,Fmax Delay,SetupR,SetupF,HoldR,HoldF
+stratix,stratix.tmg,stratix,DELAY_C,CK,CK,DQ,DQ,R,*TO,2.2,4.2,2.2,4.2,,,,
+stratix,stratix.tmg,stratix,DELAY_C,CK,CK,DQM,DQM,R,*TO,2.2,4.2,2.2,4.2,,,,
+stratix,stratix.tmg,stratix,DELAY_C,CK,CK,ADDCmd,ADDCmd,R,*TO,2.2,4.2,2.2,4.2,,,,
+stratix,stratix.tmg,stratix,DELAY_C,CK,CK,CKE,CKE,R,*TO,2.2,4.2,2.2,4.2,,,,
+stratix,stratix.tmg,stratix,DELAY_C,CK,CK,WE,WE,R,*TO,2.2,4.2,2.2,4.2,,,,
+stratix,stratix.tmg,stratix,SETHLD,CK,CK,DQ,DQ,R,*TO,,,,,1.6,1.6,0.,0.
+y95c,y95c.tmg,y95c,DELAY_C,CLK,CLK,DQ,DQ[3:0],R,*TO,3.,5.4,3.,5.4,,,,
+y95c,y95c.tmg,y95c,SETHLD,CLK,CLK,DQ,DQ[3:0],R,*TO,,,,,1.5,1.5,.8,.8
+y95c,y95c.tmg,y95c,SETHLD,CLK,CLK,DQM,DQM,R,*TO,,,,,1.5,1.5,.8,.8
+y95c,y95c.tmg,y95c,SETHLD,CLK,CLK,A,A[11:0],R,*TO,,,,,1.5,1.5,.8,.8
+y95c,y95c.tmg,y95c,SETHLD,CLK,CLK,CS,CS,R,*TO,,,,,1.5,1.5,.8,.8
+y95c,y95c.tmg,y95c,SETHLD,CLK,CLK,WE,WE,R,*TO,,,,,1.5,1.5,.8,.8

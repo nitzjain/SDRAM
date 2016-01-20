@@ -1,0 +1,71 @@
+#PARAM tr0 mydriver_ttte\mydriver_ttte.csd
+#st_load generic_3_3v generic_3_3v.ibs 3_3V_O_fast_40ohm slpad TTTE S NA NA 0011001111000010 3n sheet1
+#st_load generic_3_3v generic_3_3v.ibs 3_3V_O_fast_40ohm slpin TTTE S NA NA 0011001111000010 3n sheet1
+#PARAM TRANSFER_NET sheet1
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER mydriver
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT sheet1.tsc
+#PARAM CORNER TTTE
+#PARAM UI 3n
+#PARAM PATTERN NJ_2_stimulus
+mydriver v_stimulus stimulus IBIS IBIS R 1 6.375 6.375 6.375 6.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 2 12.375 12.375 12.375 12.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 3 18.375 18.375 18.375 18.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 4 30.375 30.375 30.375 30.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 5 42.375 42.375 42.375 42.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 6 45.375 45.375 45.375 45.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 7 48.375 48.375 48.375 48.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 8 51.375 51.375 51.375 51.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 9 54.375 54.375 54.375 54.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 10 57.375 57.375 57.375 57.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 11 60.375 60.375 60.375 60.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 12 63.375 63.375 63.375 63.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 13 66.375 66.375 66.375 66.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 14 69.375 69.375 69.375 69.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 15 72.375 72.375 72.375 72.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 16 75.375 75.375 75.375 75.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 17 78.375 78.375 78.375 78.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 18 81.375 81.375 81.375 81.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 19 84.375 84.375 84.375 84.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 20 87.375 87.375 87.375 87.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 21 90.375 90.375 90.375 90.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 22 93.375 93.375 93.375 93.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 23 96.375 96.375 96.375 96.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 24 99.375 99.375 99.375 99.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 25 102.375 102.375 102.375 102.375 1.333 1.333 1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS F 26 105.375 105.375 105.375 105.375 -1.333 -1.333 -1.333 1.000 0.000
+mydriver v_stimulus stimulus IBIS IBIS R 27 108.375 108.375 108.375 108.375 1.333 1.333 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 2 14.085 14.085 14.085 14.085 -6.020 -5.954 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 3 20.085 20.085 20.085 20.085 5.994 5.866 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 4 32.086 32.086 32.086 32.086 -6.197 -6.084 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 5 44.086 44.086 44.086 44.086 6.170 5.997 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 6 47.056 47.056 47.056 47.056 -5.858 -5.698 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 7 50.057 50.057 50.057 50.057 6.041 5.904 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 8 53.058 53.058 53.058 53.058 -6.061 -5.801 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 9 56.058 56.058 56.058 56.058 6.016 5.840 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 10 59.058 59.058 59.058 59.058 -5.992 -5.789 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 11 62.057 62.057 62.057 62.057 5.943 5.830 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 12 65.059 65.059 65.059 65.059 -6.017 -5.806 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 13 68.058 68.058 68.058 68.058 5.969 5.833 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 14 71.058 71.058 71.058 71.058 -5.972 -5.784 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 15 74.058 74.058 74.058 74.058 5.965 5.848 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 16 77.058 77.058 77.058 77.058 -5.939 -5.786 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 17 80.058 80.058 80.058 80.058 5.983 5.853 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 18 83.058 83.058 83.058 83.058 -5.966 -5.777 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 19 86.058 86.058 86.058 86.058 6.012 5.857 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 20 89.058 89.058 89.058 89.058 -5.941 -5.773 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 21 92.058 92.058 92.058 92.058 5.950 5.835 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 22 95.058 95.058 95.058 95.058 -5.950 -5.778 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 23 98.058 98.058 98.058 98.058 5.964 5.851 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 24 101.058 101.058 101.058 101.058 -5.963 -5.773 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 25 104.058 104.058 104.058 104.058 6.000 5.853 1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I F 26 107.058 107.058 107.058 107.058 -5.937 -5.766 -1.333 1.000 0.000
+mydriver myreceiver_pad receiver generic_3_3v.ibs 3_3V_I R 27 110.058 110.058 110.058 110.058 6.102 5.873 1.333 1.000 0.000

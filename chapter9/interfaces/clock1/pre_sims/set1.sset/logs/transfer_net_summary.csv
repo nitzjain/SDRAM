@@ -1,0 +1,2 @@
+Transfer Net,Type,Mode,Clock Domain,Probe Points,Jitter,AC Noise,Timed Edge,Nodes
+skew1,clock,Single Ended,3ns,SL_Pad/Pad,+/-0%,+/-0.00V,Both,2

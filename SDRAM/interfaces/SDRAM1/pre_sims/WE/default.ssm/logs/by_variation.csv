@@ -1,0 +1,6 @@
+Setup Margin (ns),Hold Margin (ns),Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Column,Ac Noise,Ac Noise Source,$T1:DELAY,PATTERN
+2.631,1.638,0.238,1.315,0.264,1.669,WE,,0.00V,tnet,2in,default_clock
+2.391,1.801,0.401,1.492,0.425,1.909,WE,,0.00V,tnet,3in,default_clock
+2.221,1.963,0.563,1.660,0.587,2.079,WE,,0.00V,tnet,4in,default_clock
+2.065,2.125,0.725,1.850,0.749,2.235,WE,,0.00V,tnet,5in,default_clock
+1.897,2.283,0.883,2.050,0.909,2.403,WE,,0.00V,tnet,6in,default_clock

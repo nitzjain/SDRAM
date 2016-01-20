@@ -1,0 +1,2 @@
+Setup Margin (ns),Hold Margin (ns),Rmin Etch Delay (ns),Rmax Etch Delay (ns),Fmin Etch Delay (ns),Fmax Etch Delay (ns),Transfer Net,Driver,Receiver,Corner,Column,Ac Noise,Ac Noise Source,PATTERN,Simulation
+No AC specs,No AC specs,-0.333,-0.168,-0.527,-0.389,sheet2,designator1,designator2,TTTE,,0.00V,tnet,default_data,designator1_ttte\designator1_ttte.csd

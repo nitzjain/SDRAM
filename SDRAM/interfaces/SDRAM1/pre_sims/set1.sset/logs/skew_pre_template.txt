@@ -1,0 +1,2 @@
+*Source Target SetupSkew HoldSkew
+stratix/CK y95c/CLK 0. 0.

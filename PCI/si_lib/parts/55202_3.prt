@@ -1,0 +1,6 @@
+part 55202_3
+ibis_file 55202_3.ibs
+ibis_component ICS552-02
+timing_file 55202_3.tmg
+timing_model 55202_3
+cad_part 55202_3 ICS552-02

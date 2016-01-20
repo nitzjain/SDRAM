@@ -1,0 +1,26 @@
+Setup Margin (ns),Hold Margin (ns),Min Etch Delay (ns),Max Etch Delay (ns),Transfer Net,Column,Ac Noise,Ac Noise Source,$T1:DELAY,PATTERN
+2.897,1.597,0.197,1.403,ADR,,0.00V,tnet,2in,default_clock
+2.799,1.731,0.331,1.501,ADR,,0.00V,tnet,3in,default_clock
+2.739,1.931,0.531,1.561,ADR,,0.00V,tnet,4in,default_clock
+2.593,2.096,0.696,1.707,ADR,,0.00V,tnet,5in,default_clock
+2.410,2.224,0.824,1.890,ADR,,0.00V,tnet,6in,default_clock
+2.909,1.587,0.187,1.391,CS,,0.00V,tnet,2in,default_clock
+2.746,1.729,0.329,1.554,CS,,0.00V,tnet,3in,default_clock
+2.731,1.924,0.524,1.569,CS,,0.00V,tnet,4in,default_clock
+2.585,2.075,0.675,1.715,CS,,0.00V,tnet,5in,default_clock
+2.405,2.213,0.813,1.895,CS,,0.00V,tnet,6in,default_clock
+3.500,1.357,-0.072,0.800,DQ,,0.00V,tnet,2in,default_data
+3.420,1.517,0.117,0.880,DQ,,0.00V,tnet,3in,default_data
+3.186,1.679,0.279,1.114,DQ,,0.00V,tnet,4in,default_data
+2.954,1.833,0.433,1.346,DQ,,0.00V,tnet,5in,default_data
+2.797,2.007,0.607,1.503,DQ,,0.00V,tnet,6in,default_data
+3.665,1.267,-0.181,0.635,DQM,,0.00V,tnet,2in,default_data
+3.524,1.426,0.004,0.776,DQM,,0.00V,tnet,3in,default_data
+3.339,1.589,0.189,0.961,DQM,,0.00V,tnet,4in,default_data
+3.096,1.729,0.329,1.204,DQM,,0.00V,tnet,5in,default_data
+2.901,1.907,0.507,1.399,DQM,,0.00V,tnet,6in,default_data
+2.631,1.638,0.238,1.669,WE,,0.00V,tnet,2in,default_clock
+2.391,1.801,0.401,1.909,WE,,0.00V,tnet,3in,default_clock
+2.221,1.963,0.563,2.079,WE,,0.00V,tnet,4in,default_clock
+2.065,2.125,0.725,2.235,WE,,0.00V,tnet,5in,default_clock
+1.897,2.283,0.883,2.403,WE,,0.00V,tnet,6in,default_clock

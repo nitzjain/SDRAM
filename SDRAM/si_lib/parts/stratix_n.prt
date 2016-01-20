@@ -1,0 +1,6 @@
+part stratix_n
+ibis_file stratix_n.ibs
+ibis_component Stratix
+timing_file stratix_n.tmg
+timing_model stratix_n
+cad_part stratix_n Stratix

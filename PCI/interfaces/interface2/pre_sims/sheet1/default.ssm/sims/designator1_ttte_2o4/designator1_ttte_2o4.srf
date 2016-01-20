@@ -1,0 +1,32 @@
+#PARAM tr0 designator1_ttte_2o4\designator1_ttte_2o4.csd
+#st_load 55202_3 55202_3.ibs 3V6XX slpad TTTE S NA NA 0110010101 10n sheet1
+#st_load 55202_3 55202_3.ibs 3V6XX slpin TTTE S NA NA 0110010101 10n sheet1
+#PARAM TRANSFER_NET sheet1
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator1
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT sheet1.tsc
+#PARAM CORNER TTTE
+#PARAM $T3:DELAY 2.4in
+#PARAM UI 10n
+#PARAM PATTERN default_data
+designator1 v_stimulus stimulus IBIS IBIS R 1 10.050 10.050 10.050 10.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 2 30.050 30.050 30.050 30.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 3 50.050 50.050 50.050 50.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 4 60.050 60.050 60.050 60.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 5 70.050 70.050 70.050 70.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 6 80.050 80.050 80.050 80.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 7 90.050 90.050 90.050 90.050 10.000 10.000 10.000 1.000 0.000
+designator1 designator4_pad receiver stratix2.ibs 2s_pci33_cin F 2 31.429 31.429 31.381 31.477 -6.936 -6.901 -10.000 1.000 0.000
+designator1 designator4_pad receiver stratix2.ibs 2s_pci33_cin R 3 51.373 51.373 51.311 51.432 5.480 5.471 10.000 1.000 0.000
+designator1 designator4_pad receiver stratix2.ibs 2s_pci33_cin F 4 61.427 61.427 61.378 61.476 -6.799 -6.763 -10.000 1.000 0.000
+designator1 designator4_pad receiver stratix2.ibs 2s_pci33_cin R 5 71.369 71.369 71.307 71.429 5.539 5.406 10.000 1.000 0.000
+designator1 designator4_pad receiver stratix2.ibs 2s_pci33_cin F 6 81.427 81.427 81.378 81.475 -6.764 -6.766 -10.000 1.000 0.000
+designator1 designator4_pad receiver stratix2.ibs 2s_pci33_cin R 7 91.369 91.369 91.306 91.428 5.383 5.399 10.000 1.000 0.000

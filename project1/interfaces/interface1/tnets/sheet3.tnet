@@ -1,0 +1,41 @@
+*****************************************
+**    Transfer Net  sheet3  **
+*****************************************
+TRANSFER_NET sheet3
+* Transfer Net Data:
+CLOCK_DOMAIN 10.0ns
+MODELS_BY_TRANSFER No
+PROBE_POINTS SL_pad/Pad
+TYPE Data
+MODE Single_Ended
+TIMED_EDGE Both
+* Nodes:
+	DESIGNATOR source
+	SUBCIRCUIT_PORT source
+	PART generic_3_3V
+	PIN_NAMES 3_3V_O_fast_40ohm
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target1
+	SUBCIRCUIT_PORT target1
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target2
+	SUBCIRCUIT_PORT target2
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+	DESIGNATOR target3
+	SUBCIRCUIT_PORT target3
+	PART generic_3_3V
+	PIN_NAMES 3_3V_I
+	STIMULUS default_data
+	MODEL_TYPE IBIS
+
+* Transfers:

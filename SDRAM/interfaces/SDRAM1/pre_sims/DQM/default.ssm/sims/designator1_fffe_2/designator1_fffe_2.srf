@@ -1,0 +1,32 @@
+#PARAM tr0 designator1_fffe_2\designator1_fffe_2.csd
+#st_load stratix stratix.ibs 1s_cmos33_io_d8ps slpad FFFE S NA NA 0110010101 10n DQM
+#st_load stratix stratix.ibs 1s_cmos33_io_d8ps slpin FFFE S NA NA 0110010101 10n DQM
+#PARAM TRANSFER_NET DQM
+#PARAM SIMULATION_DEPTH SL_Pad/Pad
+#PARAM DUTY_CYCLE
+#PARAM UNCORRELATED_ETCH
+#PARAM SIMULATOR IsSpice4
+#PARAM DRIVER designator1
+#PARAM AC_NOISE +/-0.00V
+#PARAM AC_NOISE_SOURCE tnet
+#PARAM AGGRESSORS 0
+#PARAM DRIVER_MODEL IBIS
+#PARAM RECEIVER_MODEL IBIS
+#PARAM SUB_CIRCUIT DQM.tsc
+#PARAM CORNER FFFE
+#PARAM $T1:DELAY 2in
+#PARAM UI 10n
+#PARAM PATTERN default_data
+designator1 v_stimulus stimulus IBIS IBIS R 1 10.050 10.050 10.050 10.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 2 30.050 30.050 30.050 30.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 3 50.050 50.050 50.050 50.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 4 60.050 60.050 60.050 60.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 5 70.050 70.050 70.050 70.050 10.000 10.000 10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS F 6 80.050 80.050 80.050 80.050 -10.000 -10.000 -10.000 1.000 0.000
+designator1 v_stimulus stimulus IBIS IBIS R 7 90.050 90.050 90.050 90.050 10.000 10.000 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input2 F 2 31.566 31.566 31.452 31.673 -5.531 -5.436 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input2 R 3 51.558 51.558 51.427 51.670 4.955 4.955 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input2 F 4 61.567 61.567 61.452 61.673 -5.412 -5.421 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input2 R 5 71.561 71.561 71.432 71.672 5.252 5.004 10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input2 F 6 81.568 81.568 81.453 81.673 -5.386 -5.456 -10.000 1.000 0.000
+designator1 designator2_pad receiver y95c.ibs input2 R 7 91.560 91.560 91.431 91.671 5.120 4.995 10.000 1.000 0.000
